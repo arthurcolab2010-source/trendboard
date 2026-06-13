@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Decoder — understand any internet language</title>
+<meta name="description" content="Paste any caption, message, or comment and get every piece of internet slang, abbreviation, acronym, and emoji explained in plain English. Hand-curated, no account needed." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FBFAF6; --paper2:#F3F1E9; --card:#FFFFFF; --line:#E4E0D3; --line2:#D2CCBA;
+  --ink:#1C1B17; --ink2:#56534A; --ink3:#8E8A7C;
+  --teal:#0E7C66; --teal-d:#0A5E4D; --teal-l:#E2F2ED;
+  --amber:#B5710A; --amber-l:#FBEFD8; --red:#B23A2E; --red-l:#FAE7E3;
+  --indigo:#3F3B8C; --indigo-l:#ECEBF7;
+  --r:14px; --r-s:9px;
+  --shadow:0 1px 2px rgba(40,36,20,.05),0 6px 22px rgba(40,36,20,.07);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--paper);color:var(--ink);
+  font-family:'Hanken Grotesk',sans-serif;font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased;
+  background-image:repeating-linear-gradient(0deg,transparent,transparent 27px,rgba(40,36,20,.022) 27px,rgba(40,36,20,.022) 28px);
+}
+::selection{background:var(--teal);color:#fff}
+.wrap{max-width:840px;margin:0 auto;padding:0 24px}
+
+header{border-bottom:1px solid var(--line);background:rgba(251,250,246,.85);backdrop-filter:blur(12px);position:sticky;top:0;z-index:30}
+.bar{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+.brand{display:flex;align-items:center;gap:12px}
+.mark{width:38px;height:38px;border-radius:10px;background:var(--ink);color:var(--teal);display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono';font-weight:600;font-size:20px}
+.brand h1{font-family:'Fraunces';font-weight:600;font-size:22px;letter-spacing:-.01em;line-height:1}
+.brand .tag{font-size:11px;color:var(--ink3);font-family:'JetBrains Mono';letter-spacing:.02em;margin-top:3px}
+.mode{display:flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;color:var(--ink2);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 13px;cursor:pointer;transition:.16s}
+.mode:hover{border-color:var(--line2)}
+.mode.unfiltered{background:var(--red-l);border-color:#E8B5AD;color:var(--red)}
+.mode .dot{width:7px;height:7px;border-radius:50%;background:var(--teal)}
+.mode.unfiltered .dot{background:var(--red)}
+
+.hero{padding:48px 0 30px;text-align:center}
+.hero .eyebrow{font-family:'JetBrains Mono';font-size:12px;color:var(--teal);letter-spacing:.08em;text-transform:uppercase;font-weight:600;margin-bottom:14px}
+.hero h2{font-family:'Fraunces';font-weight:600;font-size:clamp(32px,6vw,54px);line-height:1.02;letter-spacing:-.025em}
+.hero h2 .u{background:linear-gradient(transparent 62%,rgba(14,124,102,.22) 62%)}
+.hero p{color:var(--ink2);font-size:17px;max-width:50ch;margin:16px auto 0}
+
+.console{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;margin-bottom:14px}
+.console-top{display:flex;align-items:center;gap:10px;padding:13px 18px;border-bottom:1px solid var(--line);background:var(--paper2)}
+.console-top .lab{font-family:'JetBrains Mono';font-size:12px;color:var(--ink3);font-weight:500}
+.tabs{margin-left:auto;display:flex;gap:3px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:3px}
+.tab{font-family:inherit;font-size:12.5px;font-weight:600;color:var(--ink2);background:none;border:none;padding:5px 13px;border-radius:999px;cursor:pointer;transition:.15s}
+.tab.on{background:var(--ink);color:var(--paper)}
+.console-body{padding:18px}
+textarea{width:100%;border:1px solid var(--line);border-radius:var(--r-s);padding:14px;font-family:'JetBrains Mono';font-size:14px;line-height:1.6;color:var(--ink);background:var(--paper);resize:vertical;min-height:96px;outline:none;transition:.16s}
+textarea:focus{border-color:var(--teal);box-shadow:0 0 0 3px rgba(14,124,102,.1)}
+textarea::placeholder{color:var(--ink3)}
+.actions{display:flex;align-items:center;gap:12px;margin-top:13px;flex-wrap:wrap}
+.decode{font-family:inherit;font-size:14px;font-weight:600;color:#fff;background:var(--teal);border:none;padding:11px 22px;border-radius:999px;cursor:pointer;display:flex;align-items:center;gap:8px;transition:.16s}
+.decode:hover{background:var(--teal-d);transform:translateY(-1px)}
+.decode:active{transform:translateY(0)}
+.decode:disabled{opacity:.55;cursor:default;transform:none}
+.kbd{font-family:'JetBrains Mono';font-size:11px;color:var(--ink3)}
+.kbd b{background:var(--paper2);border:1px solid var(--line);border-radius:4px;padding:1px 5px;color:var(--ink2);font-weight:500}
+.examples{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:14px}
+.examples .lab{font-size:12px;color:var(--ink3)}
+.ex{font-family:'JetBrains Mono';font-size:11.5px;color:var(--ink2);background:var(--paper2);border:1px solid var(--line);padding:4px 10px;border-radius:999px;cursor:pointer;transition:.15s}
+.ex:hover{border-color:var(--teal);color:var(--teal)}
+
+/* page demo */
+.pagebox{border:1px solid var(--line);border-radius:var(--r-s);overflow:hidden;margin-bottom:14px}
+.pagebar{display:flex;align-items:center;gap:8px;padding:9px 14px;background:var(--paper2);border-bottom:1px solid var(--line);font-family:'JetBrains Mono';font-size:11px;color:var(--ink3)}
+.pagebar .lock{color:var(--teal)}
+.pagetext{padding:16px 18px;font-size:14px;line-height:1.9;color:var(--ink)}
+.hl{background:var(--teal-l);border-bottom:2px solid var(--teal);border-radius:2px 2px 0 0;padding:0 2px;cursor:help;transition:.15s}
+.hl:hover{background:#CFE9E1}
+
+/* results */
+.result{margin-top:16px;border-top:1px dashed var(--line2);padding-top:16px;animation:fade .35s}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.summary{display:flex;gap:12px;background:var(--indigo-l);border:1px solid #D6D3F0;border-radius:var(--r-s);padding:13px 15px;margin-bottom:16px}
+.summary .si{flex-shrink:0;font-size:18px}
+.summary .st{font-size:14px;line-height:1.55;color:var(--ink)}
+.reshead{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.reshead .ct{font-family:'JetBrains Mono';font-size:12px;color:var(--ink3);font-weight:500}
+.copy{font-family:inherit;font-size:12px;font-weight:600;color:var(--ink2);background:none;border:1px solid var(--line);border-radius:999px;padding:5px 12px;cursor:pointer;display:flex;align-items:center;gap:6px;transition:.15s}
+.copy:hover{border-color:var(--teal);color:var(--teal)}
+.term{display:flex;gap:13px;padding:13px 0;border-bottom:1px solid var(--line)}
+.term:last-child{border-bottom:none}
+.tdot{width:9px;height:9px;border-radius:50%;margin-top:6px;flex-shrink:0}
+.tbody{flex:1;min-width:0}
+.ttop{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.tname{font-family:'JetBrains Mono';font-weight:600;font-size:14px;color:var(--ink)}
+.ttype{font-size:10.5px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding:2px 8px;border-radius:999px;background:var(--paper2);color:var(--ink3)}
+.tdef{font-size:14px;color:var(--ink);line-height:1.55;margin-top:5px}
+.tmeta{font-size:12px;color:var(--ink3);margin-top:5px;font-family:'JetBrains Mono'}
+.tmeta .stat{font-weight:600}
+
+.empty{text-align:center;padding:34px 20px;color:var(--ink3)}
+.empty .ico{font-size:30px;margin-bottom:10px;opacity:.5}
+
+/* history */
+.hist{margin-top:8px}
+.hist h3{font-family:'JetBrains Mono';font-size:12px;color:var(--ink3);font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:11px;display:flex;align-items:center;gap:7px}
+.histitems{display:flex;flex-direction:column;gap:7px}
+.histitem{display:flex;align-items:center;gap:11px;background:var(--card);border:1px solid var(--line);border-radius:var(--r-s);padding:11px 14px;cursor:pointer;transition:.15s}
+.histitem:hover{border-color:var(--line2);transform:translateX(2px)}
+.histitem .q{flex:1;font-size:13px;color:var(--ink2);font-family:'JetBrains Mono';white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.histitem .n{font-size:11px;color:var(--ink3);flex-shrink:0}
+
+/* hybrid explainer */
+.hybrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:8px 0 36px}
+.hcard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px}
+.hcard .hh{display:flex;align-items:center;gap:9px;margin-bottom:7px}
+.hbadge{font-size:10.5px;font-family:'JetBrains Mono';font-weight:600;padding:2px 8px;border-radius:999px}
+.hcard h4{font-family:'Fraunces';font-weight:600;font-size:16px}
+.hcard p{font-size:13px;color:var(--ink2);line-height:1.5}
+
+.spin{width:14px;height:14px;border:2px solid rgba(255,255,255,.4);border-top-color:#fff;border-radius:50%;animation:sp .7s linear infinite;display:inline-block}
+@keyframes sp{to{transform:rotate(360deg)}}
+
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(120%);background:var(--ink);color:var(--paper);font-weight:600;font-size:13.5px;padding:11px 20px;border-radius:999px;box-shadow:var(--shadow);transition:transform .4s cubic-bezier(.2,.9,.2,1);z-index:50;display:flex;align-items:center;gap:8px}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--ink3);font-size:12.5px;text-align:center}
+footer b{color:var(--ink2);font-weight:600}
+
+@media(max-width:640px){.hybrid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <div class="brand">
+      <div class="mark">&lt;/&gt;</div>
+      <div>
+        <h1>Decoder</h1>
+        <div class="tag">internet language, explained</div>
+      </div>
+    </div>
+    <button class="mode" id="modeBtn" onclick="toggleMode()">
+      <span class="dot"></span><span id="modeLab">Safe mode</span>
+    </button>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="eyebrow">paste · detect · understand</div>
+    <h2>Never be the one who <span class="u">doesn't get it</span>.</h2>
+    <p>Paste any caption, message, or comment — or let it read the page. Slang, abbreviations, acronyms, emoji, and memes, decoded in plain English.</p>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="console">
+    <div class="console-top">
+      <span class="lab">decoder.console</span>
+      <div class="tabs">
+        <button class="tab on" id="tab-paste" onclick="setTab('paste')">Paste text</button>
+        <button class="tab" id="tab-page" onclick="setTab('page')">On this page</button>
+      </div>
+    </div>
+
+    <div class="console-body">
+      <!-- PASTE TAB -->
+      <div id="pane-paste">
+        <textarea id="input" placeholder="e.g. bestie is so NPC core, absolute brain rot aura farming era fr 💀"></textarea>
+        <div class="actions">
+          <button class="decode" id="decodeBtn" onclick="decode()">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+            Decode
+          </button>
+          <span class="kbd"><b>Ctrl</b>/<b>⌘</b>+<b>↵</b> to decode</span>
+        </div>
+        <div class="examples" id="exampleRow">
+          <span class="lab">Try:</span>
+        </div>
+        <div id="output"></div>
+      </div>
+
+      <!-- PAGE TAB -->
+      <div id="pane-page" style="display:none">
+        <div class="pagebox">
+          <div class="pagebar"><span class="lock">🔒</span> reddit.com/r/teenagers · top comment</div>
+          <div class="pagetext" id="pagetext"></div>
+        </div>
+        <div class="actions">
+          <button class="decode" onclick="decodePage()">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+            Detect everything on this page
+          </button>
+        </div>
+        <div id="pageout"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hist" id="histwrap" style="display:none">
+    <h3>🕘 Recently decoded</h3>
+    <div class="histitems" id="histitems"></div>
+  </div>
+
+  <div style="height:30px"></div>
+  <h3 style="font-family:'JetBrains Mono';font-size:12px;color:var(--ink3);font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px">How it works</h3>
+  <div class="hybrid">
+    <div class="hcard">
+      <div class="hh"><span class="hbadge" style="background:var(--teal-l);color:var(--teal-d)">CURATED</span></div>
+      <h4>Hand-picked dictionary</h4>
+      <p>Every definition is reviewed by an editor — no AI guesswork in production. Instant lookups, no account, no tracking.</p>
+    </div>
+    <div class="hcard">
+      <div class="hh"><span class="hbadge" style="background:var(--indigo-l);color:var(--indigo)">LIVE</span></div>
+      <h4>Updated regularly</h4>
+      <p><span id="dictStats">loading…</span>. New slang and abbreviations are added as the internet invents them.</p>
+    </div>
+  </div>
+</div>
+
+<footer class="wrap">
+  <b>Decoder</b> — a hand-curated dictionary of internet language · updated by editors, not algorithms
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   DATA LAYER  —  curator-controlled.
+   The decoder reads its dictionary from decoder-data.json (a static
+   file sat next to this HTML). Users CANNOT add new terms or trigger
+   any AI call — the only way new terms appear is when you replace
+   that JSON file.
+
+   Workflow:
+     1. Ask Claude in chat to expand decoder-data.json with new terms
+     2. Save the updated file next to decoder.html
+     3. Anyone who loads the page next sees the new dictionary
+
+   When a user pastes text containing terms NOT in the dictionary,
+   they get a friendly "not in our dictionary yet" message — no AI
+   call, no cost, no exposed key.
+   ============================================================ */
+let DICT = {};            // populated from decoder-data.json
+let PAGE_TEXT = '';       // demo page text
+let PAGE_TERMS = [];      // term keys to highlight in the demo page
+let EXAMPLES = [];        // try-me example phrases
+let DICT_META = {};       // { updated, termCount }
+
+const wait = ms => new Promise(r=>setTimeout(r,ms));
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+
+async function loadCuratedDictionary(){
+  try{
+    const res = await fetch('decoder-data.json', {cache: 'no-cache'});
+    if(!res.ok) throw new Error('no file');
+    const data = await res.json();
+    DICT       = data.dict       || {};
+    PAGE_TEXT  = data.pageText   || '';
+    PAGE_TERMS = data.pageTerms  || [];
+    EXAMPLES   = data.examples   || [];
+    DICT_META  = data.meta       || {};
+  }catch(e){
+    console.info('Using embedded fallback dictionary — drop a decoder-data.json next to this HTML to override.');
+    DICT = FALLBACK.dict;
+    PAGE_TEXT = FALLBACK.pageText;
+    PAGE_TERMS = FALLBACK.pageTerms;
+    EXAMPLES = FALLBACK.examples;
+    DICT_META = FALLBACK.meta;
+  }
+  // update the small footer/header stats now that we know the count
+  const cnt = Object.keys(DICT).length;
+  const el = document.getElementById('dictStats');
+  if(el) el.textContent = `${cnt} terms · updated ${DICT_META.updated || 'today'}`;
+}
+
+/* ============================================================
+   EMBEDDED FALLBACK  —  only used if decoder-data.json is missing.
+   The real, editable dictionary lives in decoder-data.json.
+   ============================================================ */
+const FALLBACK = {
+  meta:{ updated:'today', termCount:30 },
+  dict:{
+    'ngl':{type:'abbr',def:"'Not gonna lie' — flags honesty or a mild confession.",origin:'texting / AAVE',status:'ok'},
+    'lowkey':{type:'slang',def:"Slightly, secretly, or 'kind of'. Softens a statement. Opposite of 'highkey'.",origin:'AAVE → mainstream',status:'ok'},
+    'unserious':{type:'slang',def:'Ridiculous, not to be taken seriously — usually said with amused affection.',origin:'Black Twitter',status:'ok'},
+    '💀':{type:'emoji',def:"The skull = 'I'm dead' — something is so funny you've metaphorically died laughing.",origin:'emoji shift ~2020',status:'ok'},
+    'iykyk':{type:'abbr',def:"'If you know, you know' — signals an inside reference not everyone will get.",origin:'Instagram / texting',status:'ok'},
+    'fr':{type:'abbr',def:"'For real' — emphasises agreement or truth. 'fr fr' = doubly so.",origin:'AAVE / texting',status:'ok'},
+    'tfw':{type:'abbr',def:"'That feeling when' — sets up a relatable or comedic scenario.",origin:'4chan / meme format',status:'ok'},
+    'tbh':{type:'abbr',def:"'To be honest' — prefaces a candid opinion.",origin:'early texting',status:'ok'},
+    'op':{type:'acronym',def:"'Original poster' — the person who started the thread.",origin:'forum culture',status:'ok'},
+    'brain rot':{type:'meme',def:'The mushy-brain feeling from too much absurd internet content — now a beloved genre itself.',origin:'Oxford WOTY 2024',status:'ok'},
+    'npc':{type:'slang',def:"'Non-player character' — acting robotic, predictable, on autopilot.",origin:'gaming → TikTok',status:'ok'},
+    'npc core':{type:'slang',def:'Behaving like a background video-game character — predictable and on autopilot.',origin:'gaming → TikTok',status:'ok'},
+    'aura':{type:'slang',def:"Your social 'cool points'. Gained by being impressive, lost by being cringe.",origin:'gaming / streamers',status:'ok'},
+    'aura farming':{type:'slang',def:'Doing things specifically to raise your social cool-factor.',origin:'streamer communities',status:'ok'},
+    'wsg':{type:'abbr',def:"'What's good' — a casual greeting, like 'what's up'.",origin:'texting / AAVE',status:'ok'},
+    'gng':{type:'slang',def:"'Gang' — a friendly term of address, like 'bro' or 'fam'.",origin:'rap / AAVE',status:'ok'},
+    'finna':{type:'slang',def:"'Fixing to' — about to do something. 'you finna pull up?' = are you coming?",origin:'Southern AAVE',status:'ok'},
+    'pull up':{type:'slang',def:'To show up or come through to a place or event.',origin:'AAVE / rap',status:'ok'},
+    "it's giving":{type:'slang',def:"'It's giving [X]' — it has the vibe or energy of X.",origin:'ballroom → TikTok',status:'ok'},
+    'fwiw':{type:'abbr',def:"'For what it's worth' — softens an opinion you're offering.",origin:'early internet / email',status:'ok'},
+    'imo':{type:'abbr',def:"'In my opinion' — flags a personal take. 'imho' adds 'humble'.",origin:'Usenet / forums',status:'ok'},
+    'goat':{type:'acronym',def:"'Greatest of all time' — the best ever at something.",origin:'sports → mainstream',status:'ok'},
+    'no cap':{type:'slang',def:"'No lie' — emphasising you're telling the truth. 'cap' = a lie.",origin:'AAVE → TikTok',status:'ok'},
+    'ratio':{type:'slang',def:'When a reply outperforms the post it answers — the crowd sided against the original.',origin:'Twitter/X',status:'ok'},
+    'ate':{type:'slang',def:"Did something exceptionally well. 'ate and left no crumbs' = flawless.",origin:'ballroom / drag',status:'ok'},
+    'mogging':{type:'slang',def:'Visibly outshining someone in looks or presence.',origin:'bodybuilding forums',status:'care',mature:true},
+    'looksmaxxing':{type:'slang',def:'Maximising physical attractiveness; can veer into unhealthy territory.',origin:'manosphere → mainstream',status:'care',mature:true},
+    'grindset':{type:'slang',def:'A relentless hustle-focused mindset (grind + mindset).',origin:'hustle-culture internet',status:'ok'},
+    'fell off':{type:'slang',def:'Declined in quality or relevance from a former peak.',origin:'hip-hop',status:'ok'},
+    'L':{type:'slang',def:"A 'loss' or failure. 'take the L' = accept defeat. Opposite of 'W'.",origin:'gaming / sports',status:'ok'},
+    'ragebait':{type:'slang',def:'Content posted purely to provoke angry reactions and drive engagement.',origin:'forums → X',status:'care'}
+  },
+  pageText: "ngl this is lowkey the most unserious thing I've seen all week 💀 OP really said that with their whole chest, iykyk. the replies are sending me fr, everyone is just farming engagement at this point. tfw you open the app and it's pure ragebait. anyway op ate, no crumbs left tbh.",
+  pageTerms: ['ngl','lowkey','unserious','💀','iykyk','fr','tfw','ragebait','ate','op','tbh'],
+  examples: [
+    "bestie is so NPC core, absolute brain rot aura farming era fr 💀",
+    "wsg gng, you finna pull up? it's giving npc behavior ngl",
+    "fwiw imo he's the goat, no cap. ratio + L + you fell off"
+  ]
+};
+
+/* ---- core local matcher (dictionary-only; no AI) ---- */
+function localDecode(text){
+  const escapeRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const isWordy = s => /^[a-z0-9']+$/i.test(s); // pure letters/digits → needs word-boundary
+  const found = Object.keys(DICT).filter(k => {
+    const pattern = isWordy(k)
+      ? new RegExp(`\\b${escapeRe(k)}\\b`, 'i')   // whole-word match for alphanumeric keys
+      : new RegExp(escapeRe(k), 'i');             // emoji / phrases with punctuation: substring is fine
+    return pattern.test(text);
+  }).sort((a,b) => {
+    const la = text.toLowerCase().indexOf(a.toLowerCase());
+    const lb = text.toLowerCase().indexOf(b.toLowerCase());
+    return la - lb;
+  });
+  let hidden = 0;
+  const visible = found.filter(k => {
+    if (!unfiltered && DICT[k].mature) { hidden++; return false; }
+    return true;
+  });
+  const terms = visible.map(k=>({name:k,...DICT[k],source:'db'}));
+  let summary=null;
+  if(terms.length>=3) summary="Reads as casual internet phrasing — a stack of slang used for tone and emphasis rather than literal meaning.";
+  else if(terms.length) summary="Casual internet phrasing. Here's each piece in plain English:";
+  return {summary, terms, hidden};
+}
+
+/* ============================================================
+   STATE
+   ============================================================ */
+let unfiltered=false, history=[];
+
+function toggleMode(){
+  unfiltered=!unfiltered;
+  const b=document.getElementById('modeBtn');
+  b.classList.toggle('unfiltered',unfiltered);
+  document.getElementById('modeLab').textContent=unfiltered?'Unfiltered':'Safe mode';
+  toast(unfiltered?'Unfiltered — mature terms shown':'Safe mode — mature terms hidden');
+  // re-run whatever is currently on screen so the change is visible immediately
+  const text=document.getElementById('input').value.trim();
+  if(text && document.getElementById('output').innerHTML) renderResult(document.getElementById('output'), localDecode(text));
+  if(document.getElementById('pageout').innerHTML) decodePage();
+}
+function setTab(t){
+  document.getElementById('tab-paste').classList.toggle('on',t==='paste');
+  document.getElementById('tab-page').classList.toggle('on',t==='page');
+  document.getElementById('pane-paste').style.display=t==='paste'?'block':'none';
+  document.getElementById('pane-page').style.display=t==='page'?'block':'none';
+}
+function fill(i){document.getElementById('input').value=EXAMPLES[i];document.getElementById('input').focus()}
+
+function toast(msg){const t=document.getElementById('toast');t.innerHTML='<span>✓</span>'+msg;t.classList.add('show');clearTimeout(window._tt);window._tt=setTimeout(()=>t.classList.remove('show'),2000)}
+
+const STAT={ok:['var(--teal)','OK to use'],care:['var(--amber)','Use with care'],dead:['var(--red)','Best avoided']};
+
+function termHTML(t){
+  const [col,lab]=STAT[t.status==='care'?'care':t.status==='dead'?'dead':'ok'];
+  return `<div class="term"><span class="tdot" style="background:${col}"></span><div class="tbody">
+    <div class="ttop"><span class="tname">${t.name}</span><span class="ttype">${t.type}</span></div>
+    <div class="tdef">${t.def}</div>
+    <div class="tmeta">origin: ${t.origin} · <span class="stat" style="color:${col}">${lab}</span></div>
+  </div></div>`;
+}
+
+function renderResult(container,data){
+  if(!data.terms.length){
+    const hiddenNote = data.hidden
+      ? `<div style="font-size:12px;margin-top:8px;color:var(--amber)">${data.hidden} matching term${data.hidden>1?'s are':' is'} hidden by Safe mode — switch to Unfiltered to see ${data.hidden>1?'them':'it'}.</div>`
+      : `<div style="font-size:12px;margin-top:8px;color:var(--ink3)">The dictionary is curated — new terms are added regularly. Try one of the examples above to see how it works.</div>`;
+    container.innerHTML=`<div class="result"><div class="empty"><div class="ico">📖</div>${data.hidden?'All matching terms are filtered.':'None of these terms are in our dictionary yet.'}${hiddenNote}</div></div>`;
+    return;
+  }
+  const hiddenBanner = data.hidden
+    ? `<div style="display:flex;align-items:center;gap:8px;font-size:12px;color:var(--amber);background:var(--amber-l);border:1px solid #EAD3A8;border-radius:var(--r-s);padding:8px 12px;margin-bottom:12px">🛡 ${data.hidden} term${data.hidden>1?'s':''} hidden by Safe mode — toggle Unfiltered in the header to reveal.</div>`
+    : '';
+  container.innerHTML=`<div class="result">
+    ${data.summary?`<div class="summary"><span class="si">💬</span><span class="st">${data.summary}</span></div>`:''}
+    ${hiddenBanner}
+    <div class="reshead"><span class="ct">${data.terms.length} term${data.terms.length>1?'s':''}</span>
+      <button class="copy" onclick="copyResult()"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></svg>Copy</button>
+    </div>
+    ${data.terms.map(termHTML).join('')}
+  </div>`;
+  window._lastResult=data;
+}
+
+async function decode(){
+  const text=document.getElementById('input').value.trim();
+  const out=document.getElementById('output');
+  if(!text){out.innerHTML=`<div class="result"><div class="empty"><div class="ico">📋</div>Paste something or tap an example.</div></div>`;return}
+  const btn=document.getElementById('decodeBtn'); btn.disabled=true;
+  btn.innerHTML='<span class="spin"></span> Decoding';
+
+  await wait(150); // tiny breath so the button state registers
+  const data=localDecode(text);
+
+  renderResult(out,data);
+  btn.disabled=false;
+  btn.innerHTML='<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg> Decode';
+  addHistory(text,data.terms.length);
+}
+
+function decodePage(){
+  let hidden=0;
+  const terms=PAGE_TERMS.filter(k=>DICT[k]).filter(k=>{
+    if(!unfiltered && DICT[k].mature){hidden++;return false}
+    return true;
+  }).map(k=>({name:k,...DICT[k],source:'db'}));
+  const data={summary:"A reader reacting to a thread they find absurd but funny — piling on slang to dunk on the original post affectionately.",terms,hidden};
+  renderResult(document.getElementById('pageout'),data);
+}
+
+/* history */
+function addHistory(text,count){
+  history.unshift({text,count,t:'just now'});
+  history=history.slice(0,5);
+  document.getElementById('histwrap').style.display='block';
+  document.getElementById('histitems').innerHTML=history.map((h,i)=>
+    `<div class="histitem" onclick="replayHistory(${i})"><span class="q">${esc(h.text)}</span><span class="n">${h.count} term${h.count!==1?'s':''}</span></div>`).join('');
+}
+function replayHistory(i){document.getElementById('input').value=history[i].text;setTab('paste');decode()}
+
+function copyResult(){
+  const d=window._lastResult; if(!d)return;
+  const txt=(d.summary?d.summary+'\n\n':'')+d.terms.map(t=>`${t.name} (${t.type}) — ${t.def} [origin: ${t.origin}]`).join('\n');
+  navigator.clipboard?.writeText(txt).then(()=>toast('Copied to clipboard')).catch(()=>toast('Copy failed'));
+}
+
+/* keyboard shortcut */
+document.getElementById('input').addEventListener('keydown',e=>{
+  if((e.metaKey||e.ctrlKey)&&e.key==='Enter'){e.preventDefault();decode()}
+});
+
+/* render page demo with highlights */
+function renderPageDemo(){
+  let html=PAGE_TEXT;
+  const escapeRe = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const isWordy = s => /^[a-z0-9']+$/i.test(s);
+  const sorted=[...PAGE_TERMS].sort((a,b)=>b.length-a.length);
+  sorted.forEach(k=>{
+    if(!DICT[k])return;
+    if(!unfiltered && DICT[k].mature)return; // don't highlight hidden terms
+    const re = isWordy(k)
+      ? new RegExp(`\\b(${escapeRe(k)})\\b`,'i')
+      : new RegExp(`(${escapeRe(k)})`,'i');
+    html=html.replace(re,`<span class="hl" title="${esc(DICT[k].def)}">$1</span>`);
+  });
+  document.getElementById('pagetext').innerHTML=html;
+}
+
+/* boot — load curated data, then wire up the demo */
+function renderExamples(){
+  const row=document.getElementById('exampleRow');
+  row.innerHTML='<span class="lab">Try:</span>'+EXAMPLES.map((e,i)=>{
+    const label=esc(e.split(/[,.]/)[0].split(' ').slice(0,4).join(' '));
+    return `<button class="ex" onclick="fill(${i})" title="${esc(e)}">${label}</button>`;
+  }).join('');
+}
+
+(async () => {
+  await loadCuratedDictionary();
+  renderPageDemo();
+  renderExamples();
+})();
+</script>
+</body>
+</html>

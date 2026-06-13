@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TrendBoard — Live internet trend rankings</title>
+<meta name="description" content="Ranked internet trends with lifecycle charts, plain-English explanations for every level of online, trend battles, a weekly digest, and a personalised radar." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#141310; --bg2:#1B1915; --surface:#211E18; --surface2:#2A271F;
+  --line:#33302710; --line-s:#4A463B; --hair:#2E2B23;
+  --ink:#F3EFE4; --ink2:#B9B4A4; --ink3:#857F70;
+  --lime:#CDEB45; --lime-d:#A8C72E; --coral:#FF6B4A; --gold:#F4C04E;
+  --teal:#5FD3A8; --violet:#B9A6FF;
+  --r:14px; --r-s:9px; --r-l:20px;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 28px rgba(0,0,0,.28);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:'Hanken Grotesk',sans-serif;
+  font-size:15px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(ellipse 80% 50% at 50% -10%, rgba(205,235,69,.06), transparent 60%);
+  background-attachment:fixed;
+}
+::selection{background:var(--lime);color:#1a1a10}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+
+/* ---- Top bar ---- */
+header{position:sticky;top:0;z-index:50;background:rgba(20,19,16,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--hair)}
+.bar{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+.brand{display:flex;align-items:center;gap:11px}
+.logo{width:36px;height:36px;border-radius:10px;background:var(--lime);display:flex;align-items:center;justify-content:center;color:#1a1a10;font-weight:800;font-family:'Bricolage Grotesque';font-size:21px;box-shadow:0 0 24px rgba(205,235,69,.35)}
+.brand h1{font-family:'Bricolage Grotesque';font-weight:700;font-size:21px;letter-spacing:-.02em;line-height:1}
+.brand .tag{font-size:11.5px;color:var(--ink3);letter-spacing:.04em;text-transform:uppercase;margin-top:2px}
+.nav{display:flex;gap:4px;background:var(--surface);padding:4px;border-radius:999px;border:1px solid var(--hair)}
+.nav button{font-family:inherit;font-size:13.5px;font-weight:500;color:var(--ink2);background:none;border:none;padding:7px 15px;border-radius:999px;cursor:pointer;display:flex;align-items:center;gap:6px;transition:.18s;white-space:nowrap}
+.nav button:hover{color:var(--ink)}
+.nav button.on{background:var(--ink);color:#1a1a10}
+.refresh{font-family:inherit;font-size:13px;font-weight:600;color:#1a1a10;background:var(--lime);border:none;padding:9px 16px;border-radius:999px;cursor:pointer;display:flex;align-items:center;gap:7px;transition:.18s}
+.refresh:hover{background:var(--lime-d);transform:translateY(-1px)}
+.refresh:active{transform:translateY(0)}
+.refresh:disabled{opacity:.6;cursor:default;transform:none}
+.updated-tag{display:flex;align-items:center;gap:8px;font-size:12.5px;color:var(--ink2);background:var(--surface);border:1px solid var(--hair);padding:8px 14px;border-radius:999px;font-family:'JetBrains Mono';letter-spacing:-.01em}
+.updated-tag b{color:var(--ink);font-weight:600}
+.updated-dot{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 8px var(--lime);animation:pulse-dot 2.4s ease-in-out infinite}
+@keyframes pulse-dot{0%,100%{opacity:1}50%{opacity:.5}}
+
+/* ---- Hero strip ---- */
+.hero{padding:40px 0 26px;border-bottom:1px solid var(--hair);position:relative;overflow:hidden}
+.hero h2{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(30px,5vw,52px);line-height:.98;letter-spacing:-.035em;max-width:14ch}
+.hero h2 em{font-style:normal;color:var(--lime);position:relative}
+.hero p{color:var(--ink2);max-width:48ch;margin-top:14px;font-size:16px}
+.hero .pulse{position:absolute;right:-40px;top:50%;transform:translateY(-50%);width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(255,107,74,.16),transparent 65%);pointer-events:none}
+
+/* ---- Metrics ---- */
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:26px 0}
+.metric{background:var(--surface);border:1px solid var(--hair);border-radius:var(--r);padding:18px 20px;position:relative;overflow:hidden;transition:.2s}
+.metric:hover{border-color:var(--line-s);transform:translateY(-2px)}
+.metric .k{font-size:12px;color:var(--ink3);letter-spacing:.03em;text-transform:uppercase;font-weight:600}
+.metric .v{font-family:'Bricolage Grotesque';font-weight:700;font-size:34px;line-height:1;margin-top:10px;letter-spacing:-.02em}
+.metric .v small{font-size:14px;color:var(--ink3);font-weight:500;font-family:'Hanken Grotesk'}
+.metric .spark{position:absolute;right:14px;bottom:12px;display:flex;gap:2px;align-items:flex-end;height:24px;opacity:.5}
+.metric .spark i{width:3px;background:var(--lime);border-radius:2px;display:block}
+
+/* ---- Controls ---- */
+.controls{display:flex;align-items:center;gap:12px;margin-bottom:18px;flex-wrap:wrap}
+.search{flex:1;min-width:200px;display:flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--hair);border-radius:999px;padding:10px 16px;transition:.18s}
+.search:focus-within{border-color:var(--lime);box-shadow:0 0 0 3px rgba(205,235,69,.12)}
+.search svg{flex-shrink:0;color:var(--ink3)}
+.search input{flex:1;background:none;border:none;color:var(--ink);font-family:inherit;font-size:14px;outline:none}
+.search input::placeholder{color:var(--ink3)}
+.filters{display:flex;gap:7px;flex-wrap:wrap}
+.chip{font-family:inherit;font-size:12.5px;font-weight:500;color:var(--ink2);background:var(--surface);border:1px solid var(--hair);padding:8px 14px;border-radius:999px;cursor:pointer;transition:.16s}
+.chip:hover{border-color:var(--line-s);color:var(--ink)}
+.chip.on{background:var(--ink);color:#1a1a10;border-color:var(--ink)}
+.sortwrap{position:relative}
+.sort{font-family:inherit;font-size:12.5px;font-weight:500;color:var(--ink2);background:var(--surface);border:1px solid var(--hair);padding:8px 14px;border-radius:999px;cursor:pointer;display:flex;align-items:center;gap:6px}
+.sort:hover{border-color:var(--line-s);color:var(--ink)}
+
+/* ---- Trend list ---- */
+.tlist{display:flex;flex-direction:column;gap:10px}
+.card{background:var(--surface);border:1px solid var(--hair);border-radius:var(--r);overflow:hidden;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--line-s)}
+.card.open{border-color:var(--lime)}
+.chead{display:flex;align-items:center;gap:16px;padding:16px 20px;cursor:pointer}
+.rank{font-family:'Bricolage Grotesque';font-weight:700;font-size:20px;color:var(--ink3);min-width:34px;text-align:center}
+.rank.t1{color:var(--gold)}.rank.t2{color:#D8D2C0}.rank.t3{color:var(--coral)}
+.cmain{flex:1;min-width:0}
+.cname{font-family:'Bricolage Grotesque';font-weight:600;font-size:18px;letter-spacing:-.01em;display:flex;align-items:center;gap:9px}
+.save{background:none;border:none;color:var(--ink3);cursor:pointer;padding:0;display:flex;transition:.15s}
+.save:hover{color:var(--gold)}
+.save.on{color:var(--gold)}
+.cmeta{display:flex;align-items:center;gap:9px;margin-top:5px;flex-wrap:wrap}
+.badge{font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;letter-spacing:.02em;text-transform:lowercase}
+.b-meme{background:rgba(185,166,255,.16);color:var(--violet)}
+.b-slang{background:rgba(95,211,168,.16);color:var(--teal)}
+.b-challenge{background:rgba(255,107,74,.16);color:var(--coral)}
+.b-audio{background:rgba(244,192,78,.16);color:var(--gold)}
+.b-drama{background:rgba(255,107,74,.2);color:var(--coral)}
+.plat{font-size:12px;color:var(--ink3);font-family:'JetBrains Mono';letter-spacing:-.02em}
+.csparkmini{width:84px;height:30px;flex-shrink:0;opacity:.85}
+.decay{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0;min-width:88px}
+.decaybar{width:84px;height:5px;background:var(--surface2);border-radius:999px;overflow:hidden}
+.decayfill{height:100%;border-radius:999px;transition:width .6s cubic-bezier(.2,.8,.2,1)}
+.decaylab{font-size:11px;font-weight:600;font-family:'JetBrains Mono'}
+.chev{color:var(--ink3);transition:transform .25s;flex-shrink:0}
+.card.open .chev{transform:rotate(180deg)}
+
+.cbody{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.card.open .cbody{max-height:900px}
+.cbody-in{padding:4px 20px 22px;border-top:1px solid var(--hair)}
+.lvls{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin:18px 0 14px}
+.lvls .lab{font-size:12px;color:var(--ink3);font-weight:600;text-transform:uppercase;letter-spacing:.04em;margin-right:3px}
+.lvl{font-family:inherit;font-size:12px;font-weight:500;color:var(--ink2);background:var(--bg2);border:1px solid var(--hair);padding:5px 12px;border-radius:999px;cursor:pointer;transition:.15s}
+.lvl:hover{border-color:var(--line-s);color:var(--ink)}
+.lvl.on{background:var(--lime);color:#1a1a10;border-color:var(--lime)}
+.def{font-size:15.5px;line-height:1.6;color:var(--ink);max-width:62ch;margin-bottom:8px}
+.origin{font-size:13px;color:var(--ink2);margin-bottom:20px;font-family:'JetBrains Mono';letter-spacing:-.01em}
+.origin b{color:var(--ink);font-weight:500}
+.sublab{font-size:12px;color:var(--ink3);font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-bottom:9px;display:flex;align-items:center;gap:6px}
+.agegrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:22px}
+.agecard{background:var(--bg2);border:1px solid var(--hair);border-radius:var(--r-s);padding:13px;text-align:center}
+.agedemo{font-size:11px;color:var(--ink3);text-transform:uppercase;letter-spacing:.04em;font-weight:600;margin-bottom:6px}
+.agestage{font-family:'Bricolage Grotesque';font-weight:700;font-size:16px}
+.chartbox{background:var(--bg2);border:1px solid var(--hair);border-radius:var(--r-s);padding:14px 16px 8px;margin-bottom:14px}
+.chartcanvas{position:relative;width:100%;height:150px}
+.replaced{font-size:13px;color:var(--ink2);margin-bottom:18px;display:flex;align-items:center;gap:7px}
+.replaced b{color:var(--ink);font-weight:600}
+.vids{display:flex;gap:9px}
+.vid{font-family:inherit;font-size:13px;font-weight:500;color:var(--ink);background:var(--bg2);border:1px solid var(--hair);padding:9px 15px;border-radius:999px;text-decoration:none;display:flex;align-items:center;gap:7px;transition:.16s}
+.vid:hover{border-color:var(--lime);transform:translateY(-1px)}
+
+/* ---- skeleton ---- */
+.skel{background:var(--surface);border:1px solid var(--hair);border-radius:var(--r);padding:16px 20px;display:flex;align-items:center;gap:16px}
+.sk{background:linear-gradient(90deg,var(--surface2) 25%,#322e25 50%,var(--surface2) 75%);background-size:200% 100%;animation:sh 1.3s infinite;border-radius:6px}
+@keyframes sh{to{background-position:-200% 0}}
+
+/* ---- graveyard ---- */
+.grave{margin:18px 0 40px;background:linear-gradient(180deg,var(--surface),var(--bg2));border:1px solid var(--hair);border-radius:var(--r);padding:20px 22px}
+.grave h3{font-family:'Bricolage Grotesque';font-weight:700;font-size:16px;display:flex;align-items:center;gap:8px;margin-bottom:13px;color:var(--ink2)}
+.gitems{display:flex;gap:9px;flex-wrap:wrap}
+.gitem{font-size:13px;color:var(--ink3);padding:5px 12px;border-radius:999px;border:1px dashed var(--line-s);text-decoration:line-through;font-family:'JetBrains Mono'}
+
+/* ---- generic section ---- */
+.sec{display:none;padding-top:26px}
+.sec.on{display:block;animation:fade .4s}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.sectitle{font-family:'Bricolage Grotesque';font-weight:700;font-size:24px;letter-spacing:-.02em;margin-bottom:4px}
+.secsub{color:var(--ink2);margin-bottom:22px}
+
+/* battle */
+.battle{background:var(--surface);border:1px solid var(--hair);border-radius:var(--r);overflow:hidden;margin-bottom:14px}
+.bhead{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:14px;padding:20px 22px 14px}
+.bname{font-family:'Bricolage Grotesque';font-weight:600;font-size:19px}
+.bname.r{text-align:right}
+.vs{font-family:'Bricolage Grotesque';font-weight:800;font-size:13px;color:var(--ink3);background:var(--bg2);border:1px solid var(--hair);border-radius:999px;padding:5px 11px}
+.bbar{height:7px;display:grid}
+.bvotes{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:14px 22px 10px}
+.bv{font-family:inherit;background:var(--bg2);border:1px solid var(--hair);border-radius:var(--r-s);padding:11px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;transition:.16s}
+.bv:hover{border-color:var(--line-s)}
+.bv.on{border-color:var(--lime);background:rgba(205,235,69,.08)}
+.bv.on-r{border-color:var(--coral);background:rgba(255,107,74,.08)}
+.bv .pct{font-family:'Bricolage Grotesque';font-weight:700;font-size:20px}
+.bv .n{font-size:11px;color:var(--ink3);font-family:'JetBrains Mono'}
+.bq{text-align:center;font-size:13px;color:var(--ink3);padding-bottom:16px;font-style:italic}
+
+/* digest */
+.dgrid{display:flex;flex-direction:column;gap:12px}
+.dcard{background:var(--surface);border:1px solid var(--hair);border-radius:var(--r);padding:18px 22px;display:flex;gap:16px}
+.dic{width:40px;height:40px;border-radius:11px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:19px}
+.dt{font-family:'Bricolage Grotesque';font-weight:700;font-size:16px}
+.dsub{font-size:12px;color:var(--ink3);text-transform:uppercase;letter-spacing:.04em;font-weight:600;margin-bottom:7px}
+.dbody{font-size:14px;color:var(--ink2);line-height:1.55}
+.dbody b{color:var(--ink);font-weight:600}
+.dbody .ko{text-decoration:line-through;color:var(--ink3)}
+
+/* radar */
+.intpills{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.rcard{background:var(--surface);border:1px solid var(--hair);border-radius:var(--r);padding:18px 20px;display:flex;gap:16px;margin-bottom:11px;transition:.2s}
+.rcard:hover{border-color:var(--line-s);transform:translateX(3px)}
+.ric{width:42px;height:42px;border-radius:12px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:20px}
+.rname{font-family:'Bricolage Grotesque';font-weight:600;font-size:17px;margin-bottom:3px}
+.rsig{font-size:13px;font-weight:600;margin-bottom:5px}
+.rdet{font-size:13.5px;color:var(--ink2);line-height:1.5;margin-bottom:10px}
+.rtags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px}
+.rtag{font-size:11px;color:var(--ink3);border:1px solid var(--hair);padding:2px 9px;border-radius:999px;font-family:'JetBrains Mono'}
+.mom{display:flex;align-items:center;gap:9px}
+.mom .ml{font-size:11px;color:var(--ink3);min-width:66px;text-transform:uppercase;letter-spacing:.03em;font-weight:600}
+.momw{flex:1;height:4px;background:var(--surface2);border-radius:999px;overflow:hidden}
+.momf{height:100%;border-radius:999px}
+.mompct{font-size:12px;font-family:'JetBrains Mono';color:var(--ink2);min-width:34px;text-align:right}
+
+/* toast */
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(120%);background:var(--ink);color:#1a1a10;font-weight:600;font-size:13.5px;padding:11px 20px;border-radius:999px;box-shadow:var(--shadow);transition:transform .4s cubic-bezier(.2,.9,.2,1);z-index:80;display:flex;align-items:center;gap:8px}
+.toast.show{transform:translateX(-50%) translateY(0)}
+
+footer{border-top:1px solid var(--hair);padding:28px 0;color:var(--ink3);font-size:12.5px;text-align:center;margin-top:30px}
+footer b{color:var(--ink2);font-weight:600}
+
+@media(max-width:720px){
+  .metrics{grid-template-columns:repeat(2,1fr)}
+  .nav .lab{display:none}
+  .csparkmini{display:none}
+  .bar{flex-wrap:wrap;gap:12px}
+  .agegrid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <div class="brand">
+      <div class="logo">T</div>
+      <div>
+        <h1>TrendBoard</h1>
+        <div class="tag">Live culture rankings</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <button class="on" data-sec="board" onclick="nav('board',this)"><span>📊</span><span class="lab">Board</span></button>
+      <button data-sec="battle" onclick="nav('battle',this)"><span>⚔️</span><span class="lab">Battle</span></button>
+      <button data-sec="digest" onclick="nav('digest',this)"><span>📨</span><span class="lab">Digest</span></button>
+      <button data-sec="radar" onclick="nav('radar',this)"><span>📡</span><span class="lab">Radar</span></button>
+    </nav>
+    <div class="updated-tag" title="Trend data is curated and updated by the editor">
+      <span class="updated-dot"></span>
+      <span>Updated <b id="updatedAt">today</b></span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ BOARD ============ -->
+<section class="sec on" id="board">
+  <div class="hero">
+    <div class="wrap">
+      <h2>What the internet is <em>obsessed</em> with, right now.</h2>
+      <p>Ranked by live heat, decayed by age, and explained for every level of online — from your mum to the terminally online.</p>
+      <div class="pulse"></div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="metrics" id="metrics"></div>
+    <div class="controls">
+      <div class="search">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3" stroke-linecap="round"/></svg>
+        <input id="search" placeholder="Search trends…" oninput="render()" />
+      </div>
+      <div class="filters" id="filters"></div>
+      <div class="sortwrap">
+        <button class="sort" onclick="cycleSort()" id="sortBtn">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M6 12h12M10 18h4"/></svg>
+          <span id="sortLab">Heat</span>
+        </button>
+      </div>
+    </div>
+    <div class="tlist" id="tlist"></div>
+    <div class="grave">
+      <h3>🪦 This week's graveyard</h3>
+      <div class="gitems" id="gitems"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BATTLE ============ -->
+<section class="sec" id="battle">
+  <div class="wrap">
+    <div class="sectitle">Trend Battle</div>
+    <p class="secsub">Two trends enter. Cast your vote to reveal where the internet stands.</p>
+    <div id="bwrap"></div>
+  </div>
+</section>
+
+<!-- ============ DIGEST ============ -->
+<section class="sec" id="digest">
+  <div class="wrap">
+    <div class="sectitle">This Week's Digest</div>
+    <p class="secsub">The whole internet, briefed in thirty seconds.</p>
+    <div class="dgrid" id="dwrap"></div>
+  </div>
+</section>
+
+<!-- ============ RADAR ============ -->
+<section class="sec" id="radar">
+  <div class="wrap">
+    <div class="sectitle">Trend Radar</div>
+    <p class="secsub">What's building in your corner of the internet — before it goes mainstream.</p>
+    <div class="intpills" id="intpills"></div>
+    <div id="rgrid"></div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <b>TrendBoard</b> — prototype UI · data is mock until the API is connected · see <b>// CONNECT API</b> markers in source
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   DATA LAYER  —  curator-controlled.
+   The site reads from trends-data.json (a static file you sit
+   next to this HTML). Users CANNOT trigger a refresh — the only
+   way new data appears is when you replace that JSON file.
+
+   Workflow:
+     1. Ask Claude in chat for an updated trends-data.json
+     2. Save the file next to trendboard.html
+     3. Anyone who loads the page next sees the new data
+
+   If trends-data.json is missing, the page falls back to the
+   embedded MOCK below so it still renders during development.
+   ============================================================ */
+let DATA = null;          // populated from trends-data.json
+const wait = ms => new Promise(r=>setTimeout(r,ms));
+
+async function loadCuratedData(){
+  try{
+    const res = await fetch('trends-data.json', {cache: 'no-cache'});
+    if(!res.ok) throw new Error('no file');
+    DATA = await res.json();
+  }catch(e){
+    console.info('Using embedded fallback data — drop a trends-data.json next to this HTML to override.');
+    DATA = MOCK;
+  }
+  if(DATA?.meta?.updated){
+    document.getElementById('updatedAt').textContent = DATA.meta.updated;
+  }
+}
+
+const API = {
+  async getTrends(){ await wait(120); return DATA.trends; },
+  async getBattles(){ await wait(60); return DATA.battles; },
+  async getDigest(){ await wait(60); return DATA.digest; },
+  async getRadar(interests){
+    await wait(60);
+    return DATA.radar.filter(r => !interests.length || r.comm.some(c=>interests.includes(c)));
+  }
+};
+
+/* ============================================================
+   MOCK DATA
+   ============================================================ */
+const MOCK = {
+  meta:{ tracking:142, peak:8, died:5, updated:'2h ago' },
+  graveyard:['NPC livestreaming','Delulu','Roman Empire','Girl dinner','Mewing'],
+  trends:[
+    {id:1,name:'Brain rot',cat:'slang',plat:'TikTok · YouTube',decay:.95,fresh:'Peak viral',
+     def:{normie:"A joke about how watching too many silly internet videos rots your brain. It was Oxford's word of the year in 2024. People say it affectionately about content they love anyway.",
+          normal:"The supposed deterioration of your mind from too much mindless internet content — now ironically its own beloved genre of surreal, nonsensical humour.",
+          zoomer:"Oxford crowned it but we'd been saying it for years. Both the diagnosis and the medicine. Skibidi is the purest strain. Saying you have it is a flex, not a confession."},
+     origin:'Gen Z slang · Oxford WOTY 2024',age:{z:'Peak',m:'Active',main:'Active'},
+     tl:{l:['Jun','Aug','Oct','Dec','Feb','Apr','Jun'],d:[40,60,88,92,90,93,95],pk:6},replaced:'Evergreen',vid:'brain rot explained'},
+    {id:2,name:'Aura farming',cat:'slang',plat:'TikTok · Twitch',decay:.88,fresh:'Hot right now',
+     def:{normie:"A playful term from video games. Like leveling up a character, but in real life — dressing well, staying calm, seeming effortlessly cool earns you 'aura'.",
+          normal:"Doing things to raise your social 'aura' — your vibe or cool factor. Borrowed from gaming, now applied to real life. You can gain or lose aura points.",
+          zoomer:"Sigma grindset language that escaped containment. Every action ±aura. Losing aura for tripping in public > gaining aura for being mysterious in the gc."},
+     origin:'Gaming / streamers, late 2024',age:{z:'Peak',m:'Active',main:'Fading'},
+     tl:{l:['Oct','Dec','Jan','Feb','Mar','Apr','Jun'],d:[10,50,72,80,84,88,88],pk:6},replaced:'Still climbing',vid:'aura farming explained'},
+    {id:3,name:'Looksmaxxing',cat:'slang',plat:'TikTok · YT',decay:.81,fresh:'Exploding',
+     def:{normie:"Doing everything possible to look more attractive — grooming, fitness, sometimes extreme measures. It started in some controversial online communities, so it carries baggage.",
+          normal:"Intense self-improvement focused on maximising physical attractiveness. Originated in manosphere forums and can veer into unhealthy territory.",
+          zoomer:"Started incel-coded, went mainstream gym-bro. 'Mogging' adjacent. The discourse over whether it's self-care or dysmorphia fuel is the real content now."},
+     origin:'Manosphere forums → fitness TikTok',age:{z:'Peak',m:'Active',main:'Fading'},
+     tl:{l:['Nov','Jan','Feb','Mar','Apr','May','Jun'],d:[20,40,55,70,78,80,81],pk:6},replaced:'Still rising',vid:'looksmaxxing explained'},
+    {id:4,name:'Demure filter',cat:'meme',plat:'TikTok · IG',decay:.74,fresh:'Hot right now',
+     def:{normie:"A phone effect that uses AI to make you look unrealistically polished. People use it as a joke and to talk about how filters distort beauty standards.",
+          normal:"An AI filter that softens features into an uncanny, over-polished look. Used for joke before/afters and commentary on beauty standards.",
+          zoomer:"Uncanny valley realness on demand. The filter-dysmorphia discourse is more alive than the filter itself at this point."},
+     origin:'TikTok AI filter trend, early 2025',age:{z:'Active',m:'Active',main:'Active'},
+     tl:{l:['Dec','Jan','Feb','Mar','Apr','May','Jun'],d:[8,30,62,80,75,72,74],pk:3},replaced:'Still active',vid:'demure ai filter'},
+    {id:5,name:'Very demure',cat:'slang',plat:'TikTok · X',decay:.42,fresh:'Fading',
+     def:{normie:"A funny catchphrase about keeping things classy and low-key. Started by a creator describing her understated work look. It's quite dated now.",
+          normal:"Behaving in a modest, reserved, thoughtful way — applied humorously to everyday situations. Started by TikTok creator Jools Lebron.",
+          zoomer:"Jools Lebron's magnum opus. Cultural reset, then brands and politicians killed it within weeks. Iconic but firmly retired — ironic use only."},
+     origin:'TikTok creator Jools Lebron, Aug 2024',age:{z:'Dead',m:'Fading',main:'Active'},
+     tl:{l:['Jul','Aug','Sep','Oct','Dec','Feb','Jun'],d:[2,95,80,55,30,15,8],pk:1},replaced:'Aura farming',vid:'very demure very mindful'},
+    {id:6,name:'6-7 (six seven)',cat:'meme',plat:'TikTok',decay:.69,fresh:'Climbing',
+     def:{normie:"A nonsense catchphrase kids and teens chant, mostly because it's funny and meaningless. There's no deep meaning — that's the point.",
+          normal:"An absurdist audio meme with no real meaning, chanted for comedic effect. A pure 'brain rot' artifact.",
+          zoomer:"Peak meaningless brain rot. If you're asking what it means you've already lost. Anti-humour in its final form."},
+     origin:'TikTok audio meme, 2025',age:{z:'Peak',m:'Active',main:'Confused'},
+     tl:{l:['Feb','Mar','Apr','May','Jun'],d:[5,20,45,62,69],pk:4},replaced:'Still climbing',vid:'6 7 meme explained'}
+  ],
+  battles:[
+    {q:'Which peaked harder?',a:'Brat summer',b:'Demure era',av:680,bv:540},
+    {q:'Which died more embarrassingly?',a:'Roman Empire',b:'Girl dinner',av:420,bv:610},
+    {q:'Which has more staying power?',a:'Brain rot',b:'Aura farming',av:790,bv:430}
+  ],
+  digest:{
+    hot:[['Brain rot',"still the internet's favourite self-diagnosis"],['Aura farming','quietly taking over everyone\'s vocabulary'],['Looksmaxxing','surging, and increasingly controversial']],
+    died:[['Girl dinner','starved of attention'],['Mewing','chewed up and spat out'],['Delulu','finally faced reality']],
+    incoming:['AI slop discourse','the backlash against low-effort AI content is about to hit the mainstream'],
+    tip:['Aura farming','Still climbing, so it\'s safe to build content around. Lean into the ironic self-awareness — straight-faced "aura" content reads as trying too hard.'],
+    weird:['Italian brain rot','an AI-generated universe of surreal characters with nonsense Italian names that somehow conquered kids\' feeds']
+  },
+  radar:[
+    {name:'AI slop discourse',type:'incoming',sig:'You may start seeing this term everywhere soon',det:"'AI slop' as a put-down for low-effort AI content is gaining steam in tech and creative circles, about to spill into general use.",tags:['Tech','Slang'],mom:.55,comm:['tech','film']},
+    {name:'Sigma overload',type:'incoming',sig:'You may start seeing this meme soon',det:'An ironic backlash to "sigma male" content is forming in gaming communities. Expect mainstream crossover within weeks.',tags:['Gaming','Meme'],mom:.42,comm:['gaming','tech']},
+    {name:'NPC speedrun',type:'spreading',sig:'This challenge is spreading in gaming communities',det:'Creators acting out absurd NPC dialogue trees. Started on Twitch, now crossing into TikTok.',tags:['Gaming','Challenge'],mom:.6,comm:['gaming']},
+    {name:'Box office discourse',type:'incoming',sig:'Film circles are brewing something',det:'Semi-ironic "why did this flop" analysis is forming around summer films, treating box office like sports scores.',tags:['Film & TV','Drama'],mom:.48,comm:['film']},
+    {name:'Hyperpop revival',type:'spreading',sig:'This sound is spreading rapidly',det:'A glitchy hyperpop aesthetic is re-emerging in short-form background music, driven by early-2020s nostalgia.',tags:['Music','Audio'],mom:.67,comm:['music','film']}
+  ]
+};
+
+/* ============================================================
+   STATE + HELPERS
+   ============================================================ */
+let TRENDS=[], FILTER='all', SORT='heat', SEARCH='', expanded=null, levels={}, saved=new Set();
+const CATS=['all','meme','slang','challenge','audio','drama'];
+const SORTS={heat:'Heat',fresh:'Rising',newest:'Newest'};
+const stageColor=s=>({Peak:'var(--lime)',Active:'var(--gold)',Fading:'var(--coral)',Dead:'var(--ink3)',Confused:'var(--violet)'})[s]||'var(--ink3)';
+const decayColor=d=>d>.7?'var(--lime)':d>.45?'var(--gold)':'var(--coral)';
+const decayLab=d=>d>.7?'Fresh':d>.45?'Fading':'Stale';
+
+function nav(id,btn){
+  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('on'));
+  document.querySelectorAll('.nav button').forEach(b=>b.classList.remove('on'));
+  document.getElementById(id).classList.add('on'); btn.classList.add('on');
+  window.scrollTo({top:0,behavior:'smooth'});
+  if(id==='battle')loadBattles();
+  if(id==='digest')loadDigest();
+  if(id==='radar')loadRadar();
+}
+
+function toast(msg){
+  const t=document.getElementById('toast');
+  t.innerHTML='<span>✓</span>'+msg; t.classList.add('show');
+  clearTimeout(window._tt); window._tt=setTimeout(()=>t.classList.remove('show'),2200);
+}
+
+/* ============================================================
+   BOARD
+   ============================================================ */
+function miniSpark(tl,color){
+  const w=84,h=30,max=Math.max(...tl.d),min=Math.min(...tl.d),rng=max-min||1;
+  const pts=tl.d.map((v,i)=>`${(i/(tl.d.length-1))*w},${h-((v-min)/rng)*(h-6)-3}`).join(' ');
+  return `<svg class="csparkmini" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none"><polyline points="${pts}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+}
+
+function renderMetrics(){
+  const m=DATA.meta;
+  const bars=n=>Array.from({length:7},()=>`<i style="height:${20+Math.random()*80}%"></i>`).join('');
+  document.getElementById('metrics').innerHTML=`
+    <div class="metric"><div class="k">Tracking</div><div class="v">${m.tracking}<small> trends</small></div><div class="spark">${bars()}</div></div>
+    <div class="metric"><div class="k">Peak viral</div><div class="v">${m.peak}</div></div>
+    <div class="metric"><div class="k">Died this week</div><div class="v">${m.died}</div></div>
+    <div class="metric"><div class="k">Updated</div><div class="v" style="font-size:22px;padding-top:8px">${m.updated}</div></div>`;
+}
+
+function renderFilters(){
+  document.getElementById('filters').innerHTML=CATS.map(c=>
+    `<button class="chip ${c===FILTER?'on':''}" onclick="setFilter('${c}')">${c==='all'?'All':c[0].toUpperCase()+c.slice(1)}</button>`).join('');
+}
+function setFilter(c){FILTER=c;renderFilters();render()}
+function cycleSort(){const k=Object.keys(SORTS);SORT=k[(k.indexOf(SORT)+1)%k.length];document.getElementById('sortLab').textContent=SORTS[SORT];render()}
+
+function render(){
+  let list=TRENDS.slice();
+  if(FILTER!=='all')list=list.filter(t=>t.cat===FILTER);
+  SEARCH=document.getElementById('search').value.trim().toLowerCase();
+  if(SEARCH)
+    list=list.filter(t=>(t.name+' '+t.cat+' '+t.plat).toLowerCase().includes(SEARCH));
+  if(SORT==='heat')list.sort((a,b)=>b.decay-a.decay);
+  if(SORT==='fresh')list.sort((a,b)=>(b.tl.d[b.tl.d.length-1]-b.tl.d[0])-(a.tl.d[a.tl.d.length-1]-a.tl.d[0])); // fastest climbers first
+  if(SORT==='newest')list.sort((a,b)=>b.id-a.id); // most recently added first
+
+  if(!list.length){document.getElementById('tlist').innerHTML='<p style="color:var(--ink3);padding:30px 0;text-align:center">No trends match.</p>';return}
+
+  document.getElementById('tlist').innerHTML=list.map((t,i)=>{
+    const rank=i+1, isE=expanded===t.id, lv=levels[t.id]||'normal', pct=Math.round(t.decay*100);
+    return `<div class="card ${isE?'open':''}" id="card-${t.id}">
+      <div class="chead" onclick="toggle(${t.id})">
+        <div class="rank ${rank<=3?'t'+rank:''}">${rank<=3?['①','②','③'][rank-1]:rank}</div>
+        <div class="cmain">
+          <div class="cname">${t.name}
+            <button class="save ${saved.has(t.id)?'on':''}" onclick="event.stopPropagation();toggleSave(${t.id})" title="Save">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="${saved.has(t.id)?'currentColor':'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+            </button>
+          </div>
+          <div class="cmeta"><span class="badge b-${t.cat}">${t.cat}</span><span class="plat">${t.plat}</span></div>
+        </div>
+        ${miniSpark(t.tl,decayColor(t.decay))}
+        <div class="decay"><div class="decaybar"><div class="decayfill" style="width:${pct}%;background:${decayColor(t.decay)}"></div></div><span class="decaylab" style="color:${decayColor(t.decay)}">${decayLab(t.decay)} ${pct}%</span></div>
+        <svg class="chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+      </div>
+      <div class="cbody"><div class="cbody-in">
+        <div class="lvls"><span class="lab">Explain for</span>
+          ${['normie','normal','zoomer'].map(l=>`<button class="lvl ${lv===l?'on':''}" onclick="setLvl(${t.id},'${l}')">${({normie:'complete normie',normal:'somewhat online',zoomer:'chronically online'})[l]}</button>`).join('')}
+        </div>
+        <p class="def">${t.def[lv]}</p>
+        <p class="origin">↳ origin: <b>${t.origin}</b></p>
+        <div class="sublab">👥 Trend age by community</div>
+        <div class="agegrid">
+          ${[['Gen Z','z'],['Millennials','m'],['Mainstream','main']].map(([d,k])=>`<div class="agecard"><div class="agedemo">${d}</div><div class="agestage" style="color:${stageColor(t.age[k])}">${t.age[k]}</div></div>`).join('')}
+        </div>
+        <div class="sublab">📈 Trend timeline</div>
+        <div class="chartbox"><div class="chartcanvas" id="chart-${t.id}"></div></div>
+        <p class="replaced">→ Replaced by: <b>${t.replaced}</b></p>
+        <div class="vids">
+          <a class="vid" href="https://www.youtube.com/results?search_query=${encodeURIComponent(t.vid)}" target="_blank" rel="noopener">▶ YouTube</a>
+          <a class="vid" href="https://www.tiktok.com/search?q=${encodeURIComponent(t.name)}" target="_blank" rel="noopener">♪ TikTok</a>
+        </div>
+      </div></div>
+    </div>`;
+  }).join('');
+
+  if(expanded!==null)setTimeout(()=>drawChart(expanded),120);
+}
+
+function toggle(id){
+  expanded = (expanded===id) ? null : id;
+  render();
+}
+function setLvl(id,l){levels[id]=l;render()}
+function toggleSave(id){saved.has(id)?saved.delete(id):saved.add(id);toast(saved.has(id)?'Saved to your trends':'Removed');render()}
+
+/* Pure-SVG timeline chart — zero dependencies, immune to CDN failures */
+function drawChart(id){
+  const t=TRENDS.find(x=>x.id===id),c=document.getElementById('chart-'+id);
+  if(!t||!c)return;
+  const W=640,H=150,padL=34,padR=10,padT=12,padB=22;
+  const iw=W-padL-padR, ih=H-padT-padB;
+  const d=t.tl.d, labels=t.tl.l, n=d.length, pk=t.tl.pk;
+  const X=i=>padL+(i/(n-1))*iw;
+  const Y=v=>padT+ih-(Math.min(v,105)/105)*ih;
+
+  // smooth path via Catmull-Rom → Bézier
+  let line=`M ${X(0)} ${Y(d[0])}`;
+  for(let i=0;i<n-1;i++){
+    const p0=d[Math.max(0,i-1)],p1=d[i],p2=d[i+1],p3=d[Math.min(n-1,i+2)];
+    const c1x=X(i)+(X(i+1)-X(Math.max(0,i-1)))/6, c1y=Y(p1)+(Y(p2)-Y(p0))/6;
+    const c2x=X(i+1)-(X(Math.min(n-1,i+2))-X(i))/6, c2y=Y(p2)-(Y(p3)-Y(p1))/6;
+    line+=` C ${c1x.toFixed(1)} ${c1y.toFixed(1)}, ${c2x.toFixed(1)} ${c2y.toFixed(1)}, ${X(i+1).toFixed(1)} ${Y(d[i+1]).toFixed(1)}`;
+  }
+  const area=line+` L ${X(n-1)} ${padT+ih} L ${X(0)} ${padT+ih} Z`;
+
+  const grid=[0,50,100].map(v=>
+    `<line x1="${padL}" y1="${Y(v)}" x2="${W-padR}" y2="${Y(v)}" stroke="#2E2B23" stroke-width="1"/>
+     <text x="${padL-7}" y="${Y(v)+3.5}" text-anchor="end" font-size="10" fill="#857F70" font-family="JetBrains Mono,monospace">${v}%</text>`).join('');
+
+  const step=Math.max(1,Math.ceil(n/7));
+  const xlabels=labels.map((l,i)=> (i%step===0||i===n-1)
+    ? `<text x="${X(i)}" y="${H-6}" text-anchor="middle" font-size="10" fill="#857F70" font-family="JetBrains Mono,monospace">${l}</text>` : '').join('');
+
+  const dots=d.map((v,i)=>{
+    const isPk=i===pk;
+    return `<circle cx="${X(i)}" cy="${Y(v)}" r="${isPk?5:3.5}" fill="${isPk?'#B9A6FF':'#CDEB45'}" stroke="#141310" stroke-width="${isPk?2:1.5}" ${isPk?'':'opacity="0"'} class="cdot"><title>${labels[i]}: ${v}% heat${isPk?' ★ peak':''}</title></circle>`;
+  }).join('');
+
+  c.innerHTML=`<svg viewBox="0 0 ${W} ${H}" width="100%" height="100%" preserveAspectRatio="none" role="img" aria-label="Popularity timeline for ${t.name}, peaking at ${d[pk]}% in ${labels[pk]}">
+    <defs><linearGradient id="g${id}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CDEB45" stop-opacity=".22"/><stop offset="100%" stop-color="#CDEB45" stop-opacity="0"/>
+    </linearGradient></defs>
+    ${grid}
+    <path d="${area}" fill="url(#g${id})"/>
+    <path d="${line}" fill="none" stroke="#CDEB45" stroke-width="2.5" stroke-linecap="round"/>
+    ${dots}${xlabels}
+  </svg>
+  <style>#chart-${id} .cdot{transition:opacity .15s}#chart-${id}:hover .cdot{opacity:1!important}</style>`;
+}
+
+function renderGrave(){document.getElementById('gitems').innerHTML=DATA.graveyard.map(g=>`<span class="gitem">${g}</span>`).join('')}
+
+/* ============================================================
+   LOADERS
+   ============================================================ */
+function skeletons(n){return Array.from({length:n},()=>`<div class="skel"><div class="sk" style="width:34px;height:24px"></div><div style="flex:1"><div class="sk" style="width:40%;height:16px;margin-bottom:8px"></div><div class="sk" style="width:25%;height:11px"></div></div><div class="sk" style="width:84px;height:14px"></div></div>`).join('')}
+
+async function loadBoard(){
+  document.getElementById('tlist').innerHTML=skeletons(5);
+  renderMetrics(); renderFilters(); renderGrave();
+  TRENDS=await API.getTrends();
+  render();
+}
+
+let battlesLoaded=false, bVotes={};
+async function loadBattles(){
+  if(battlesLoaded)return; battlesLoaded=true;
+  const data=await API.getBattles();
+  window._battles=data; data.forEach((b,i)=>bVotes[i]={a:b.av,b:b.bv,voted:null});
+  document.getElementById('bwrap').innerHTML=data.map((b,i)=>battleHTML(b,i)).join('');
+}
+function battleHTML(b,i){
+  const v=bVotes[i],tot=v.a+v.b,ap=Math.round(v.a/tot*100),bp=100-ap;
+  return `<div class="battle">
+    <div class="bhead"><div class="bname">${b.a}</div><div class="vs">VS</div><div class="bname r">${b.b}</div></div>
+    <div class="bbar" style="grid-template-columns:${ap}fr ${bp}fr"><div style="background:var(--lime)"></div><div style="background:var(--coral)"></div></div>
+    <div class="bvotes">
+      <button class="bv ${v.voted==='a'?'on':''}" onclick="voteB(${i},'a')"><span class="pct">${v.voted?ap+'%':'?'}</span><span class="n">${v.a} votes</span></button>
+      <button class="bv ${v.voted==='b'?'on-r':''}" onclick="voteB(${i},'b')"><span class="pct">${v.voted?bp+'%':'?'}</span><span class="n">${v.b} votes</span></button>
+    </div>
+    <div class="bq">${b.q}</div>
+  </div>`;
+}
+function voteB(i,s){const v=bVotes[i];if(v.voted===s){v[s]--;v.voted=null}else{if(v.voted)v[v.voted]--;v[s]++;v.voted=s}
+  document.getElementById('bwrap').innerHTML=window._battles.map((b,j)=>battleHTML(b,j)).join('')}
+
+let digestLoaded=false;
+async function loadDigest(){
+  if(digestLoaded)return; digestLoaded=true;
+  const d=await API.getDigest();
+  document.getElementById('dwrap').innerHTML=`
+    <div class="dcard"><div class="dic" style="background:rgba(255,107,74,.16)">🔥</div><div><div class="dsub">Hot right now</div>
+      <div class="dbody">${d.hot.map(h=>`<b>${h[0]}</b> — ${h[1]}`).join(' · ')}</div></div></div>
+    <div class="dcard"><div class="dic" style="background:rgba(185,166,255,.16)">🪦</div><div><div class="dsub">Rest in peace</div>
+      <div class="dbody">${d.died.map(h=>`<span class="ko">${h[0]}</span> — <em>${h[1]}</em>`).join(' · ')}</div></div></div>
+    <div class="dcard"><div class="dic" style="background:rgba(95,211,168,.16)">👀</div><div><div class="dsub">Watch this space</div>
+      <div class="dbody"><b>${d.incoming[0]}</b> — ${d.incoming[1]}</div></div></div>
+    <div class="dcard"><div class="dic" style="background:rgba(244,192,78,.16)">💡</div><div><div class="dsub">Creator tip · ${d.tip[0]}</div>
+      <div class="dbody">${d.tip[1]}</div></div></div>
+    <div class="dcard"><div class="dic" style="background:rgba(185,166,255,.16)">🛸</div><div><div class="dsub">Weird corner of the internet</div>
+      <div class="dbody"><b>${d.weird[0]}</b> — ${d.weird[1]}</div></div></div>`;
+}
+
+let INTERESTS=new Set(['gaming','tech','film']);
+const ALL_INT=[['gaming','Gaming'],['music','Music'],['tech','Tech'],['fashion','Fashion'],['film','Film & TV'],['food','Food']];
+function renderIntPills(){
+  document.getElementById('intpills').innerHTML=ALL_INT.map(([k,l])=>`<button class="chip ${INTERESTS.has(k)?'on':''}" onclick="togInt('${k}')">${l}</button>`).join('');
+}
+function togInt(k){INTERESTS.has(k)?INTERESTS.delete(k):INTERESTS.add(k);renderIntPills();loadRadar(true)}
+async function loadRadar(force){
+  renderIntPills();
+  if(window._radarLoaded&&!force)return; window._radarLoaded=true;
+  document.getElementById('rgrid').innerHTML=skeletons(3);
+  const data=await API.getRadar([...INTERESTS]);
+  const IC={incoming:['👁','rgba(185,166,255,.16)','var(--violet)'],spreading:['〜','rgba(95,211,168,.16)','var(--teal)'],exploding:['🔥','rgba(255,107,74,.16)','var(--coral)'],niche:['🔬','rgba(244,192,78,.16)','var(--gold)']};
+  document.getElementById('rgrid').innerHTML=data.length?data.map(s=>{
+    const [ic,bg,col]=IC[s.type]||IC.incoming, mp=Math.round(s.mom*100);
+    return `<div class="rcard"><div class="ric" style="background:${bg}">${ic}</div><div style="flex:1;min-width:0">
+      <div class="rname">${s.name}</div><div class="rsig" style="color:${col}">${s.sig}</div><div class="rdet">${s.det}</div>
+      <div class="rtags">${s.tags.map(t=>`<span class="rtag">${t}</span>`).join('')}</div>
+      <div class="mom"><span class="ml">Momentum</span><div class="momw"><div class="momf" style="width:${mp}%;background:${col}"></div></div><span class="mompct">${mp}%</span></div>
+    </div></div>`;
+  }).join(''):'<p style="color:var(--ink3);padding:20px 0">Pick an interest to see signals.</p>';
+}
+
+const sp=document.createElement('style');sp.textContent='@keyframes spin{to{transform:rotate(360deg)}}';document.head.appendChild(sp);
+
+(async () => { await loadCuratedData(); loadBoard(); })();
+</script>
+</body>
+</html>
