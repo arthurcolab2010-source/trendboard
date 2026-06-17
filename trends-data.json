@@ -1,9 +1,9 @@
 {
  "meta": {
-  "tracking": 197,
-  "peak": 15,
+  "tracking": 202,
+  "peak": 13,
   "died": 8,
-  "updated": "June 15, 2026"
+  "updated": "June 17, 2026"
  },
  "graveyard": [
   "Italian brainrot",
@@ -17,20 +17,74 @@
  ],
  "trends": [
   {
+   "id": 21,
+   "name": "\"I Have Therapy\" POV format",
+   "cat": "format",
+   "plat": "Reels · TikTok",
+   "decay": 0.85,
+   "fresh": "Brand new",
+   "def": {
+    "normie": "A short video format that cuts from 'sorry I can't today, I have therapy' to whatever the creator actually does to feel better — a walk, a swim, baking, calling a friend. Wholesome and a little self-deprecating.",
+    "normal": "Mid-June Reels format that hard-cuts from the therapy excuse to the creator's actual coping ritual. Works because the punchline is sincere; whatever you reveal lands as both a flex and a confession.",
+    "zoomer": "Bro said 'I have therapy' and the next shot is him at Costco buying a single rotisserie chicken. The format is a vibe check disguised as a brag."
+   },
+   "origin": "Reels POV format → cross-platform, June 2026",
+   "age": { "z": "Active", "m": "Peak", "main": "Confused" },
+   "tl": { "l": ["Jun 2","Jun 6","Jun 10","Jun 14","Jun 17"], "d": [10,32,55,75,85], "pk": 4 },
+   "replaced": "Still climbing",
+   "vid": "i have therapy reels trend"
+  },
+  {
+   "id": 20,
+   "name": "Homer Drops His Donut (AI song)",
+   "cat": "audio",
+   "plat": "TikTok · YouTube",
+   "decay": 0.82,
+   "fresh": "Brand new",
+   "def": {
+    "normie": "An AI-generated song where Homer Simpson 'sings' his 'D'oh!' over every minor inconvenience. People are using it for any moment where something small goes wrong.",
+    "normal": "AI-slop-coded but somehow charming: the 'Homer Drops His Donut' track has become the universal small-disaster audio. The discourse about whether it's allowed to be funny is keeping it alive.",
+    "zoomer": "AI Homer dropping the donut hits every micro-defeat in the timeline. It's slop. It's also undefeated. We will pretend we hate it for one more week."
+   },
+   "origin": "AI-generated meme song → TikTok, June 2026",
+   "age": { "z": "Peak", "m": "Active", "main": "Confused" },
+   "tl": { "l": ["Jun 2","Jun 6","Jun 10","Jun 14","Jun 17"], "d": [8,28,52,72,82], "pk": 4 },
+   "replaced": "Still climbing",
+   "vid": "homer drops his donut ai song"
+  },
+  {
+   "id": 19,
+   "name": "Red vs. Blue Button dilemma",
+   "cat": "meme",
+   "plat": "X · TikTok · Reddit",
+   "decay": 0.78,
+   "fresh": "Brand new",
+   "def": {
+    "normie": "A viral moral-dilemma post: 'Press the red button and X happens; press the blue button and Y happens.' People debate which they'd pick.",
+    "normal": "The 'two-button moral dilemma' format went mainstream this week — every niche now has its own red-vs-blue version. The debates outlive the original prompts.",
+    "zoomer": "Pick red (everyone dies but rent is free), pick blue (rent stays but you have to do small talk). It's just trolley problem but the trolley is Twitter."
+   },
+   "origin": "Viral X moral-dilemma post, June 2026",
+   "age": { "z": "Active", "m": "Peak", "main": "Confused" },
+   "tl": { "l": ["Jun 4","Jun 8","Jun 11","Jun 14","Jun 17"], "d": [12,30,52,68,78], "pk": 4 },
+   "replaced": "Still climbing",
+   "vid": "red blue button moral dilemma meme"
+  },
+  {
    "id": 18,
    "name": "\"Material Lover\" by Sienna Spiro",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.92,
-   "fresh": "Brand new",
+   "decay": 0.87,
+   "fresh": "Hot right now",
    "def": {
-    "normie": "A new pop song by British singer-songwriter Sienna Spiro from The Devil Wears Prada 2 soundtrack. Creators are using it on fashion hauls, outfit checks, and aspirational shopping clips — anything with that polished, runway energy.",
-    "normal": "Soundtrack drop turned algorithm gift: 'Material Lover' is the must-use audio of mid-June, with the fashion lane jumping first and shopping vlogs close behind. The window is wide open this week.",
-    "zoomer": "Sienna sang one (1) Devil Wears Prada 2 song and now every fit check has the same backing track. Get on it before the brand accounts start scoring their Q2 lookbook to it — three weeks max."
+    "normie": "A pop song by British singer-songwriter Sienna Spiro from The Devil Wears Prada 2 soundtrack. Creators are using it on fashion hauls, outfit checks, and aspirational shopping clips — anything with that polished, runway energy.",
+    "normal": "Soundtrack drop turned algorithm gift: 'Material Lover' is still the dominant fashion audio, though the window is narrowing as brand accounts start stitching their lookbooks to it.",
+    "zoomer": "Sienna sang one (1) Devil Wears Prada 2 song and now every fit check has the same backing track. Two weeks max before it's in a Target ad."
    },
    "origin": "Devil Wears Prada 2 soundtrack, May 22 2026",
    "age": { "z": "Peak", "m": "Active", "main": "Confused" },
-   "tl": { "l": ["May 26","Jun 2","Jun 6","Jun 10","Jun 14"], "d": [8,34,61,82,92], "pk": 4 },
+   "tl": { "l": ["Jun 2","Jun 6","Jun 10","Jun 14","Jun 17"], "d": [34,61,82,92,87], "pk": 3 },
    "replaced": "Still climbing",
    "vid": "material lover sienna spiro tiktok"
   },
@@ -39,17 +93,17 @@
    "name": "\"Remember who you are\" / Freakin' Out",
    "cat": "audio",
    "plat": "Reels · TikTok",
-   "decay": 0.86,
+   "decay": 0.81,
    "fresh": "Hot right now",
    "def": {
     "normie": "Reels trend pairing 'Freakin' Out' by Dexter and the Moonrocks with the phrase 'remember who you are' over travel, training, and personal-growth montages. Cinematic, emotional, very main-character.",
-    "normal": "Adventure-and-transformation audio of the month. The 'remember who you are' caption locked in last week and Reels is rewarding early users hard; travel and fitness niches got there first, glow-up edits are catching up.",
-    "zoomer": "Stand in a windy field. Say 'remember who you are.' Watch the algorithm love you. The format is so legible it can't NOT cook for at least one more week, then it becomes parody."
+    "normal": "Adventure-and-transformation audio holding strong into mid-June. Travel and fitness niches own it; glow-up edits are catching up; parody window opens any minute.",
+    "zoomer": "Stand in a windy field. Say 'remember who you are.' Watch the algorithm love you. Then in 4 days, watch the parodies eat it."
    },
    "origin": "Dexter and the Moonrocks 'Freakin' Out' → Reels trend, 2026",
    "age": { "z": "Active", "m": "Peak", "main": "Fading" },
-   "tl": { "l": ["May 19","May 26","Jun 2","Jun 9","Jun 14"], "d": [12,38,58,76,86], "pk": 4 },
-   "replaced": "Still climbing",
+   "tl": { "l": ["May 26","Jun 2","Jun 9","Jun 14","Jun 17"], "d": [38,58,76,86,81], "pk": 3 },
+   "replaced": "Still strong",
    "vid": "remember who you are reels trend"
   },
   {
@@ -57,17 +111,17 @@
    "name": "Beez in the Trap × What's Up? mashup",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.81,
+   "decay": 0.76,
    "fresh": "Hot right now",
    "def": {
-    "normie": "A mashup blending Nicki Minaj's 'Beez in the Trap' with 4 Non Blondes' 'What's Up?'. The combination of rap menace and emotional rock vocals makes it equal parts funny and dramatic — creators are using it for everything from gym sets to existential breakups.",
-    "normal": "The June rap-meets-rock mashup. Hooks two very different audiences (Nicki stans + millennial alt-rock muscle memory) which is why it travels so well across niches. Still building; should peak next week.",
-    "zoomer": "Two energies that should not fit fitting perfectly. Format works because the drop is funny and the 'what's going on' bridge is unironically emotional. It's gonna get one (1) very bad brand activation and then it dies, but until then, gold."
+    "normie": "A mashup blending Nicki Minaj's 'Beez in the Trap' with 4 Non Blondes' 'What's Up?'. The combination of rap menace and emotional rock vocals makes it equal parts funny and dramatic.",
+    "normal": "Still traveling cross-niche but losing momentum. The first bad brand activation (Wendy's, allegedly) accelerated the slide.",
+    "zoomer": "It cooked. Now it's getting cooked. One more week before it becomes a 'remember when' reference."
    },
    "origin": "TikTok mashup, June 2026",
-   "age": { "z": "Peak", "m": "Active", "main": "Confused" },
-   "tl": { "l": ["May 30","Jun 4","Jun 8","Jun 11","Jun 14"], "d": [6,24,48,68,81], "pk": 4 },
-   "replaced": "Still climbing",
+   "age": { "z": "Active", "m": "Active", "main": "Fading" },
+   "tl": { "l": ["Jun 4","Jun 8","Jun 11","Jun 14","Jun 17"], "d": [24,48,68,81,76], "pk": 3 },
+   "replaced": "Fading",
    "vid": "beez in the trap whats up mashup"
   },
   {
@@ -75,17 +129,17 @@
    "name": "\"no no no NO NO NO\"",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.95,
+   "decay": 0.9,
    "fresh": "Peak viral",
    "def": {
     "normie": "A short audio clip where someone says 'no no no' quietly and then yells 'NO NO NO' as panic sets in.",
-    "normal": "The \"I Green Screen Things\" sound where escalating \"no\"s match an escalating crash-out.",
-    "zoomer": "Pure pre-crashout audio. The brilliance is the build: quiet refusal, public denial, then the howl."
+    "normal": "The \"I Green Screen Things\" sound where escalating \"no\"s match an escalating crash-out. Now load-bearing on every panic-edit.",
+    "zoomer": "Pure pre-crashout audio. Brilliance is the build: quiet refusal, public denial, the howl. Still undefeated, but the saturation alarm is going off."
    },
    "origin": "I Green Screen Things audio, TikTok 2026",
    "age": { "z": "Peak", "m": "Peak", "main": "Active" },
-   "tl": { "l": ["May 12","May 19","May 26","Jun 2","Jun 9"], "d": [8,30,62,88,95], "pk": 4 },
-   "replaced": "Still climbing",
+   "tl": { "l": ["May 19","May 26","Jun 2","Jun 9","Jun 17"], "d": [30,62,88,95,90], "pk": 3 },
+   "replaced": "Still strong",
    "vid": "no no no tiktok trend"
   },
   {
@@ -93,17 +147,17 @@
    "name": "\"Hate That I Made You Love Me\" mashup",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.83,
-   "fresh": "Hot right now",
+   "decay": 0.78,
+   "fresh": "Fading from peak",
    "def": {
-    "normie": "A new mashup using Ariana Grande's song 'Petal' that creators have been jumping on this week.",
-    "normal": "Mashup audio that started rising after Ariana Grande's Petal dropped. Fast-growing lip-sync trend.",
-    "zoomer": "Petal release, mashup wave, lip-sync season — textbook."
+    "normie": "A mashup using Ariana Grande's song 'Petal' that creators jumped on through early June.",
+    "normal": "Mashup audio that rose with the Petal album drop. Fast-growing lip-sync trend, now slipping.",
+    "zoomer": "It already had its main-character week. Now it's a 'when did this stop being everywhere' candidate."
    },
    "origin": "Ariana Grande 'Petal' mashup, June 2026",
-   "age": { "z": "Peak", "m": "Active", "main": "Confused" },
-   "tl": { "l": ["May 30","Jun 3","Jun 6","Jun 8","Jun 11"], "d": [5,28,55,75,83], "pk": 4 },
-   "replaced": "Still rising",
+   "age": { "z": "Active", "m": "Active", "main": "Fading" },
+   "tl": { "l": ["Jun 3","Jun 6","Jun 8","Jun 11","Jun 17"], "d": [28,55,75,83,78], "pk": 3 },
+   "replaced": "Fading",
    "vid": "hate that i made you love me trend"
   },
   {
@@ -111,17 +165,17 @@
    "name": "KitKat Heist memes",
    "cat": "meme",
    "plat": "X · TikTok · IG",
-   "decay": 0.92,
+   "decay": 0.87,
    "fresh": "Fading from peak",
    "def": {
     "normie": "Memes about the real-life European theft of around 400,000 KitKat bars.",
-    "normal": "Memes about the real ~400,000 KitKat theft in Europe. Peaked late May/early June.",
-    "zoomer": "The cinematic universe is canon. Drifting into reference-meme zone."
+    "normal": "Memes about the real ~400,000 KitKat theft in Europe. Peaked late May; now in reference-meme zone.",
+    "zoomer": "The cinematic universe is canon. KitKat heist is now a vibe descriptor, not a joke."
    },
    "origin": "Real European logistics theft → meme, mid-2026",
    "age": { "z": "Active", "m": "Peak", "main": "Peak" },
-   "tl": { "l": ["Apr","May 5","May 19","Jun 2","Jun 12"], "d": [5,55,90,97,92], "pk": 3 },
-   "replaced": "Saxophone Gets Louder edits",
+   "tl": { "l": ["May 5","May 19","Jun 2","Jun 12","Jun 17"], "d": [55,90,97,92,87], "pk": 2 },
+   "replaced": "Heist-core aesthetic",
    "vid": "kitkat heist meme"
   },
   {
@@ -129,16 +183,16 @@
    "name": "Nihilistic Penguin",
    "cat": "meme",
    "plat": "X · IG · LinkedIn",
-   "decay": 0.94,
+   "decay": 0.89,
    "fresh": "Peak viral",
    "def": {
     "normie": "Old footage of a penguin walking alone toward the mountains instead of the sea.",
-    "normal": "Werner Herzog's 2007 documentary penguin became 2026's mascot for opting out.",
-    "zoomer": "Herzog filmed him in 2007, we caught up emotionally in 2026."
+    "normal": "Werner Herzog's 2007 documentary penguin became 2026's mascot for opting out. Still on every LinkedIn motivational post.",
+    "zoomer": "Herzog filmed him in 2007, we caught up emotionally in 2026. The penguin will outlive every other trend on this board."
    },
    "origin": "'Encounters at the End of the World' (2007) → meme, 2026",
    "age": { "z": "Peak", "m": "Peak", "main": "Peak" },
-   "tl": { "l": ["Jan","Feb","Mar","Apr","May","Jun 5","Jun 12"], "d": [5,20,45,70,88,93,94], "pk": 6 },
+   "tl": { "l": ["Feb","Mar","Apr","May","Jun 5","Jun 12","Jun 17"], "d": [20,45,70,88,93,94,89], "pk": 5 },
    "replaced": "Still active",
    "vid": "nihilistic penguin meme"
   },
@@ -147,17 +201,17 @@
    "name": "Saxophone Gets Louder",
    "cat": "audio",
    "plat": "TikTok · Reels · Shorts",
-   "decay": 0.96,
+   "decay": 0.91,
    "fresh": "Peak viral",
    "def": {
     "normie": "A format where dramatic saxophone music starts quietly and gets louder as a situation gets worse.",
-    "normal": "The escalation-saxophone format: music swells as the on-screen situation collapses.",
-    "zoomer": "The sax went full crescendo and overtook the timeline."
+    "normal": "The escalation-saxophone format: music swells as the on-screen situation collapses. Still everywhere, slightly past peak.",
+    "zoomer": "The sax already won. We're now in the 'corporate brand uses it' phase."
    },
    "origin": "TikTok audio meme, 2026",
    "age": { "z": "Peak", "m": "Peak", "main": "Active" },
-   "tl": { "l": ["Feb","Mar","Apr","May 12","May 26","Jun 5","Jun 12"], "d": [8,30,62,82,90,93,96], "pk": 6 },
-   "replaced": "Still climbing",
+   "tl": { "l": ["Mar","Apr","May 12","May 26","Jun 5","Jun 12","Jun 17"], "d": [30,62,82,90,93,96,91], "pk": 5 },
+   "replaced": "Homer Drops His Donut",
    "vid": "saxophone gets louder meme"
   },
   {
@@ -165,17 +219,17 @@
    "name": "I am my perimeter",
    "cat": "meme",
    "plat": "Twitch · TikTok · X",
-   "decay": 0.9,
+   "decay": 0.85,
    "fresh": "Hot right now",
    "def": {
     "normie": "A streamer's deadpan 'I am my perimeter and my perimeter is me' became a catchphrase.",
-    "normal": "Snapiyya's Rainbow Six Siege line as all-purpose 'locked in' declaration.",
-    "zoomer": "Bro got rushed and achieved enlightenment on stream."
+    "normal": "Snapiyya's Rainbow Six Siege line as all-purpose 'locked in' declaration. Now showing up in corporate Slack.",
+    "zoomer": "Bro got rushed and achieved enlightenment on stream. The phrase has moved from gaming to general 'locked in' usage."
    },
    "origin": "Snapiyya / Rainbow Six Siege stream clip, 2026",
    "age": { "z": "Peak", "m": "Active", "main": "Confused" },
-   "tl": { "l": ["Mar","Apr","May","Jun 5","Jun 12"], "d": [10,35,68,85,90], "pk": 4 },
-   "replaced": "Still climbing",
+   "tl": { "l": ["Mar","Apr","May","Jun 5","Jun 17"], "d": [35,68,85,90,85], "pk": 3 },
+   "replaced": "Still strong",
    "vid": "i am my perimeter meme"
   },
   {
@@ -183,16 +237,16 @@
    "name": "AI slop discourse",
    "cat": "drama",
    "plat": "X · Reddit · YouTube",
-   "decay": 0.93,
+   "decay": 0.88,
    "fresh": "Peak viral",
    "def": {
     "normie": "'AI slop' is the term for cheap, mass-produced AI content clogging up feeds.",
-    "normal": "Backlash against low-effort AI content is dominating commentary feeds.",
-    "zoomer": "The Slop Wars: phase two. The discourse about slop now outproduces the slop."
+    "normal": "Backlash against low-effort AI content is dominating commentary feeds. Homer Donut song threw gas on this.",
+    "zoomer": "The Slop Wars: phase three. We are now slop-pilled and at war with ourselves about whether the slop is funny."
    },
    "origin": "Tech criticism → mainstream, 2025-26",
    "age": { "z": "Peak", "m": "Peak", "main": "Active" },
-   "tl": { "l": ["Oct","Dec","Feb","Apr","May","Jun 12"], "d": [25,45,65,82,89,93], "pk": 5 },
+   "tl": { "l": ["Dec","Feb","Apr","May","Jun 12","Jun 17"], "d": [45,65,82,89,93,88], "pk": 4 },
    "replaced": "Ongoing",
    "vid": "ai slop explained"
   },
@@ -201,17 +255,17 @@
    "name": "Certified Banger Badge drama",
    "cat": "drama",
    "plat": "X · Reddit",
-   "decay": 0.78,
-   "fresh": "Brand new",
+   "decay": 0.73,
+   "fresh": "Fading",
    "def": {
     "normie": "X rolled out a 'Certified Banger' badge for viral posts and the internet immediately fought about it.",
-    "normal": "X's new viral-post badge launched first week of June and became the discourse.",
-    "zoomer": "The badge is the meme; the absence of the badge is the meme; the cope is the meme."
+    "normal": "X's new viral-post badge launched first week of June and became the discourse. Now cooling — only the cope memes remain.",
+    "zoomer": "The badge was the meme; now the badge is just a feature again. The cope outlasted the discourse, as it should."
    },
    "origin": "X / Twitter platform update, June 2026",
-   "age": { "z": "Active", "m": "Peak", "main": "Fading" },
-   "tl": { "l": ["Jun 1","Jun 4","Jun 7","Jun 10","Jun 12"], "d": [20,55,72,76,78], "pk": 4 },
-   "replaced": "Still building",
+   "age": { "z": "Active", "m": "Active", "main": "Fading" },
+   "tl": { "l": ["Jun 1","Jun 4","Jun 7","Jun 10","Jun 17"], "d": [55,72,76,78,73], "pk": 3 },
+   "replaced": "Red vs. Blue Button dilemma",
    "vid": "x certified banger badge"
   },
   {
@@ -219,16 +273,16 @@
    "name": "Great Meme Reset",
    "cat": "drama",
    "plat": "TikTok · IG · Reddit",
-   "decay": 0.86,
+   "decay": 0.81,
    "fresh": "Hot right now",
    "def": {
     "normie": "A movement calling for a return to older, simpler human-made internet humour.",
-    "normal": "The push for nostalgic, authentic memes as reaction to AI slop and brain-rot fatigue.",
-    "zoomer": "The Reset is a meme about wanting better memes, which is correctly very us."
+    "normal": "The push for nostalgic, authentic memes as reaction to AI slop and brain-rot fatigue. Slightly past peak but still load-bearing.",
+    "zoomer": "The Reset is a meme about wanting better memes, which is correctly very us. Also the Homer Donut song is testing everyone's principles."
    },
    "origin": "Meme culture discourse, 2026",
    "age": { "z": "Active", "m": "Peak", "main": "Fading" },
-   "tl": { "l": ["Jan","Feb","Mar","Apr","May","Jun 5","Jun 12"], "d": [5,15,30,50,70,82,86], "pk": 6 },
+   "tl": { "l": ["Feb","Mar","Apr","May","Jun 5","Jun 12","Jun 17"], "d": [15,30,50,70,82,86,81], "pk": 5 },
    "replaced": "Still building",
    "vid": "great meme reset 2026"
   },
@@ -237,17 +291,17 @@
    "name": "Clanker",
    "cat": "slang",
    "plat": "X · TikTok · Reddit",
-   "decay": 0.89,
+   "decay": 0.84,
    "fresh": "Hot right now",
    "def": {
     "normie": "An insult for robots, AI, or people who rely on AI too much — borrowed from Star Wars.",
-    "normal": "Star Wars' battle-droid slur, repurposed as the internet's everyday anti-AI insult.",
-    "zoomer": "Now in the 'said unironically by your dad in three months' phase."
+    "normal": "Star Wars' battle-droid slur, repurposed as the internet's everyday anti-AI insult. Now squarely mainstream.",
+    "zoomer": "Said unironically by your dad zone, officially crossed. Still works, but you're tipping yourself off as Online."
    },
    "origin": "Star Wars → anti-AI internet, 2025-26",
    "age": { "z": "Peak", "m": "Active", "main": "Fading" },
-   "tl": { "l": ["Sep","Nov","Jan","Mar","May","Jun 12"], "d": [10,30,55,75,85,89], "pk": 5 },
-   "replaced": "Still climbing",
+   "tl": { "l": ["Nov","Jan","Mar","May","Jun 12","Jun 17"], "d": [30,55,75,85,89,84], "pk": 4 },
+   "replaced": "Still strong",
    "vid": "clanker slang meaning"
   },
   {
@@ -255,16 +309,16 @@
    "name": "Crash out",
    "cat": "slang",
    "plat": "TikTok · X",
-   "decay": 0.87,
+   "decay": 0.82,
    "fresh": "Evergreen",
    "def": {
     "normie": "To completely lose your cool — a meltdown, usually public.",
-    "normal": "Losing emotional control spectacularly; 'a crashout' is the episode or the person.",
-    "zoomer": "Officially load-bearing slang."
+    "normal": "Losing emotional control spectacularly; 'a crashout' is the episode or the person. Permanent vocabulary now.",
+    "zoomer": "Officially load-bearing slang. It's in your principal's vocabulary."
    },
    "origin": "AAVE / rap → TikTok, 2024-26",
    "age": { "z": "Peak", "m": "Active", "main": "Active" },
-   "tl": { "l": ["Jun","Oct","Dec","Feb","Apr","Jun 12"], "d": [30,50,65,75,82,87], "pk": 5 },
+   "tl": { "l": ["Oct","Dec","Feb","Apr","Jun 12","Jun 17"], "d": [50,65,75,82,87,82], "pk": 4 },
    "replaced": "Still strong",
    "vid": "crash out slang meaning"
   },
@@ -273,17 +327,17 @@
    "name": "404 coded",
    "cat": "slang",
    "plat": "TikTok · X",
-   "decay": 0.74,
+   "decay": 0.69,
    "fresh": "Climbing",
    "def": {
-    "normie": "A new way to call someone empty or absent — like the '404 page not found' error.",
-    "normal": "The '-coded' suffix found its tech-meme breakout.",
-    "zoomer": "Radar called it, the timeline confirmed it."
+    "normie": "A way to call someone empty or absent — like the '404 page not found' error.",
+    "normal": "The '-coded' suffix found its tech-meme breakout. Mainstream-adjacent now.",
+    "zoomer": "Radar called it, the timeline confirmed it. Approaching cliché but still usable for one more cycle."
    },
    "origin": "Tech meme → TikTok slang, mid-2026",
-   "age": { "z": "Peak", "m": "Active", "main": "Confused" },
-   "tl": { "l": ["Apr","May","May","Jun 5","Jun 12"], "d": [10,28,48,65,74], "pk": 4 },
-   "replaced": "Still climbing",
+   "age": { "z": "Active", "m": "Active", "main": "Confused" },
+   "tl": { "l": ["May","May","Jun 5","Jun 12","Jun 17"], "d": [28,48,65,74,69], "pk": 3 },
+   "replaced": "Fading",
    "vid": "404 coded slang"
   },
   {
@@ -291,16 +345,16 @@
    "name": "Conformity Gate",
    "cat": "drama",
    "plat": "X · Reddit · TikTok",
-   "decay": 0.69,
+   "decay": 0.64,
    "fresh": "Slow fade",
    "def": {
     "normie": "Fan theory claiming the Stranger Things finale was an illusion.",
-    "normal": "The viral theory that the Stranger Things finale concealed a hidden episode.",
-    "zoomer": "Speedrun denial fandom %, complete."
+    "normal": "The viral theory that the Stranger Things finale concealed a hidden episode. Slow burn.",
+    "zoomer": "Denial fandom %, sustained. Speedrun complete; now it's tradition."
    },
    "origin": "Stranger Things finale fan theory, 2026",
    "age": { "z": "Active", "m": "Active", "main": "Fading" },
-   "tl": { "l": ["Dec","Jan","Mar","May","Jun 5","Jun 12"], "d": [40,60,55,72,71,69], "pk": 3 },
+   "tl": { "l": ["Jan","Mar","May","Jun 5","Jun 12","Jun 17"], "d": [60,55,72,71,69,64], "pk": 2 },
    "replaced": "Slow burn",
    "vid": "conformity gate stranger things"
   },
@@ -309,17 +363,17 @@
    "name": "Choppelganger",
    "cat": "slang",
    "plat": "TikTok · X",
-   "decay": 0.66,
+   "decay": 0.61,
    "fresh": "Fading",
    "def": {
     "normie": "A mash-up of 'chopped' (unattractive) and 'doppelganger': an unflattering lookalike.",
-    "normal": "'Chopped' + 'doppelganger' = blunt comparison format.",
-    "zoomer": "Word will survive longer than the format that birthed it."
+    "normal": "'Chopped' + 'doppelganger' = blunt comparison format. Word will outlive the format that birthed it.",
+    "zoomer": "Word survives, format dead. Use it in conversation, not in a video, if you want to look current."
    },
    "origin": "TikTok, 2026",
    "age": { "z": "Active", "m": "Fading", "main": "Confused" },
-   "tl": { "l": ["Feb","Mar","Apr","May","Jun 5","Jun 12"], "d": [8,25,50,78,72,66], "pk": 3 },
-   "replaced": "Saxophone Gets Louder",
+   "tl": { "l": ["Mar","Apr","May","Jun 5","Jun 12","Jun 17"], "d": [25,50,78,72,66,61], "pk": 2 },
+   "replaced": "Fading",
    "vid": "choppelganger meaning"
   },
   {
@@ -327,7 +381,7 @@
    "name": "Brain rot",
    "cat": "slang",
    "plat": "TikTok · YouTube",
-   "decay": 0.74,
+   "decay": 0.69,
    "fresh": "Fading",
    "def": {
     "normie": "The joke that consuming too much silly internet content rots your brain — Oxford's 2024 word of the year.",
@@ -336,41 +390,41 @@
    },
    "origin": "Gen Z slang · Oxford WOTY 2024",
    "age": { "z": "Fading", "m": "Active", "main": "Peak" },
-   "tl": { "l": ["Jun","Oct","Dec","Feb","Apr","Jun 5","Jun 12"], "d": [80,92,95,90,82,76,74], "pk": 2 },
+   "tl": { "l": ["Oct","Dec","Feb","Apr","Jun 5","Jun 12","Jun 17"], "d": [92,95,90,82,76,74,69], "pk": 1 },
    "replaced": "Great Meme Reset",
    "vid": "brain rot meaning"
   }
  ],
  "battles": [
-  {"q":"Which audio is winning this week?","a":"\"Material Lover\"","b":"\"no no no NO NO NO\"","av":720,"bv":610},
-  {"q":"Which arrived predicted on radar?","a":"404 coded","b":"AI slop discourse","av":540,"bv":710},
-  {"q":"Which X feature became its own meme?","a":"Certified Banger Badge","b":"Grok image gen","av":640,"bv":380},
+  {"q":"Which new format is winning this week?","a":"\"I Have Therapy\" POV","b":"Red vs. Blue Button","av":680,"bv":520},
+  {"q":"Which AI artifact deserves to survive?","a":"Homer Drops His Donut","b":"AI slop discourse","av":410,"bv":690},
+  {"q":"Which 'fashion audio' will outlive June?","a":"Material Lover","b":"Remember who you are","av":620,"bv":580},
   {"q":"Which heist deserves the documentary?","a":"KitKat Heist","b":"Sigma overload backlash","av":850,"bv":220},
   {"q":"Which 'reset' is the real one?","a":"Great Meme Reset","b":"AI slop fatigue","av":510,"bv":600}
  ],
  "digest": {
   "hot": [
-   ["\"Material Lover\" by Sienna Spiro","Devil Wears Prada 2 soundtrack just colonised fit-check audio"],
-   ["\"Remember who you are\" / Freakin' Out","Reels' main-character glow-up audio of the week"],
-   ["Beez in the Trap × What's Up? mashup","rap menace meets alt-rock catharsis, fits everywhere"]
+   ["\"I Have Therapy\" POV format","Reels' wholesome-flex format of the week — sincerity is the punchline"],
+   ["Homer Drops His Donut","AI slop song that the timeline can't decide whether to defeat or embrace"],
+   ["Red vs. Blue Button dilemma","Every niche now runs its own version; the debates outlive the prompts"]
   ],
   "died": [
    ["Italian brainrot","deported by the Great Meme Reset"],
    ["Sigma overload","the irony collapsed in on itself"],
    ["Hyperpop revival","faded before the algorithm could find it"]
   ],
-  "incoming": ["\"Banger badge cope\"","the format mocking people upset their post didn't get the badge is forming"],
-  "tip": ["\"Material Lover\" by Sienna Spiro","This is the rare soundtrack-driven trend with juice in two niches at once — fashion AND general aspirational. Window: 7-10 days before brand accounts arrive."],
-  "weird": ["404 coded predictions","Our radar flagged this last cycle as 'incoming'. It crossed into general slang within two weeks."]
+  "incoming": ["\"Algorithm Prefers\" head-to-head","Format pitting a high-effort edit against a deadpan static shot, letting the comments vote which wins"],
+  "tip": ["\"I Have Therapy\" POV format","Cleanest new format of the week — works on Reels and TikTok, doesn't need a sound license, plays in any niche from fitness to baking. Window: 10-12 days before the parodies own it."],
+  "weird": ["Homer Drops His Donut paradox","AI slop the Reset crowd actually likes, because the punchline IS the slop. The discourse is more interesting than the song."]
  },
  "radar": [
-  {"name":"\"Banger badge cope\"","type":"incoming","sig":"This format is about to explode","det":"Posts mocking people whose viral tweets didn't get X's new Certified Banger badge are forming a template.","tags":["X","Drama","Format"],"mom":0.71,"comm":["tech","film"]},
-  {"name":"Petal album residue","type":"spreading","sig":"This sound family is mutating","det":"Beyond the 'hate that I made you love me' mashup, more Petal cuts are getting CapCut-templated.","tags":["Music","Audio"],"mom":0.62,"comm":["music","fashion"]},
-  {"name":"PlayStation actual gameplay","type":"spreading","sig":"Gaming circles are processing a vibe shift","det":"Sony's June State of Play broke a multi-year pattern of CGI-only reveals.","tags":["Gaming","Industry"],"mom":0.55,"comm":["gaming","tech"]},
-  {"name":"Heist-core aesthetic","type":"niche","sig":"Niche but spreading across food and fashion","det":"Post-KitKat, playful 'heist' aesthetics are bubbling in food and fashion content.","tags":["Food","Aesthetic"],"mom":0.43,"comm":["food","fashion"]},
-  {"name":"Clanker court","type":"spreading","sig":"AI-on-trial skits are becoming a genre","det":"Mock-trial videos putting AI tools and bot accounts on trial are building.","tags":["Tech","Comedy"],"mom":0.58,"comm":["tech","gaming","film"]},
-  {"name":"Analog posting","type":"spreading","sig":"The Reset's aesthetic wing is gaining ground","det":"Film photos, unedited clips, deliberately low-tech content as anti-slop signalling.","tags":["Aesthetic","Photography"],"mom":0.51,"comm":["fashion","tech"]},
-  {"name":"\"-coded\" suffix wave","type":"spreading","sig":"This grammar is expanding fast","det":"After 404 coded broke through, error-coded, beta-coded, captcha-coded are incubating.","tags":["Slang","Format"],"mom":0.66,"comm":["tech","film","fashion"]},
-  {"name":"Heatwave content","type":"incoming","sig":"Weather is about to drive a content wave","det":"European heatwave coverage is starting to spawn the familiar summer-discourse cycle.","tags":["Lifestyle","Seasonal"],"mom":0.39,"comm":["food","fashion"]}
+  {"name":"\"Algorithm Prefers\" format","type":"incoming","sig":"This A/B-style format is about to explode","det":"Creators pit a high-effort edit against a deadpan static shot and let the comments vote which wins. Format travels across every niche.","tags":["Format","Meta"],"mom":0.74,"comm":["tech","fashion","film"]},
+  {"name":"Game Time / FIFA 2026 audio","type":"incoming","sig":"World Cup audio is loading","det":"Future × Tyla 'Game Time' just dropped as part of the FIFA World Cup 2026 soundtrack. Sports and travel niches are early; brand accounts about to flood it.","tags":["Music","Sports"],"mom":0.68,"comm":["music","sports","travel"]},
+  {"name":"Domestic ASMR sounds","type":"spreading","sig":"Sharp physical sounds replacing music","det":"Cleaning, packing, morning routines leaning into peel/spray/wipe/tap audio. Making mundane action feel cinematic without a hit song.","tags":["Format","ASMR"],"mom":0.62,"comm":["lifestyle","beauty"]},
+  {"name":"Clanker court","type":"spreading","sig":"AI-on-trial skits are now a genre","det":"Mock-trial videos putting AI tools and bot accounts on trial are building. Homer Donut song accelerating this.","tags":["Tech","Comedy"],"mom":0.66,"comm":["tech","gaming","film"]},
+  {"name":"\"-coded\" suffix wave","type":"spreading","sig":"This grammar is expanding fast","det":"After 404 coded broke through, error-coded, beta-coded, captcha-coded are incubating.","tags":["Slang","Format"],"mom":0.64,"comm":["tech","film","fashion"]},
+  {"name":"Heatwave content","type":"incoming","sig":"Weather is about to drive a content wave","det":"European heatwave coverage is starting to spawn the familiar summer-discourse cycle.","tags":["Lifestyle","Seasonal"],"mom":0.46,"comm":["food","fashion"]},
+  {"name":"Petal album residue","type":"spreading","sig":"This sound family is still mutating","det":"Beyond 'Hate That I Made You Love Me', more Petal cuts are getting CapCut-templated.","tags":["Music","Audio"],"mom":0.55,"comm":["music","fashion"]},
+  {"name":"Analog posting","type":"spreading","sig":"The Reset's aesthetic wing is gaining ground","det":"Film photos, unedited clips, deliberately low-tech content as anti-slop signalling.","tags":["Aesthetic","Photography"],"mom":0.58,"comm":["fashion","tech"]}
  ]
 }
