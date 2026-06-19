@@ -1,145 +1,881 @@
 {
- "meta": { "updated": "June 18, 2026", "termCount": 136 },
+ "meta": {
+  "updated": "June 19, 2026",
+  "termCount": 141
+ },
  "dict": {
-  "ngl": {"type":"abbr","def":"'Not gonna lie' — flags honesty or a mild confession.","origin":"texting / AAVE","status":"ok"},
-  "iykyk": {"type":"abbr","def":"'If you know, you know' — signals an inside reference.","origin":"Instagram / texting","status":"ok"},
-  "fr": {"type":"abbr","def":"'For real' — emphasises agreement. 'fr fr' = doubly so.","origin":"AAVE / texting","status":"ok"},
-  "tfw": {"type":"abbr","def":"'That feeling when' — sets up a relatable scenario.","origin":"4chan / meme format","status":"ok"},
-  "tbh": {"type":"abbr","def":"'To be honest' — prefaces a candid opinion.","origin":"early texting","status":"ok"},
-  "wsg": {"type":"abbr","def":"'What's good' — a casual greeting.","origin":"texting / AAVE","status":"ok"},
-  "fwiw": {"type":"abbr","def":"'For what it's worth' — softens an opinion.","origin":"early internet","status":"ok"},
-  "imo": {"type":"abbr","def":"'In my opinion' — flags a personal take.","origin":"Usenet / forums","status":"ok"},
-  "smh": {"type":"abbr","def":"'Shaking my head' — expresses disappointment.","origin":"texting / forums","status":"ok"},
-  "idk": {"type":"abbr","def":"'I don't know.'","origin":"texting","status":"ok"},
-  "irl": {"type":"abbr","def":"'In real life' — offline, as opposed to online.","origin":"early internet","status":"ok"},
-  "tldr": {"type":"abbr","def":"'Too long; didn't read' — a one-line summary.","origin":"forums / Reddit","status":"ok"},
-  "icl": {"type":"abbr","def":"'I can't lie' — same job as 'ngl'.","origin":"UK texting / AAVE","status":"ok"},
-  "atp": {"type":"abbr","def":"'At this point' — introduces a resigned conclusion.","origin":"texting","status":"ok"},
-  "grwm": {"type":"abbr","def":"'Get ready with me' — a video format.","origin":"YouTube → TikTok","status":"ok"},
-  "ootd": {"type":"abbr","def":"'Outfit of the day'.","origin":"fashion Instagram","status":"ok"},
-  "pov": {"type":"abbr","def":"'Point of view' — labels a video.","origin":"TikTok","status":"ok"},
-  "dni": {"type":"abbr","def":"'Do not interact' — a profile warning.","origin":"stan Twitter / Tumblr","status":"ok"},
-  "oomf": {"type":"abbr","def":"'One of my followers/friends'.","origin":"Twitter/X","status":"ok"},
-  "fyp": {"type":"abbr","def":"'For You Page' — TikTok's algorithmic feed.","origin":"TikTok","status":"ok"},
-  "wyd": {"type":"abbr","def":"'What are you doing?'","origin":"texting","status":"ok"},
-  "hbu": {"type":"abbr","def":"'How about you?'","origin":"texting","status":"ok"},
-  "istg": {"type":"abbr","def":"'I swear to god' — exasperated emphasis.","origin":"texting","status":"ok"},
-  "lmk": {"type":"abbr","def":"'Let me know.'","origin":"texting","status":"ok"},
-  "nvm": {"type":"abbr","def":"'Never mind.'","origin":"texting","status":"ok"},
-  "ong": {"type":"abbr","def":"'On god' — swearing something is true.","origin":"AAVE / texting","status":"ok"},
-  "sdiybt": {"type":"abbr","def":"An absurdist SpongeBob-derived phrase whose point is that it means nothing.","origin":"SpongeBob clip → TikTok, 2026","status":"ok"},
-  "goat": {"type":"acronym","def":"'Greatest of all time'. Often the goat emoji 🐐.","origin":"sports → mainstream","status":"ok"},
-  "op": {"type":"acronym","def":"'Original poster'. In gaming: 'overpowered'.","origin":"forum culture","status":"ok"},
-  "npc": {"type":"acronym","def":"'Non-player character' — acting robotic, on autopilot.","origin":"gaming → TikTok","status":"ok"},
-  "fomo": {"type":"acronym","def":"'Fear of missing out'.","origin":"2010s social media","status":"ok"},
-  "jomo": {"type":"acronym","def":"'Joy of missing out' — smug opposite of FOMO.","origin":"wellness internet","status":"ok"},
-  "dm": {"type":"acronym","def":"'Direct message'. 'Slide into the DMs' = flirty private contact.","origin":"Twitter/Instagram","status":"ok"},
-  "rt": {"type":"acronym","def":"'Retweet' — now used in speech as 'I agree / same'.","origin":"Twitter/X","status":"ok"},
-  "w": {"type":"acronym","def":"A 'win'. 'Big W' = great outcome.","origin":"gaming / sports","status":"ok"},
-  "l": {"type":"acronym","def":"A 'loss' or failure. 'Take the L' = accept defeat.","origin":"gaming / sports","status":"ok"},
-  "gg": {"type":"acronym","def":"'Good game' — said at end of a match; loosely 'it's done'.","origin":"gaming","status":"ok"},
-  "afk": {"type":"acronym","def":"'Away from keyboard' — not at the screen; absent.","origin":"gaming / chat","status":"ok"},
-  "lowkey": {"type":"slang","def":"Slightly, secretly, 'kind of'. Softens a statement.","origin":"AAVE → mainstream","status":"ok"},
-  "highkey": {"type":"slang","def":"Openly, very much.","origin":"AAVE → mainstream","status":"ok"},
-  "unserious": {"type":"slang","def":"Ridiculous, not to be taken seriously.","origin":"Black Twitter","status":"ok"},
-  "bet": {"type":"slang","def":"'Okay / deal / for sure' — an energetic agreement.","origin":"AAVE → mainstream","status":"ok"},
-  "slay": {"type":"slang","def":"To do something extremely well, or look amazing. Now slightly fading from peak.","origin":"ballroom / drag culture","status":"fading"},
-  "sus": {"type":"slang","def":"Suspicious or shady. Popularised by Among Us.","origin":"AAVE → Among Us","status":"ok"},
-  "simp": {"type":"slang","def":"Someone over-eager for another's attention.","origin":"hip-hop → meme culture","status":"ok"},
-  "stan": {"type":"slang","def":"An obsessive superfan. From Eminem's song 'Stan'.","origin":"Eminem, 2000","status":"ok"},
-  "ghosting": {"type":"slang","def":"Cutting off all contact suddenly and without explanation.","origin":"online dating","status":"ok"},
-  "situationship": {"type":"slang","def":"A romantic arrangement that refuses to define itself.","origin":"dating internet","status":"ok"},
-  "the ick": {"type":"slang","def":"Sudden, irreversible feeling of repulsion toward someone you were attracted to.","origin":"Love Island UK → TikTok","status":"ok"},
-  "rent-free": {"type":"slang","def":"'Living rent-free in my head' — you can't stop thinking about it.","origin":"Twitter/X","status":"ok"},
-  "mid": {"type":"slang","def":"Mediocre, overrated, thoroughly average.","origin":"gaming / hip-hop forums","status":"ok"},
-  "based": {"type":"slang","def":"Confidently yourself and indifferent to others' opinions.","origin":"Lil B → internet forums","status":"ok"},
-  "cringe": {"type":"slang","def":"Embarrassing second-hand discomfort. Opposite of based.","origin":"internet culture","status":"ok"},
-  "hits different": {"type":"slang","def":"Feels uniquely better in this context.","origin":"stan Twitter","status":"ok"},
-  "touch grass": {"type":"slang","def":"'Log off and go outside' — telling someone they're too online.","origin":"gaming Twitter","status":"ok"},
-  "main character": {"type":"slang","def":"Acting like the protagonist of the world.","origin":"TikTok, 2020","status":"ok"},
-  "side eye": {"type":"slang","def":"A look of suspicion or judgement.","origin":"AAVE → TikTok","status":"ok"},
-  "era": {"type":"slang","def":"A self-defined life phase: 'in my villain era'.","origin":"stan Twitter → TikTok","status":"ok"},
-  "cooking": {"type":"slang","def":"Doing something impressively well: 'let him cook'.","origin":"sports / gaming","status":"ok"},
-  "cooked": {"type":"slang","def":"Finished, doomed, beyond saving. 'We're cooked.'","origin":"gaming","status":"ok"},
-  "locked in": {"type":"slang","def":"Fully focused and committed.","origin":"sports / gaming","status":"ok"},
-  "glazing": {"type":"slang","def":"Excessive, embarrassing over-praising of someone.","origin":"gaming / NBA Twitter","status":"ok"},
-  "yapping": {"type":"slang","def":"Talking too much, rambling.","origin":"AAVE → TikTok","status":"ok"},
-  "ratio": {"type":"slang","def":"When a reply outperforms the post it answers.","origin":"Twitter/X","status":"ok"},
-  "ate": {"type":"slang","def":"Did something exceptionally well. 'Ate and left no crumbs'.","origin":"ballroom / drag","status":"ok"},
-  "fell off": {"type":"slang","def":"Declined in quality or relevance from a former peak.","origin":"hip-hop","status":"ok"},
-  "gaslight": {"type":"slang","def":"Manipulating someone into doubting their own reality.","origin":"psychology term → internet","status":"ok"},
-  "ick": {"type":"slang","def":"See 'the ick' — shorthand form.","origin":"Love Island UK → TikTok","status":"ok"},
-  "bussin": {"type":"slang","def":"Extremely good, usually food. Officially graveyarded — using it now reads as out-of-touch.","origin":"AAVE → TikTok","status":"cringe"},
-  "no cap": {"type":"slang","def":"'No lie' — emphasising truth. 'Cap' = a lie.","origin":"AAVE → TikTok","status":"ok"},
-  "it's giving": {"type":"slang","def":"'It's giving [X]' — it has the vibe of X.","origin":"ballroom → TikTok","status":"ok"},
-  "finna": {"type":"slang","def":"'Fixing to' — about to do something.","origin":"Southern AAVE","status":"ok"},
-  "pull up": {"type":"slang","def":"To show up or come through.","origin":"AAVE / rap","status":"ok"},
-  "gng": {"type":"slang","def":"'Gang' — a friendly term of address.","origin":"rap / AAVE","status":"ok"},
-  "rizz": {"type":"slang","def":"Charisma — now graveyarded; using it sincerely is a dead giveaway you're a millennial.","origin":"Kai Cenat / Twitch","status":"cringe"},
-  "delulu": {"type":"slang","def":"'Delusional', affectionately. The cliché alarm finally went off — sincere usage now reads as dated.","origin":"K-pop stan culture","status":"cringe"},
-  "sigma": {"type":"slang","def":"A 'lone wolf' male archetype, now mostly ironic.","origin":"manosphere → ironic meme","status":"cringe"},
-  "skibidi": {"type":"slang","def":"A mood-dependent intensifier from Skibidi Toilet. Officially in the cringe pile now.","origin":"Skibidi Toilet, YouTube","status":"cringe"},
-  "yeet": {"type":"slang","def":"To throw something with force. Firmly dated now.","origin":"Vine era","status":"cringe"},
-  "on fleek": {"type":"slang","def":"Perfectly styled. A 2014-15 artifact.","origin":"Vine, 2014","status":"cringe"},
-  "cheugy": {"type":"slang","def":"Off-trend in a millennial way. The word itself has become cheugy.","origin":"TikTok, 2021","status":"cringe"},
-  "grindset": {"type":"slang","def":"A relentless hustle-focused mindset (grind + mindset).","origin":"hustle-culture internet","status":"ok"},
-  "mewing": {"type":"slang","def":"Now meme shorthand for staying silent. 'I'm just mewing'.","origin":"looksmaxxing → school meme","status":"ok"},
-  "crash out": {"type":"slang","def":"To lose emotional control spectacularly. Defining term of 2025-26.","origin":"AAVE → TikTok","status":"ok"},
-  "choppelganger": {"type":"slang","def":"'Chopped' + 'doppelganger' — an unflattering lookalike. The format is dead; the word is going with it.","origin":"TikTok, 2026","status":"cringe"},
-  "chopped": {"type":"slang","def":"Unattractive, undesirable, or badly done.","origin":"AAVE → TikTok","status":"ok"},
-  "clanker": {"type":"slang","def":"Derogatory term for AI, robots, or AI-reliant people.","origin":"Star Wars → anti-AI internet","status":"ok"},
-  "ai slop": {"type":"slang","def":"Low-effort, mass-produced AI content flooding feeds.","origin":"tech criticism → mainstream","status":"ok"},
-  "shrekking": {"type":"slang","def":"Dating someone you're not attracted to hoping they'll treat you well. Now cringe — the discourse moved on.","origin":"dating TikTok, 2026","status":"cringe"},
-  "i know ball": {"type":"slang","def":"'I deeply understand this and have elite taste.'","origin":"sports Twitter → general, 2026","status":"ok"},
-  "404 coded": {"type":"slang","def":"Acting absent, empty, or error-like.","origin":"tech meme → TikTok, 2026","status":"ok"},
-  "canon event": {"type":"slang","def":"An unavoidable formative life experience.","origin":"Spider-Verse, 2023","status":"ok"},
-  "beige flag": {"type":"slang","def":"A partner trait that's neither good nor bad, just oddly boring.","origin":"dating TikTok","status":"ok"},
-  "brain rot": {"type":"meme","def":"The mushy-brain feeling from too much absurd internet content. Oxford WOTY 2024.","origin":"Oxford WOTY 2024","status":"fading"},
-  "aura": {"type":"slang","def":"Your social 'cool points'. '-1000 aura.'","origin":"gaming / streamers","status":"ok"},
-  "aura farming": {"type":"slang","def":"Sincere usage is officially graveyarded — what survives is the joke.","origin":"streamer communities","status":"cringe"},
-  "six seven": {"type":"meme","def":"'6-7' — nonsense audio meme. Officially graveyarded in middle schools.","origin":"TikTok audio → schools","status":"cringe"},
-  "looksmaxxing": {"type":"slang","def":"Peak-phase obsession now graveyarded; the manosphere has moved on.","origin":"manosphere → mainstream","status":"cringe","mature":true},
-  "mogging": {"type":"slang","def":"Visibly outshining someone in looks or presence.","origin":"bodybuilding forums","status":"fading","mature":true},
-  "sneaky link": {"type":"slang","def":"A secret romantic meetup, or the person you're secretly seeing.","origin":"AAVE / rap","status":"fading","mature":true},
-  "body count": {"type":"slang","def":"The number of people someone has slept with.","origin":"dating internet","status":"ok","mature":true},
-  "thirst trap": {"type":"slang","def":"A deliberately attractive photo posted for attention.","origin":"Instagram culture","status":"ok","mature":true},
-  "ragebait": {"type":"slang","def":"Content posted purely to provoke angry reactions.","origin":"forums → X","status":"ok"},
-  "edgelord": {"type":"slang","def":"Someone who performs shock value for attention.","origin":"forum culture","status":"ok"},
-  "doomscrolling": {"type":"slang","def":"Compulsively scrolling bad news.","origin":"pandemic-era Twitter","status":"ok"},
-  "micro-drama": {"type":"slang","def":"Ultra-short serialized vertical video soap operas.","origin":"Chinese vertical dramas → global, 2026","status":"ok"},
-  "great meme reset": {"type":"meme","def":"A 2026 movement calling for a return to nostalgic, human-made memes.","origin":"meme culture discourse, 2026","status":"ok"},
-  "nihilistic penguin": {"type":"meme","def":"A penguin from a 2007 documentary marching alone toward mountains — 2026 mascot of opting out.","origin":"2007 Herzog documentary","status":"ok"},
-  "kitkat heist": {"type":"meme","def":"Memes about the real 2026 theft of ~400,000 KitKat bars.","origin":"real news story → meme, 2026","status":"ok"},
-  "i am my perimeter": {"type":"meme","def":"A streamer's deadpan R6 line turned all-purpose 'locked in' declaration.","origin":"Snapiyya / R6 Siege clip, 2026","status":"ok"},
-  "material lover": {"type":"meme","def":"Soundtrack reference to Sienna Spiro's Devil Wears Prada 2 song — fashion/aspirational audio.","origin":"TDWP 2 soundtrack, June 2026","status":"ok"},
-  "remember who you are": {"type":"phrase","def":"Reels caption format over 'Freakin' Out' — travel, training, glow-up montages.","origin":"Reels trend, June 2026","status":"ok"},
-  "saxophone gets louder": {"type":"meme","def":"Audio format where sax music swells as on-screen chaos collapses.","origin":"TikTok audio meme, 2026","status":"ok"},
-  "banger badge": {"type":"meme","def":"X's 'Certified Banger' badge — became a meme within hours, faded almost as fast.","origin":"X platform update, June 2026","status":"cringe"},
-  "analog posting": {"type":"slang","def":"Posting deliberately low-tech content as anti-AI-slop signalling.","origin":"Reset-adjacent internet, 2026","status":"ok"},
-  "i have therapy": {"type":"phrase","def":"Reels POV format that cuts from 'sorry, I have therapy' to the creator's actual coping ritual. Wholesome flex.","origin":"Reels POV format, June 2026","status":"ok"},
-  "homer drops his donut": {"type":"meme","def":"AI-generated meme song where Homer 'D'oh's' over every micro-defeat. The slop the Reset crowd grudgingly likes.","origin":"AI meme song → TikTok, June 2026","status":"ok"},
-  "red vs blue button": {"type":"meme","def":"Viral two-button moral-dilemma format. Every niche now has its own version; the debates outlive the prompts.","origin":"X moral-dilemma post, June 2026","status":"ok"},
-  "algorithm prefers": {"type":"phrase","def":"A/B-style format pitting a high-effort edit against a deadpan static shot, letting the comments vote which wins.","origin":"Format meta, June 2026","status":"rising"},
-  "game time": {"type":"meme","def":"Future × Tyla FIFA World Cup 2026 audio — sports edits, gym, travel, World Cup anticipation.","origin":"FIFA WC 2026 soundtrack, June 2026","status":"ok"},
-  "red card confusion": {"type":"meme","def":"The South Africa bench's bewildered reactions to three red cards in the Mexico vs. SA World Cup 2026 opener — first viral meme of the tournament.","origin":"FIFA WC 2026 opener at Azteca Stadium, June 12, 2026","status":"rising"},
-  "sad for a girl so in love": {"type":"phrase","def":"Lyric from Olivia Rodrigo's June 12 2026 album, used as a caption template for emotional/situationship posts.","origin":"Olivia Rodrigo album release, June 2026","status":"rising"},
-  "unc": {"type":"slang","def":"Short for 'uncle' — affectionate for an older man, or teasing someone for being out of touch.","origin":"AAVE → TikTok, mid-2020s","status":"ok"},
-  "pop off": {"type":"slang","def":"To do something exceptionally well, or to hype someone up for doing so. 'Pop off, king.'","origin":"gaming / hip-hop → mainstream","status":"ok"},
-  "💀": {"type":"emoji","def":"Skull = 'I'm dead' — something is so funny you've metaphorically died laughing.","origin":"emoji shift ~2020","status":"ok"},
-  "😭": {"type":"emoji","def":"Rarely actual crying — usually 'this is hilarious'.","origin":"emoji shift","status":"ok"},
-  "🔥": {"type":"emoji","def":"Fire = excellent, impressive.","origin":"universal","status":"ok"},
-  "🧢": {"type":"emoji","def":"The cap = a lie. Reply '🧢' to call cap.","origin":"AAVE 'cap' → emoji","status":"ok"},
-  "💅": {"type":"emoji","def":"Nail polish = unbothered, sassy confidence.","origin":"Twitter/X","status":"ok"},
-  "🗿": {"type":"emoji","def":"The moai = deadpan, stoic, ironic 'sigma' energy.","origin":"gaming / meme culture","status":"ok"},
-  "✨": {"type":"emoji","def":"Sparkles = ironic emphasis: '✨boundaries✨'.","origin":"Twitter/X","status":"ok"},
-  "🤡": {"type":"emoji","def":"The clown = self-own or calling someone foolish.","origin":"meme culture","status":"ok"},
-  "🐐": {"type":"emoji","def":"The goat = GOAT, greatest of all time.","origin":"sports Twitter","status":"ok"},
-  "🫡": {"type":"emoji","def":"Salute = respectful acknowledgement or 'on it'.","origin":"emoji, 2022+","status":"ok"},
-  "🥀": {"type":"emoji","def":"Wilted rose = melodramatic heartbreak or ironic despair.","origin":"sad-posting internet","status":"ok"},
-  "👁️👄👁️": {"type":"emoji","def":"Wide eyes and lips = stunned witnessing of chaos.","origin":"TikTok, 2020","status":"ok"}
+  "ngl": {
+   "type": "abbr",
+   "def": "'Not gonna lie' — flags honesty or a mild confession.",
+   "origin": "texting / AAVE",
+   "status": "ok"
+  },
+  "iykyk": {
+   "type": "abbr",
+   "def": "'If you know, you know' — signals an inside reference.",
+   "origin": "Instagram / texting",
+   "status": "ok"
+  },
+  "fr": {
+   "type": "abbr",
+   "def": "'For real' — emphasises agreement. 'fr fr' = doubly so.",
+   "origin": "AAVE / texting",
+   "status": "ok"
+  },
+  "tfw": {
+   "type": "abbr",
+   "def": "'That feeling when' — sets up a relatable scenario.",
+   "origin": "4chan / meme format",
+   "status": "ok"
+  },
+  "tbh": {
+   "type": "abbr",
+   "def": "'To be honest' — prefaces a candid opinion.",
+   "origin": "early texting",
+   "status": "ok"
+  },
+  "wsg": {
+   "type": "abbr",
+   "def": "'What's good' — a casual greeting.",
+   "origin": "texting / AAVE",
+   "status": "ok"
+  },
+  "fwiw": {
+   "type": "abbr",
+   "def": "'For what it's worth' — softens an opinion.",
+   "origin": "early internet",
+   "status": "ok"
+  },
+  "imo": {
+   "type": "abbr",
+   "def": "'In my opinion' — flags a personal take.",
+   "origin": "Usenet / forums",
+   "status": "ok"
+  },
+  "smh": {
+   "type": "abbr",
+   "def": "'Shaking my head' — expresses disappointment.",
+   "origin": "texting / forums",
+   "status": "ok"
+  },
+  "idk": {
+   "type": "abbr",
+   "def": "'I don't know.'",
+   "origin": "texting",
+   "status": "ok"
+  },
+  "irl": {
+   "type": "abbr",
+   "def": "'In real life' — offline, as opposed to online.",
+   "origin": "early internet",
+   "status": "ok"
+  },
+  "tldr": {
+   "type": "abbr",
+   "def": "'Too long; didn't read' — a one-line summary.",
+   "origin": "forums / Reddit",
+   "status": "ok"
+  },
+  "icl": {
+   "type": "abbr",
+   "def": "'I can't lie' — same job as 'ngl'.",
+   "origin": "UK texting / AAVE",
+   "status": "ok"
+  },
+  "atp": {
+   "type": "abbr",
+   "def": "'At this point' — introduces a resigned conclusion.",
+   "origin": "texting",
+   "status": "ok"
+  },
+  "grwm": {
+   "type": "abbr",
+   "def": "'Get ready with me' — a video format.",
+   "origin": "YouTube → TikTok",
+   "status": "ok"
+  },
+  "ootd": {
+   "type": "abbr",
+   "def": "'Outfit of the day'.",
+   "origin": "fashion Instagram",
+   "status": "ok"
+  },
+  "pov": {
+   "type": "abbr",
+   "def": "'Point of view' — labels a video.",
+   "origin": "TikTok",
+   "status": "ok"
+  },
+  "dni": {
+   "type": "abbr",
+   "def": "'Do not interact' — a profile warning.",
+   "origin": "stan Twitter / Tumblr",
+   "status": "ok"
+  },
+  "oomf": {
+   "type": "abbr",
+   "def": "'One of my followers/friends'.",
+   "origin": "Twitter/X",
+   "status": "ok"
+  },
+  "fyp": {
+   "type": "abbr",
+   "def": "'For You Page' — TikTok's algorithmic feed.",
+   "origin": "TikTok",
+   "status": "ok"
+  },
+  "wyd": {
+   "type": "abbr",
+   "def": "'What are you doing?'",
+   "origin": "texting",
+   "status": "ok"
+  },
+  "hbu": {
+   "type": "abbr",
+   "def": "'How about you?'",
+   "origin": "texting",
+   "status": "ok"
+  },
+  "istg": {
+   "type": "abbr",
+   "def": "'I swear to god' — exasperated emphasis.",
+   "origin": "texting",
+   "status": "ok"
+  },
+  "lmk": {
+   "type": "abbr",
+   "def": "'Let me know.'",
+   "origin": "texting",
+   "status": "ok"
+  },
+  "nvm": {
+   "type": "abbr",
+   "def": "'Never mind.'",
+   "origin": "texting",
+   "status": "ok"
+  },
+  "ong": {
+   "type": "abbr",
+   "def": "'On god' — swearing something is true.",
+   "origin": "AAVE / texting",
+   "status": "ok"
+  },
+  "sdiybt": {
+   "type": "abbr",
+   "def": "An absurdist SpongeBob-derived phrase whose point is that it means nothing.",
+   "origin": "SpongeBob clip → TikTok, 2026",
+   "status": "ok"
+  },
+  "goat": {
+   "type": "acronym",
+   "def": "'Greatest of all time'. Often the goat emoji 🐐.",
+   "origin": "sports → mainstream",
+   "status": "ok"
+  },
+  "op": {
+   "type": "acronym",
+   "def": "'Original poster'. In gaming: 'overpowered'.",
+   "origin": "forum culture",
+   "status": "ok"
+  },
+  "npc": {
+   "type": "acronym",
+   "def": "'Non-player character' — acting robotic, on autopilot.",
+   "origin": "gaming → TikTok",
+   "status": "ok"
+  },
+  "fomo": {
+   "type": "acronym",
+   "def": "'Fear of missing out'.",
+   "origin": "2010s social media",
+   "status": "ok"
+  },
+  "jomo": {
+   "type": "acronym",
+   "def": "'Joy of missing out' — smug opposite of FOMO.",
+   "origin": "wellness internet",
+   "status": "ok"
+  },
+  "dm": {
+   "type": "acronym",
+   "def": "'Direct message'. 'Slide into the DMs' = flirty private contact.",
+   "origin": "Twitter/Instagram",
+   "status": "ok"
+  },
+  "rt": {
+   "type": "acronym",
+   "def": "'Retweet' — now used in speech as 'I agree / same'.",
+   "origin": "Twitter/X",
+   "status": "ok"
+  },
+  "w": {
+   "type": "acronym",
+   "def": "A 'win'. 'Big W' = great outcome.",
+   "origin": "gaming / sports",
+   "status": "ok"
+  },
+  "l": {
+   "type": "acronym",
+   "def": "A 'loss' or failure. 'Take the L' = accept defeat.",
+   "origin": "gaming / sports",
+   "status": "ok"
+  },
+  "gg": {
+   "type": "acronym",
+   "def": "'Good game' — said at end of a match; loosely 'it's done'.",
+   "origin": "gaming",
+   "status": "ok"
+  },
+  "afk": {
+   "type": "acronym",
+   "def": "'Away from keyboard' — not at the screen; absent.",
+   "origin": "gaming / chat",
+   "status": "ok"
+  },
+  "lowkey": {
+   "type": "slang",
+   "def": "Slightly, secretly, 'kind of'. Softens a statement.",
+   "origin": "AAVE → mainstream",
+   "status": "ok"
+  },
+  "highkey": {
+   "type": "slang",
+   "def": "Openly, very much.",
+   "origin": "AAVE → mainstream",
+   "status": "ok"
+  },
+  "unserious": {
+   "type": "slang",
+   "def": "Ridiculous, not to be taken seriously.",
+   "origin": "Black Twitter",
+   "status": "ok"
+  },
+  "bet": {
+   "type": "slang",
+   "def": "'Okay / deal / for sure' — an energetic agreement.",
+   "origin": "AAVE → mainstream",
+   "status": "ok"
+  },
+  "slay": {
+   "type": "slang",
+   "def": "To do something extremely well, or look amazing. Now slightly fading from peak.",
+   "origin": "ballroom / drag culture",
+   "status": "fading"
+  },
+  "sus": {
+   "type": "slang",
+   "def": "Suspicious or shady. Popularised by Among Us.",
+   "origin": "AAVE → Among Us",
+   "status": "ok"
+  },
+  "simp": {
+   "type": "slang",
+   "def": "Someone over-eager for another's attention.",
+   "origin": "hip-hop → meme culture",
+   "status": "ok"
+  },
+  "stan": {
+   "type": "slang",
+   "def": "An obsessive superfan. From Eminem's song 'Stan'.",
+   "origin": "Eminem, 2000",
+   "status": "ok"
+  },
+  "ghosting": {
+   "type": "slang",
+   "def": "Cutting off all contact suddenly and without explanation.",
+   "origin": "online dating",
+   "status": "ok"
+  },
+  "situationship": {
+   "type": "slang",
+   "def": "A romantic arrangement that refuses to define itself.",
+   "origin": "dating internet",
+   "status": "ok"
+  },
+  "the ick": {
+   "type": "slang",
+   "def": "Sudden, irreversible feeling of repulsion toward someone you were attracted to.",
+   "origin": "Love Island UK → TikTok",
+   "status": "ok"
+  },
+  "rent-free": {
+   "type": "slang",
+   "def": "'Living rent-free in my head' — you can't stop thinking about it.",
+   "origin": "Twitter/X",
+   "status": "ok"
+  },
+  "mid": {
+   "type": "slang",
+   "def": "Mediocre, overrated, thoroughly average.",
+   "origin": "gaming / hip-hop forums",
+   "status": "ok"
+  },
+  "based": {
+   "type": "slang",
+   "def": "Confidently yourself and indifferent to others' opinions.",
+   "origin": "Lil B → internet forums",
+   "status": "ok"
+  },
+  "cringe": {
+   "type": "slang",
+   "def": "Embarrassing second-hand discomfort. Opposite of based.",
+   "origin": "internet culture",
+   "status": "ok"
+  },
+  "hits different": {
+   "type": "slang",
+   "def": "Feels uniquely better in this context.",
+   "origin": "stan Twitter",
+   "status": "ok"
+  },
+  "touch grass": {
+   "type": "slang",
+   "def": "'Log off and go outside' — telling someone they're too online.",
+   "origin": "gaming Twitter",
+   "status": "ok"
+  },
+  "main character": {
+   "type": "slang",
+   "def": "Acting like the protagonist of the world.",
+   "origin": "TikTok, 2020",
+   "status": "ok"
+  },
+  "side eye": {
+   "type": "slang",
+   "def": "A look of suspicion or judgement.",
+   "origin": "AAVE → TikTok",
+   "status": "ok"
+  },
+  "era": {
+   "type": "slang",
+   "def": "A self-defined life phase: 'in my villain era'.",
+   "origin": "stan Twitter → TikTok",
+   "status": "ok"
+  },
+  "cooking": {
+   "type": "slang",
+   "def": "Doing something impressively well: 'let him cook'.",
+   "origin": "sports / gaming",
+   "status": "ok"
+  },
+  "cooked": {
+   "type": "slang",
+   "def": "Finished, doomed, beyond saving. 'We're cooked.'",
+   "origin": "gaming",
+   "status": "ok"
+  },
+  "locked in": {
+   "type": "slang",
+   "def": "Fully focused and committed.",
+   "origin": "sports / gaming",
+   "status": "ok"
+  },
+  "glazing": {
+   "type": "slang",
+   "def": "Excessive, embarrassing over-praising of someone.",
+   "origin": "gaming / NBA Twitter",
+   "status": "ok"
+  },
+  "yapping": {
+   "type": "slang",
+   "def": "Talking too much, rambling.",
+   "origin": "AAVE → TikTok",
+   "status": "ok"
+  },
+  "ratio": {
+   "type": "slang",
+   "def": "When a reply outperforms the post it answers.",
+   "origin": "Twitter/X",
+   "status": "ok"
+  },
+  "ate": {
+   "type": "slang",
+   "def": "Did something exceptionally well. 'Ate and left no crumbs'.",
+   "origin": "ballroom / drag",
+   "status": "ok"
+  },
+  "fell off": {
+   "type": "slang",
+   "def": "Declined in quality or relevance from a former peak.",
+   "origin": "hip-hop",
+   "status": "ok"
+  },
+  "gaslight": {
+   "type": "slang",
+   "def": "Manipulating someone into doubting their own reality.",
+   "origin": "psychology term → internet",
+   "status": "ok"
+  },
+  "ick": {
+   "type": "slang",
+   "def": "See 'the ick' — shorthand form.",
+   "origin": "Love Island UK → TikTok",
+   "status": "ok"
+  },
+  "bussin": {
+   "type": "slang",
+   "def": "Extremely good, usually food. Officially graveyarded — using it now reads as out-of-touch.",
+   "origin": "AAVE → TikTok",
+   "status": "cringe"
+  },
+  "no cap": {
+   "type": "slang",
+   "def": "'No lie' — emphasising truth. 'Cap' = a lie.",
+   "origin": "AAVE → TikTok",
+   "status": "ok"
+  },
+  "it's giving": {
+   "type": "slang",
+   "def": "'It's giving [X]' — it has the vibe of X.",
+   "origin": "ballroom → TikTok",
+   "status": "ok"
+  },
+  "finna": {
+   "type": "slang",
+   "def": "'Fixing to' — about to do something.",
+   "origin": "Southern AAVE",
+   "status": "ok"
+  },
+  "pull up": {
+   "type": "slang",
+   "def": "To show up or come through.",
+   "origin": "AAVE / rap",
+   "status": "ok"
+  },
+  "gng": {
+   "type": "slang",
+   "def": "'Gang' — a friendly term of address.",
+   "origin": "rap / AAVE",
+   "status": "ok"
+  },
+  "rizz": {
+   "type": "slang",
+   "def": "Charisma — now graveyarded; using it sincerely is a dead giveaway you're a millennial.",
+   "origin": "Kai Cenat / Twitch",
+   "status": "cringe"
+  },
+  "delulu": {
+   "type": "slang",
+   "def": "'Delusional', affectionately. The cliché alarm finally went off — sincere usage now reads as dated.",
+   "origin": "K-pop stan culture",
+   "status": "cringe"
+  },
+  "sigma": {
+   "type": "slang",
+   "def": "A 'lone wolf' male archetype, now mostly ironic.",
+   "origin": "manosphere → ironic meme",
+   "status": "cringe"
+  },
+  "skibidi": {
+   "type": "slang",
+   "def": "A mood-dependent intensifier from Skibidi Toilet. Officially in the cringe pile now.",
+   "origin": "Skibidi Toilet, YouTube",
+   "status": "cringe"
+  },
+  "yeet": {
+   "type": "slang",
+   "def": "To throw something with force. Firmly dated now.",
+   "origin": "Vine era",
+   "status": "cringe"
+  },
+  "on fleek": {
+   "type": "slang",
+   "def": "Perfectly styled. A 2014-15 artifact.",
+   "origin": "Vine, 2014",
+   "status": "cringe"
+  },
+  "cheugy": {
+   "type": "slang",
+   "def": "Off-trend in a millennial way. The word itself has become cheugy.",
+   "origin": "TikTok, 2021",
+   "status": "cringe"
+  },
+  "grindset": {
+   "type": "slang",
+   "def": "A relentless hustle-focused mindset (grind + mindset).",
+   "origin": "hustle-culture internet",
+   "status": "ok"
+  },
+  "mewing": {
+   "type": "slang",
+   "def": "Now meme shorthand for staying silent. 'I'm just mewing'.",
+   "origin": "looksmaxxing → school meme",
+   "status": "ok"
+  },
+  "crash out": {
+   "type": "slang",
+   "def": "To lose emotional control spectacularly. Defining term of 2025-26.",
+   "origin": "AAVE → TikTok",
+   "status": "ok"
+  },
+  "choppelganger": {
+   "type": "slang",
+   "def": "'Chopped' + 'doppelganger' — an unflattering lookalike. The format is dead; the word is going with it.",
+   "origin": "TikTok, 2026",
+   "status": "cringe"
+  },
+  "chopped": {
+   "type": "slang",
+   "def": "Unattractive, undesirable, or badly done.",
+   "origin": "AAVE → TikTok",
+   "status": "ok"
+  },
+  "clanker": {
+   "type": "slang",
+   "def": "Derogatory term for AI, robots, or AI-reliant people.",
+   "origin": "Star Wars → anti-AI internet",
+   "status": "ok"
+  },
+  "ai slop": {
+   "type": "slang",
+   "def": "Low-effort, mass-produced AI content flooding feeds.",
+   "origin": "tech criticism → mainstream",
+   "status": "ok"
+  },
+  "shrekking": {
+   "type": "slang",
+   "def": "Dating someone you're not attracted to hoping they'll treat you well. Now cringe — the discourse moved on.",
+   "origin": "dating TikTok, 2026",
+   "status": "cringe"
+  },
+  "i know ball": {
+   "type": "slang",
+   "def": "'I deeply understand this and have elite taste.'",
+   "origin": "sports Twitter → general, 2026",
+   "status": "ok"
+  },
+  "404 coded": {
+   "type": "slang",
+   "def": "Acting absent, empty, or error-like.",
+   "origin": "tech meme → TikTok, 2026",
+   "status": "fading"
+  },
+  "canon event": {
+   "type": "slang",
+   "def": "An unavoidable formative life experience.",
+   "origin": "Spider-Verse, 2023",
+   "status": "ok"
+  },
+  "beige flag": {
+   "type": "slang",
+   "def": "A partner trait that's neither good nor bad, just oddly boring.",
+   "origin": "dating TikTok",
+   "status": "ok"
+  },
+  "brain rot": {
+   "type": "meme",
+   "def": "The mushy-brain feeling from too much absurd internet content. Oxford WOTY 2024.",
+   "origin": "Oxford WOTY 2024",
+   "status": "fading"
+  },
+  "aura": {
+   "type": "slang",
+   "def": "Your social 'cool points'. '-1000 aura.'",
+   "origin": "gaming / streamers",
+   "status": "ok"
+  },
+  "aura farming": {
+   "type": "slang",
+   "def": "Sincere usage is officially graveyarded — what survives is the joke.",
+   "origin": "streamer communities",
+   "status": "cringe"
+  },
+  "six seven": {
+   "type": "meme",
+   "def": "'6-7' — nonsense audio meme. Officially graveyarded in middle schools.",
+   "origin": "TikTok audio → schools",
+   "status": "cringe"
+  },
+  "looksmaxxing": {
+   "type": "slang",
+   "def": "Peak-phase obsession now graveyarded; the manosphere has moved on.",
+   "origin": "manosphere → mainstream",
+   "status": "cringe",
+   "mature": true
+  },
+  "mogging": {
+   "type": "slang",
+   "def": "Visibly outshining someone in looks or presence.",
+   "origin": "bodybuilding forums",
+   "status": "fading",
+   "mature": true
+  },
+  "sneaky link": {
+   "type": "slang",
+   "def": "A secret romantic meetup, or the person you're secretly seeing.",
+   "origin": "AAVE / rap",
+   "status": "fading",
+   "mature": true
+  },
+  "body count": {
+   "type": "slang",
+   "def": "The number of people someone has slept with.",
+   "origin": "dating internet",
+   "status": "ok",
+   "mature": true
+  },
+  "thirst trap": {
+   "type": "slang",
+   "def": "A deliberately attractive photo posted for attention.",
+   "origin": "Instagram culture",
+   "status": "ok",
+   "mature": true
+  },
+  "ragebait": {
+   "type": "slang",
+   "def": "Content posted purely to provoke angry reactions.",
+   "origin": "forums → X",
+   "status": "ok"
+  },
+  "edgelord": {
+   "type": "slang",
+   "def": "Someone who performs shock value for attention.",
+   "origin": "forum culture",
+   "status": "ok"
+  },
+  "doomscrolling": {
+   "type": "slang",
+   "def": "Compulsively scrolling bad news.",
+   "origin": "pandemic-era Twitter",
+   "status": "ok"
+  },
+  "micro-drama": {
+   "type": "slang",
+   "def": "Ultra-short serialized vertical video soap operas.",
+   "origin": "Chinese vertical dramas → global, 2026",
+   "status": "ok"
+  },
+  "great meme reset": {
+   "type": "meme",
+   "def": "A 2026 movement calling for a return to nostalgic, human-made memes.",
+   "origin": "meme culture discourse, 2026",
+   "status": "ok"
+  },
+  "nihilistic penguin": {
+   "type": "meme",
+   "def": "A penguin from a 2007 documentary marching alone toward mountains — 2026 mascot of opting out.",
+   "origin": "2007 Herzog documentary",
+   "status": "ok"
+  },
+  "kitkat heist": {
+   "type": "meme",
+   "def": "Memes about the real 2026 theft of ~400,000 KitKat bars.",
+   "origin": "real news story → meme, 2026",
+   "status": "ok"
+  },
+  "i am my perimeter": {
+   "type": "meme",
+   "def": "A streamer's deadpan R6 line turned all-purpose 'locked in' declaration.",
+   "origin": "Snapiyya / R6 Siege clip, 2026",
+   "status": "ok"
+  },
+  "material lover": {
+   "type": "meme",
+   "def": "Soundtrack reference to Sienna Spiro's Devil Wears Prada 2 song — fashion/aspirational audio.",
+   "origin": "TDWP 2 soundtrack, June 2026",
+   "status": "ok"
+  },
+  "remember who you are": {
+   "type": "phrase",
+   "def": "Reels caption format over 'Freakin' Out' — travel, training, glow-up montages.",
+   "origin": "Reels trend, June 2026",
+   "status": "ok"
+  },
+  "saxophone gets louder": {
+   "type": "meme",
+   "def": "Audio format where sax music swells as on-screen chaos collapses.",
+   "origin": "TikTok audio meme, 2026",
+   "status": "ok"
+  },
+  "banger badge": {
+   "type": "meme",
+   "def": "X's 'Certified Banger' badge — became a meme within hours, faded almost as fast.",
+   "origin": "X platform update, June 2026",
+   "status": "cringe"
+  },
+  "analog posting": {
+   "type": "slang",
+   "def": "Posting deliberately low-tech content as anti-AI-slop signalling.",
+   "origin": "Reset-adjacent internet, 2026",
+   "status": "ok"
+  },
+  "i have therapy": {
+   "type": "phrase",
+   "def": "Reels POV format that cuts from 'sorry, I have therapy' to the creator's actual coping ritual. Wholesome flex.",
+   "origin": "Reels POV format, June 2026",
+   "status": "ok"
+  },
+  "homer drops his donut": {
+   "type": "meme",
+   "def": "AI-generated meme song where Homer 'D'oh's' over every micro-defeat. The slop the Reset crowd grudgingly likes.",
+   "origin": "AI meme song → TikTok, June 2026",
+   "status": "ok"
+  },
+  "red vs blue button": {
+   "type": "meme",
+   "def": "Viral two-button moral-dilemma format. Every niche now has its own version; the debates outlive the prompts.",
+   "origin": "X moral-dilemma post, June 2026",
+   "status": "ok"
+  },
+  "algorithm prefers": {
+   "type": "phrase",
+   "def": "A/B-style format pitting a high-effort edit against a deadpan static shot, letting the comments vote which wins.",
+   "origin": "Format meta, June 2026",
+   "status": "rising"
+  },
+  "game time": {
+   "type": "meme",
+   "def": "Future × Tyla FIFA World Cup 2026 audio — sports edits, gym, travel, World Cup anticipation.",
+   "origin": "FIFA WC 2026 soundtrack, June 2026",
+   "status": "ok"
+  },
+  "red card confusion": {
+   "type": "meme",
+   "def": "The South Africa bench's bewildered reactions to three red cards in the Mexico vs. SA World Cup 2026 opener — first viral meme of the tournament.",
+   "origin": "FIFA WC 2026 opener at Azteca Stadium, June 12, 2026",
+   "status": "rising"
+  },
+  "sad for a girl so in love": {
+   "type": "phrase",
+   "def": "Lyric from Olivia Rodrigo's June 12 2026 album, used as a caption template for emotional/situationship posts.",
+   "origin": "Olivia Rodrigo album release, June 2026",
+   "status": "rising"
+  },
+  "unc": {
+   "type": "slang",
+   "def": "Short for 'uncle' — affectionate for an older man, or teasing someone for being out of touch.",
+   "origin": "AAVE → TikTok, mid-2020s",
+   "status": "ok"
+  },
+  "pop off": {
+   "type": "slang",
+   "def": "To do something exceptionally well, or to hype someone up for doing so. 'Pop off, king.'",
+   "origin": "gaming / hip-hop → mainstream",
+   "status": "ok"
+  },
+  "💀": {
+   "type": "emoji",
+   "def": "Skull = 'I'm dead' — something is so funny you've metaphorically died laughing.",
+   "origin": "emoji shift ~2020",
+   "status": "ok"
+  },
+  "😭": {
+   "type": "emoji",
+   "def": "Rarely actual crying — usually 'this is hilarious'.",
+   "origin": "emoji shift",
+   "status": "ok"
+  },
+  "🔥": {
+   "type": "emoji",
+   "def": "Fire = excellent, impressive.",
+   "origin": "universal",
+   "status": "ok"
+  },
+  "🧢": {
+   "type": "emoji",
+   "def": "The cap = a lie. Reply '🧢' to call cap.",
+   "origin": "AAVE 'cap' → emoji",
+   "status": "ok"
+  },
+  "💅": {
+   "type": "emoji",
+   "def": "Nail polish = unbothered, sassy confidence.",
+   "origin": "Twitter/X",
+   "status": "ok"
+  },
+  "🗿": {
+   "type": "emoji",
+   "def": "The moai = deadpan, stoic, ironic 'sigma' energy.",
+   "origin": "gaming / meme culture",
+   "status": "ok"
+  },
+  "✨": {
+   "type": "emoji",
+   "def": "Sparkles = ironic emphasis: '✨boundaries✨'.",
+   "origin": "Twitter/X",
+   "status": "ok"
+  },
+  "🤡": {
+   "type": "emoji",
+   "def": "The clown = self-own or calling someone foolish.",
+   "origin": "meme culture",
+   "status": "ok"
+  },
+  "🐐": {
+   "type": "emoji",
+   "def": "The goat = GOAT, greatest of all time.",
+   "origin": "sports Twitter",
+   "status": "ok"
+  },
+  "🫡": {
+   "type": "emoji",
+   "def": "Salute = respectful acknowledgement or 'on it'.",
+   "origin": "emoji, 2022+",
+   "status": "ok"
+  },
+  "🦀": {
+   "type": "emoji",
+   "def": "Wilted rose = melodramatic heartbreak or ironic despair.",
+   "origin": "sad-posting internet",
+   "status": "ok"
+  },
+  "👁️👄👁️": {
+   "type": "emoji",
+   "def": "Wide eyes and lips = stunned witnessing of chaos.",
+   "origin": "TikTok, 2020",
+   "status": "ok"
+  },
+  "fairs": {
+   "type": "slang",
+   "def": "From a June 16 2026 @yowheredidjogo TikTok — creators posing for 'fairs' stickers meant to be screenshotted and reused as reactions.",
+   "origin": "@yowheredidjogo TikTok, June 16 2026",
+   "status": "rising"
+  },
+  "du bist gut genug": {
+   "type": "meme",
+   "def": "German for 'you are good enough'. A wholesome audio paired with cartoon mashups (Cleveland Brown Jr. is the breakout) for surreal-emotional comedy.",
+   "origin": "TikTok audio meme → cross-platform, early June 2026",
+   "status": "rising"
+  },
+  "pressure": {
+   "type": "meme",
+   "def": "Nyck Caution's track 'PRESSURE!' — dominant audio for World Cup highlights, gym edits, and clutch-moment content in June 2026.",
+   "origin": "Nyck Caution single → TikTok WC wave, June 2026",
+   "status": "rising"
+  },
+  "rare aesthetic": {
+   "type": "meme",
+   "def": "Nostalgic compilation format pairing oddly-specific or strangely-satisfying clips with the 'rare aesthetic' label.",
+   "origin": "TikTok aesthetic edits, mid-2026",
+   "status": "rising"
+  },
+  "food jutsu": {
+   "type": "meme",
+   "def": "Cooking videos shot as if the food prep were a ninja technique — stylised, dramatic, lightly absurd.",
+   "origin": "TikTok cooking format, June 2026",
+   "status": "rising"
+  }
  },
  "pageText": "ngl the red card confusion edits are unc-coded — the SA bench saw three reds and lowkey i felt that 💀. meanwhile homer drops his donut is colonising my fyp, and Olivia just dropped 'sad for a girl so in love' so every situationship post pop off mode now. clanker accounts still posting ai slop tho, istg the great meme reset can't come soon enough. atp the nihilistic penguin understood the assignment — he saw the discourse and chose the mountains, and tbh? based.",
- "pageTerms": ["ngl","red card confusion","unc","lowkey","💀","homer drops his donut","fyp","sad for a girl so in love","pop off","clanker","ai slop","istg","great meme reset","atp","nihilistic penguin","tbh","based"],
+ "pageTerms": [
+  "ngl",
+  "red card confusion",
+  "unc",
+  "lowkey",
+  "💀",
+  "homer drops his donut",
+  "fyp",
+  "sad for a girl so in love",
+  "pop off",
+  "clanker",
+  "ai slop",
+  "istg",
+  "great meme reset",
+  "atp",
+  "nihilistic penguin",
+  "tbh",
+  "based"
+ ],
  "examples": [
   "red card confusion is just the SA bench discovering canon events live on tv — unc, no cap",
   "ngl the 'sad for a girl so in love' lyric overlay is cooking my fyp, every situationship a canon event",
