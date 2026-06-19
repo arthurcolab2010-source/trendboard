@@ -161,7 +161,6 @@ header{position:sticky;top:0;z-index:50;background:rgba(20,19,16,.82);backdrop-f
 .bname{font-family:'Bricolage Grotesque';font-weight:600;font-size:19px}
 .bname.r{text-align:right}
 .vs{font-family:'Bricolage Grotesque';font-weight:800;font-size:13px;color:var(--ink3);background:var(--bg2);border:1px solid var(--hair);border-radius:999px;padding:5px 11px}
-.bbar{height:7px;display:grid}
 .bvotes{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:14px 22px 10px}
 .bv{font-family:inherit;background:var(--bg2);border:1px solid var(--hair);border-radius:var(--r-s);padding:11px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:3px;transition:.16s}
 .bv:hover{border-color:var(--line-s)}
@@ -201,8 +200,11 @@ header{position:sticky;top:0;z-index:50;background:rgba(20,19,16,.82);backdrop-f
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(120%);background:var(--ink);color:#1a1a10;font-weight:600;font-size:13.5px;padding:11px 20px;border-radius:999px;box-shadow:var(--shadow);transition:transform .4s cubic-bezier(.2,.9,.2,1);z-index:80;display:flex;align-items:center;gap:8px}
 .toast.show{transform:translateX(-50%) translateY(0)}
 
-footer{border-top:1px solid var(--hair);padding:28px 0;color:var(--ink3);font-size:12.5px;text-align:center;margin-top:30px}
-footer b{color:var(--ink2);font-weight:600}
+/* battle gating: hide distribution until the user has voted */
+.bbar{height:7px;display:grid;opacity:0;transition:opacity .35s ease}
+.battle.voted .bbar{opacity:1}
+.bv .pct.locked{color:var(--ink3);font-weight:600}
+.bv .n.locked{color:var(--ink3);font-style:italic}
 
 @media(max-width:720px){
   .metrics{grid-template-columns:repeat(2,1fr)}
@@ -296,10 +298,6 @@ footer b{color:var(--ink2);font-weight:600}
     <div id="rgrid"></div>
   </div>
 </section>
-
-<footer class="wrap">
-  <b>TrendBoard</b> — prototype UI · data is mock until the API is connected · see <b>// CONNECT API</b> markers in source
-</footer>
 
 <div class="toast" id="toast"></div>
 
@@ -447,12 +445,16 @@ function miniSpark(tl,color){
 
 function renderMetrics(){
   const m=DATA.meta;
-  const bars=n=>Array.from({length:7},()=>`<i style="height:${20+Math.random()*80}%"></i>`).join('');
+  // Deterministic spark heights from the trend list — so the bars don't shimmy on every render.
+  const heights=(DATA.trends||[]).slice(0,7).map(t=>Math.round(t.decay*100)).concat([62,48,75,40,68,55,71]).slice(0,7);
+  const bars=heights.map(h=>`<i style="height:${Math.max(20,Math.min(100,h))}%"></i>`).join('');
+  // Wrap long dates on two lines so the metric card doesn't overflow.
+  const updShort=(m.updated||'').replace(/, /,'<br>');
   document.getElementById('metrics').innerHTML=`
-    <div class="metric"><div class="k">Tracking</div><div class="v">${m.tracking}<small> trends</small></div><div class="spark">${bars()}</div></div>
+    <div class="metric"><div class="k">Tracking</div><div class="v">${m.tracking}<small> trends</small></div><div class="spark">${bars}</div></div>
     <div class="metric"><div class="k">Peak viral</div><div class="v">${m.peak}</div></div>
     <div class="metric"><div class="k">Died this week</div><div class="v">${m.died}</div></div>
-    <div class="metric"><div class="k">Updated</div><div class="v" style="font-size:22px;padding-top:8px">${m.updated}</div></div>`;
+    <div class="metric"><div class="k">Updated</div><div class="v" style="font-size:18px;line-height:1.15;padding-top:10px">${updShort}</div></div>`;
 }
 
 function renderFilters(){
@@ -590,12 +592,14 @@ async function loadBattles(){
 }
 function battleHTML(b,i){
   const v=bVotes[i],tot=v.a+v.b,ap=Math.round(v.a/tot*100),bp=100-ap;
-  return `<div class="battle">
+  const voted=!!v.voted;
+  const cols=voted?`${ap}fr ${bp}fr`:'1fr 1fr';
+  return `<div class="battle${voted?' voted':''}">
     <div class="bhead"><div class="bname">${b.a}</div><div class="vs">VS</div><div class="bname r">${b.b}</div></div>
-    <div class="bbar" style="grid-template-columns:${ap}fr ${bp}fr"><div style="background:var(--lime)"></div><div style="background:var(--coral)"></div></div>
+    <div class="bbar" style="grid-template-columns:${cols}"><div style="background:var(--lime)"></div><div style="background:var(--coral)"></div></div>
     <div class="bvotes">
-      <button class="bv ${v.voted==='a'?'on':''}" onclick="voteB(${i},'a')"><span class="pct">${v.voted?ap+'%':'?'}</span><span class="n">${v.a} votes</span></button>
-      <button class="bv ${v.voted==='b'?'on-r':''}" onclick="voteB(${i},'b')"><span class="pct">${v.voted?bp+'%':'?'}</span><span class="n">${v.b} votes</span></button>
+      <button class="bv ${v.voted==='a'?'on':''}" onclick="voteB(${i},'a')"><span class="pct ${voted?'':'locked'}">${voted?ap+'%':'?'}</span><span class="n ${voted?'':'locked'}">${voted?(v.a+' votes'):'tap to reveal'}</span></button>
+      <button class="bv ${v.voted==='b'?'on-r':''}" onclick="voteB(${i},'b')"><span class="pct ${voted?'':'locked'}">${voted?bp+'%':'?'}</span><span class="n ${voted?'':'locked'}">${voted?(v.b+' votes'):'tap to reveal'}</span></button>
     </div>
     <div class="bq">${b.q}</div>
   </div>`;
