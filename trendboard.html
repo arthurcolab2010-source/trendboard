@@ -206,6 +206,15 @@ header{position:sticky;top:0;z-index:50;background:rgba(20,19,16,.82);backdrop-f
 .bv .pct.locked{color:var(--ink3);font-weight:600}
 .bv .n.locked{color:var(--ink3);font-style:italic}
 
+/* archived card treatment: muted but still readable + clearly labeled */
+.card.arch{background:var(--bg2);border-color:var(--hair);opacity:.92}
+.card.arch:hover{opacity:1}
+.card.arch .rank{color:var(--ink3);font-size:14px}
+.card.arch .cname{color:var(--ink2)}
+.archtag{font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--ink3);border:1px solid var(--hair);padding:2px 7px;border-radius:999px;font-family:'JetBrains Mono'}
+.archive-divider{display:flex;align-items:center;gap:12px;margin:16px 0;color:var(--ink3);font-size:12px;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
+.archive-divider::before,.archive-divider::after{content:'';flex:1;height:1px;background:var(--hair)}
+
 @media(max-width:720px){
   .metrics{grid-template-columns:repeat(2,1fr)}
   .nav .lab{display:none}
@@ -253,7 +262,7 @@ header{position:sticky;top:0;z-index:50;background:rgba(20,19,16,.82);backdrop-f
     <div class="controls">
       <div class="search">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3" stroke-linecap="round"/></svg>
-        <input id="search" placeholder="Search trends…" oninput="render()" />
+        <input id="search" placeholder="Search live trends + 30+ archived…" oninput="render()" />
       </div>
       <div class="filters" id="filters"></div>
       <div class="sortwrap">
@@ -335,6 +344,7 @@ async function loadCuratedData(){
 
 const API = {
   async getTrends(){ await wait(120); return DATA.trends; },
+  async getArchive(){ await wait(40); return DATA.archive || []; },
   async getBattles(){ await wait(60); return DATA.battles; },
   async getDigest(){ await wait(60); return DATA.digest; },
   async getRadar(interests){
@@ -411,7 +421,7 @@ const MOCK = {
 /* ============================================================
    STATE + HELPERS
    ============================================================ */
-let TRENDS=[], FILTER='all', SORT='heat', SEARCH='', expanded=null, levels={}, saved=new Set();
+let TRENDS=[], ARCHIVE=[], FILTER='all', SORT='heat', SEARCH='', expanded=null, levels={}, saved=new Set();
 const CATS=['all','meme','slang','challenge','audio','drama'];
 const SORTS={heat:'Heat',fresh:'Rising',newest:'Newest'};
 const stageColor=s=>({Peak:'var(--lime)',Active:'var(--gold)',Fading:'var(--coral)',Dead:'var(--ink3)',Confused:'var(--violet)'})[s]||'var(--ink3)';
@@ -445,16 +455,12 @@ function miniSpark(tl,color){
 
 function renderMetrics(){
   const m=DATA.meta;
-  // Deterministic spark heights from the trend list — so the bars don't shimmy on every render.
-  const heights=(DATA.trends||[]).slice(0,7).map(t=>Math.round(t.decay*100)).concat([62,48,75,40,68,55,71]).slice(0,7);
-  const bars=heights.map(h=>`<i style="height:${Math.max(20,Math.min(100,h))}%"></i>`).join('');
-  // Wrap long dates on two lines so the metric card doesn't overflow.
-  const updShort=(m.updated||'').replace(/, /,'<br>');
+  const bars=n=>Array.from({length:7},()=>`<i style="height:${20+Math.random()*80}%"></i>`).join('');
   document.getElementById('metrics').innerHTML=`
-    <div class="metric"><div class="k">Tracking</div><div class="v">${m.tracking}<small> trends</small></div><div class="spark">${bars}</div></div>
+    <div class="metric"><div class="k">Tracking</div><div class="v">${m.tracking}<small> trends</small></div><div class="spark">${bars()}</div></div>
     <div class="metric"><div class="k">Peak viral</div><div class="v">${m.peak}</div></div>
     <div class="metric"><div class="k">Died this week</div><div class="v">${m.died}</div></div>
-    <div class="metric"><div class="k">Updated</div><div class="v" style="font-size:18px;line-height:1.15;padding-top:10px">${updShort}</div></div>`;
+    <div class="metric"><div class="k">Updated</div><div class="v" style="font-size:22px;padding-top:8px">${m.updated}</div></div>`;
 }
 
 function renderFilters(){
@@ -465,24 +471,55 @@ function setFilter(c){FILTER=c;renderFilters();render()}
 function cycleSort(){const k=Object.keys(SORTS);SORT=k[(k.indexOf(SORT)+1)%k.length];document.getElementById('sortLab').textContent=SORTS[SORT];render()}
 
 function render(){
-  let list=TRENDS.slice();
-  if(FILTER!=='all')list=list.filter(t=>t.cat===FILTER);
   SEARCH=document.getElementById('search').value.trim().toLowerCase();
-  if(SEARCH)
-    list=list.filter(t=>(t.name+' '+t.cat+' '+t.plat).toLowerCase().includes(SEARCH));
-  if(SORT==='heat')list.sort((a,b)=>b.decay-a.decay);
-  if(SORT==='fresh')list.sort((a,b)=>(b.tl.d[b.tl.d.length-1]-b.tl.d[0])-(a.tl.d[a.tl.d.length-1]-a.tl.d[0])); // fastest climbers first
-  if(SORT==='newest')list.sort((a,b)=>b.id-a.id); // most recently added first
+  // Browsing mode: include archive when the user is actually searching or filtering.
+  // Default leaderboard view (no search, all categories) shows only active trends.
+  const browsing = !!SEARCH || FILTER!=='all';
+  const archivedIds = new Set(ARCHIVE.map(a=>a.id));
 
-  if(!list.length){document.getElementById('tlist').innerHTML='<p style="color:var(--ink3);padding:30px 0;text-align:center">No trends match.</p>';return}
+  const matches = arr => {
+    let l = arr.slice();
+    if(FILTER!=='all') l = l.filter(t=>t.cat===FILTER);
+    if(SEARCH){
+      // Search across name, category, platform, origin and the definitions themselves so
+      // archived trends are reachable by phrase, not just title.
+      l = l.filter(t=>{
+        const hay=(t.name+' '+t.cat+' '+t.plat+' '+(t.origin||'')+' '+(t.def?Object.values(t.def).join(' '):'')).toLowerCase();
+        return hay.includes(SEARCH);
+      });
+    }
+    if(SORT==='heat')   l.sort((a,b)=>b.decay-a.decay);
+    if(SORT==='fresh')  l.sort((a,b)=>(b.tl.d[b.tl.d.length-1]-b.tl.d[0])-(a.tl.d[a.tl.d.length-1]-a.tl.d[0])); // fastest climbers first
+    if(SORT==='newest') l.sort((a,b)=>b.id-a.id);
+    return l;
+  };
+
+  const live   = matches(TRENDS).map(t=>({...t,_archived:false}));
+  const archived = browsing ? matches(ARCHIVE).map(t=>({...t,_archived:true})) : [];
+
+  if(!live.length && !archived.length){
+    document.getElementById('tlist').innerHTML='<p style="color:var(--ink3);padding:30px 0;text-align:center">No trends match. The archive holds '+ARCHIVE.length+' older entries — try a broader search.</p>';
+    return;
+  }
+
+  // Live items first, then a divider, then archived results
+  let list = live;
+  const dividerIndex = live.length;
+  if(archived.length) list = live.concat(archived);
 
   document.getElementById('tlist').innerHTML=list.map((t,i)=>{
-    const rank=i+1, isE=expanded===t.id, lv=levels[t.id]||'normal', pct=Math.round(t.decay*100);
-    return `<div class="card ${isE?'open':''}" id="card-${t.id}">
+    const isE=expanded===t.id, lv=levels[t.id]||'normal', pct=Math.round(t.decay*100);
+    const arch=t._archived;
+    // Rank reflects position within the live list only; archived items show a dot.
+    const rank = arch ? null : (i+1);
+    const rankDisplay = arch ? '·' : (rank<=3?['①','②','③'][rank-1]:rank);
+    const divider = (i===dividerIndex && archived.length) ? `<div class="archive-divider">Archive · ${archived.length} older trend${archived.length===1?'':'s'}</div>` : '';
+    return `${divider}<div class="card ${isE?'open':''} ${arch?'arch':''}" id="card-${t.id}">
       <div class="chead" onclick="toggle(${t.id})">
-        <div class="rank ${rank<=3?'t'+rank:''}">${rank<=3?['①','②','③'][rank-1]:rank}</div>
+        <div class="rank ${(!arch && rank<=3)?'t'+rank:''}">${rankDisplay}</div>
         <div class="cmain">
           <div class="cname">${t.name}
+            ${arch ? '<span class="archtag">archived</span>' : ''}
             <button class="save ${saved.has(t.id)?'on':''}" onclick="event.stopPropagation();toggleSave(${t.id})" title="Save">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="${saved.has(t.id)?'currentColor':'none'}" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
             </button>
@@ -526,7 +563,8 @@ function toggleSave(id){saved.has(id)?saved.delete(id):saved.add(id);toast(saved
 
 /* Pure-SVG timeline chart — zero dependencies, immune to CDN failures */
 function drawChart(id){
-  const t=TRENDS.find(x=>x.id===id),c=document.getElementById('chart-'+id);
+  const t=TRENDS.find(x=>x.id===id) || ARCHIVE.find(x=>x.id===id);
+  const c=document.getElementById('chart-'+id);
   if(!t||!c)return;
   const W=640,H=150,padL=34,padR=10,padT=12,padB=22;
   const iw=W-padL-padR, ih=H-padT-padB;
@@ -580,6 +618,7 @@ async function loadBoard(){
   document.getElementById('tlist').innerHTML=skeletons(5);
   renderMetrics(); renderFilters(); renderGrave();
   TRENDS=await API.getTrends();
+  ARCHIVE=await API.getArchive();
   render();
 }
 
