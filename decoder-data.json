@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "June 21, 2026",
-  "termCount": 145
+  "updated": "June 24, 2026",
+  "termCount": 152
  },
  "dict": {
   "ngl": {"type":"abbr","def":"'Not gonna lie' — flags honesty or a mild confession.","origin":"texting / AAVE","status":"ok"},
@@ -121,11 +121,11 @@
   "analog posting": {"type":"slang","def":"Posting deliberately low-tech content as anti-AI-slop signalling.","origin":"Reset-adjacent internet, 2026","status":"ok"},
   "i have therapy": {"type":"phrase","def":"Reels POV format that cuts from 'sorry, I have therapy' to the creator's actual coping ritual. Wholesome flex.","origin":"Reels POV format, June 2026","status":"ok"},
   "homer drops his donut": {"type":"meme","def":"AI-generated meme song where Homer 'D'oh's' over every micro-defeat. The slop the Reset crowd grudgingly liked — usurped by Withered Flight by late June.","origin":"AI meme song → TikTok, June 2026","status":"fading"},
-  "red vs blue button": {"type":"meme","def":"Viral two-button moral-dilemma format. Every niche now has its own version; the debates outlive the prompts.","origin":"X moral-dilemma post, June 2026","status":"ok"},
-  "algorithm prefers": {"type":"phrase","def":"A/B-style format pitting a high-effort edit against a deadpan static shot, letting the comments vote which wins.","origin":"Format meta, June 2026","status":"rising"},
+  "red vs blue button": {"type":"meme","def":"Viral two-button moral-dilemma format. Every niche now has its own version; the debates outlive the prompts.","origin":"X moral-dilemma post, June 2026","status":"cringe"},
+  "algorithm prefers": {"type":"phrase","def":"A/B-style format pitting a high-effort edit against a deadpan static shot, letting the comments vote which wins.","origin":"Format meta, June 2026","status":"ok"},
   "game time": {"type":"meme","def":"Future × Tyla FIFA World Cup 2026 audio — sports edits, gym, travel, World Cup anticipation.","origin":"FIFA WC 2026 soundtrack, June 2026","status":"ok"},
-  "red card confusion": {"type":"meme","def":"The South Africa bench's bewildered reactions to three red cards in the Mexico vs. SA World Cup 2026 opener — first viral meme of the tournament.","origin":"FIFA WC 2026 opener at Azteca Stadium, June 12, 2026","status":"rising"},
-  "sad for a girl so in love": {"type":"phrase","def":"Lyric from Olivia Rodrigo's June 12 2026 album, used as a caption template for emotional/situationship posts.","origin":"Olivia Rodrigo album release, June 2026","status":"rising"},
+  "red card confusion": {"type":"meme","def":"The South Africa bench's bewildered reactions to three red cards in the Mexico vs. SA World Cup 2026 opener — first viral meme of the tournament.","origin":"FIFA WC 2026 opener at Azteca Stadium, June 12, 2026","status":"ok"},
+  "sad for a girl so in love": {"type":"phrase","def":"Lyric from Olivia Rodrigo's June 12 2026 album, used as a caption template for emotional/situationship posts.","origin":"Olivia Rodrigo album release, June 2026","status":"ok"},
   "unc": {"type":"slang","def":"Short for 'uncle' — affectionate for an older man, or teasing someone for being out of touch.","origin":"AAVE → TikTok, mid-2020s","status":"ok"},
   "pop off": {"type":"slang","def":"To do something exceptionally well, or to hype someone up for doing so. 'Pop off, king.'","origin":"gaming / hip-hop → mainstream","status":"ok"},
   "dustin lucas will mike": {"type":"meme","def":"Stranger Things cast's Jimmy Fallon rap recap, turned into a TikTok exploitable in June 2026 — usually paired with the Withered Flight visual.","origin":"Tonight Show w/ Jimmy Fallon, late 2025 → TikTok, June 2026","status":"rising"},
@@ -144,11 +144,18 @@
   "🫡": {"type":"emoji","def":"Salute = respectful acknowledgement or 'on it'.","origin":"emoji, 2022+","status":"ok"},
   "🦀": {"type":"emoji","def":"Wilted rose = melodramatic heartbreak or ironic despair.","origin":"sad-posting internet","status":"ok"},
   "👁️👄👁️": {"type":"emoji","def":"Wide eyes and lips = stunned witnessing of chaos.","origin":"TikTok, 2020","status":"ok"},
-  "fairs": {"type":"slang","def":"From a June 16 2026 @yowheredidjogo TikTok — creators posing for 'fairs' stickers meant to be screenshotted and reused as reactions.","origin":"@yowheredidjogo TikTok, June 16 2026","status":"rising"},
-  "du bist gut genug": {"type":"meme","def":"German for 'you are good enough'. A wholesome audio paired with cartoon mashups (Cleveland Brown Jr. is the breakout) for surreal-emotional comedy.","origin":"TikTok audio meme → cross-platform, early June 2026","status":"rising"},
-  "pressure": {"type":"meme","def":"Nyck Caution's track 'PRESSURE!' — dominant audio for World Cup highlights, gym edits, and clutch-moment content in June 2026.","origin":"Nyck Caution single → TikTok WC wave, June 2026","status":"rising"},
-  "rare aesthetic": {"type":"meme","def":"Nostalgic compilation format pairing oddly-specific or strangely-satisfying clips with the 'rare aesthetic' label.","origin":"TikTok aesthetic edits, mid-2026","status":"rising"},
-  "food jutsu": {"type":"meme","def":"Cooking videos shot as if the food prep were a ninja technique — stylised, dramatic, lightly absurd.","origin":"TikTok cooking format, June 2026","status":"rising"}
+  "fairs": {"type":"slang","def":"From a June 16 2026 @yowheredidjogo TikTok — creators posing for 'fairs' stickers meant to be screenshotted and reused as reactions.","origin":"@yowheredidjogo TikTok, June 16 2026","status":"ok"},
+  "du bist gut genug": {"type":"meme","def":"German for 'you are good enough'. A wholesome audio paired with cartoon mashups (Cleveland Brown Jr. is the breakout) for surreal-emotional comedy.","origin":"TikTok audio meme → cross-platform, early June 2026","status":"ok"},
+  "pressure": {"type":"meme","def":"Nyck Caution's track 'PRESSURE!' — dominant audio for World Cup highlights, gym edits, and clutch-moment content in June 2026.","origin":"Nyck Caution single → TikTok WC wave, June 2026","status":"ok"},
+  "rare aesthetic": {"type":"meme","def":"Nostalgic compilation format pairing oddly-specific or strangely-satisfying clips with the 'rare aesthetic' label.","origin":"TikTok aesthetic edits, mid-2026","status":"ok"},
+  "food jutsu": {"type":"meme","def":"Cooking videos shot as if the food prep were a ninja technique — stylised, dramatic, lightly absurd.","origin":"TikTok cooking format, June 2026","status":"rising"},
+  "like a prayer": {"type":"meme","def":"Josh Fawaz's remix of Madonna's 'Like a Prayer' — the unofficial 2026 Summer Anthem. 7-second lip-sync + '2026 Summer Anthem' text overlay.","origin":"Josh Fawaz remix → TikTok, June 2026","status":"ok"},
+  "summer anthem": {"type":"phrase","def":"The '2026 Summer Anthem' text-overlay format — slap it on a 7-sec clip set to Josh Fawaz's 'Like a Prayer' remix and post.","origin":"TikTok, June 2026","status":"rising"},
+  "puerto rico song": {"type":"meme","def":"Saxboy Billy's 'The Puerto Rico Song' — a lip-sync and dance audio that took off for outfit and travel content in June 2026.","origin":"Saxboy Billy → TikTok, June 2026","status":"ok"},
+  "same-pose lineup": {"type":"meme","def":"Anime-style product-reveal format: a group strikes the same pose, each holding an object that represents them, in a rapid-fire lineup.","origin":"TikTok format, June 2026","status":"rising"},
+  "smells like teen spirit": {"type":"meme","def":"Nirvana's 1991 anthem newly viral on the 'oh well, whatever, nevermind' lyric — carefree single-shot shrug edits.","origin":"Nirvana, 1991 → TikTok, June 2026","status":"rising"},
+  "my boyfriend's in tech": {"type":"phrase","def":"Photo-carousel format set to Meg Myers' 'Desire': a status-flex intro that flips to a sincere third slide defending the loved one's work.","origin":"TikTok carousel → Meg Myers 'Desire', June 2026","status":"rising"},
+  "desire": {"type":"meme","def":"Meg Myers' 'Desire' as the audio behind the 'my boyfriend's in tech' honest-carousel trend.","origin":"Meg Myers track → TikTok carousels, June 2026","status":"rising"}
  },
  "pageText": "ngl the dustin lucas will mike audio is doing numbers — paired with withered flight it's the format of the week 💀. meanwhile HOTD S3 dropped today so every Targaryen edit is set to PRESSURE!, and du bist gut genug is still rewiring brain chemistry. clanker accounts still posting ai slop tho, istg the great meme reset already won. atp the nihilistic penguin understood the assignment — he saw the discourse and chose the mountains, and tbh? based.",
  "pageTerms": ["ngl","dustin lucas will mike","withered flight","💀","HOTD","pressure","du bist gut genug","fyp","clanker","ai slop","istg","great meme reset","atp","nihilistic penguin","tbh","based"],
