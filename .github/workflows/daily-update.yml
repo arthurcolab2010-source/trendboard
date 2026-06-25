@@ -1,0 +1,46 @@
+name: Daily TrendBoard Update
+
+# Runs every day at 06:00 UTC (2 AM EDT / 11 PM PDT prev day).
+# Change the cron string to shift the time. Cron is in UTC, no DST.
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # also lets you trigger manually from the Actions tab
+
+permissions:
+  contents: write   # commit & push updated JSONs
+  models: read      # call GitHub Models (the free LLM)
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run trend updater
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_trends.py
+
+      - name: Commit and push (only if JSONs changed)
+        run: |
+          git config user.name "trendboard-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add trends-data.json decoder-data.json
+          if git diff --staged --quiet; then
+            echo "No changes — nothing to commit."
+          else
+            git commit -m "Daily trend update — $(date -u +'%Y-%m-%d')"
+            git push
+          fi
