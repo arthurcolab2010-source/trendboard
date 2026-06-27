@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "June 26, 2026",
-  "termCount": 154
+  "updated": "June 27, 2026",
+  "termCount": 156
  },
  "dict": {
   "ngl": {
@@ -787,6 +787,18 @@
    "type": "phrase",
    "def": "A trend where users utilize AI to identify locations based on images they post, effectively flipping traditional location tagging.",
    "origin": "Emerging from viral ChatGPT trends, highlighting the capabilities of AI in interpreting visual content.",
+   "status": "ok"
+  },
+  "chimpfluencers": {
+   "type": "slang",
+   "def": "Individuals who gain popularity on social media platforms by sharing humorous or absurd content involving animals, particularly showcasing them in unconventional situations.",
+   "origin": "A blend of 'chimp' and 'influencers', reflecting the trend of using animal antics to engage audiences.",
+   "status": "ok"
+  },
+  "grass sticking": {
+   "type": "phrase",
+   "def": "A humorous act of pretending to be unaware or oblivious, often by physically sticking grass in one's ears, as a metaphor for ignoring reality.",
+   "origin": "Derived from the viral trend where people mimic animals by sticking grass in their ears, used to signify disengagement or denial.",
    "status": "ok"
   },
   "💀": {
