@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "June 27, 2026",
-  "termCount": 156
+  "updated": "June 28, 2026",
+  "termCount": 157
  },
  "dict": {
   "ngl": {
@@ -799,6 +799,12 @@
    "type": "phrase",
    "def": "A humorous act of pretending to be unaware or oblivious, often by physically sticking grass in one's ears, as a metaphor for ignoring reality.",
    "origin": "Derived from the viral trend where people mimic animals by sticking grass in their ears, used to signify disengagement or denial.",
+   "status": "ok"
+  },
+  "viking row": {
+   "type": "meme",
+   "def": "A viral trend where participants emulate Viking-style rowing, often used humorously in social media posts to depict teamwork or struggle.",
+   "origin": "Originated from social media challenges during the 2026 FIFA World Cup, where fans creatively reenact Viking rowing scenes.",
    "status": "ok"
   },
   "💀": {

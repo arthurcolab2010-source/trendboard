@@ -1,10 +1,10 @@
 {
  "meta": {
-  "tracking": 222,
-  "peak": 2,
+  "tracking": 223,
+  "peak": 1,
   "died": 12,
-  "archived": 93,
-  "updated": "June 27, 2026"
+  "archived": 94,
+  "updated": "June 28, 2026"
  },
  "graveyard": [
   "Rizz (in any tense)",
@@ -22,11 +22,45 @@
  ],
  "trends": [
   {
+   "id": 135,
+   "name": "Viking Row",
+   "cat": "drama",
+   "plat": "TikTok · Reddit",
+   "decay": 0.85,
+   "fresh": "Hot right now",
+   "def": {
+    "normie": "A new trend where people are gathering in public spaces to reenact Viking-style rowing, often with comedic flair. It's become a way for communities to bond and engage in playful competition.",
+    "normal": "Viking Row is a viral trend where groups of people come together to mimic rowing in a Viking ship, often in humorous or exaggerated ways. It's gaining traction as a fun social activity during summer.",
+    "zoomer": "Viking Row is the latest absurdity sweeping the internet, where folks are pretending to paddle like Vikings in public. It's chaotic, hilarious, and a total vibe for those who love to flex their creativity!"
+   },
+   "origin": "GDELT mentions in 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jun 1",
+     "Jun 15",
+     "Jun 28"
+    ],
+    "d": [
+     30,
+     75,
+     100
+    ],
+    "pk": 3
+   },
+   "replaced": "N/A",
+   "vid": "Viking Row trend"
+  },
+  {
    "id": 134,
    "name": "Chimpfluencers Stick Grass in Their Ears",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new quirky trend where influencers are humorously sticking grass in their ears to create funny content. It’s gaining traction as a light-hearted meme that pokes fun at influencer culture.",
@@ -41,18 +75,18 @@
    },
    "tl": {
     "l": [
-     "Jun 1",
      "Jun 8",
      "Jun 15",
      "Jun 22",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     30,
      50,
      70,
      80,
-     100
+     100,
+     75
     ],
     "pk": 5
    },
@@ -64,7 +98,7 @@
    "name": "Hobby Dogging",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are pretending to walk their dogs in a humorous way that often involves creative costumes and settings. It’s all about the fun and joy of pet ownership with a comedic twist.",
@@ -79,18 +113,18 @@
    },
    "tl": {
     "l": [
-     "Jun 8",
      "Jun 15",
      "Jun 22",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     30,
      55,
      70,
      85,
-     80
+     80,
+     75
     ],
     "pk": 3
    },
@@ -102,7 +136,7 @@
    "name": "Nirvana \"Smells Like Teen Spirit\" (nevermind edits)",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.78,
+   "decay": 0.73,
    "fresh": "Brand new",
    "def": {
     "normie": "Nirvana's 1991 grunge anthem 'Smells Like Teen Spirit' went newly viral in June 2026 on the 'oh well, whatever, nevermind' lyric. Creators set carefree, single-shot videos to it — shrugging off small failures and daily stresses.",
@@ -117,18 +151,18 @@
    },
    "tl": {
     "l": [
-     "Jun 20",
      "Jun 22",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     66,
      80,
      88,
      83,
-     78
+     78,
+     73
     ],
     "pk": 4
    },
@@ -140,7 +174,7 @@
    "name": "\"My boyfriend's in tech\" honest-carousel (Desire)",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.73,
+   "decay": 0.68,
    "fresh": "Hot right now",
    "def": {
     "normie": "A photo-carousel format set to Meg Myers' song 'Desire.' It opens with a stereotypical status intro like 'my boyfriend's in tech,' then a third slide flips to a brutally honest reframe arguing the loved one works just as hard as any high-status professional.",
@@ -155,18 +189,18 @@
    },
    "tl": {
     "l": [
-     "Jun 22",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     56,
      72,
      83,
      78,
-     73
+     73,
+     68
     ],
     "pk": 4
    },
@@ -178,7 +212,7 @@
    "name": "Josh Fawaz \"Like a Prayer\" (2026 Summer Anthem)",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.77,
+   "decay": 0.72,
    "fresh": "Brand new",
    "def": {
     "normie": "Producer Josh Fawaz's remix of Madonna's 1989 hit 'Like a Prayer' became the unofficial '2026 Summer Anthem.' The format is dead simple: a 7-second lip-sync clip with on-screen text reading '2026 Summer Anthem.' The Madonna sample does the emotional heavy lifting, and small creators are reporting millions of views on a first try.",
@@ -193,18 +227,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     86,
      92,
      87,
      82,
-     77
+     77,
+     72
     ],
     "pk": 3
    },
@@ -216,7 +250,7 @@
    "name": "Saxboy Billy \"The Puerto Rico Song\"",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.71,
+   "decay": 0.66,
    "fresh": "Brand new",
    "def": {
     "normie": "A lip-sync and dance audio built on Saxboy Billy's 'The Puerto Rico Song.' Creators use it for outfit reveals, travel clips, and dance challenges through mid-June 2026.",
@@ -231,18 +265,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     78,
      86,
      81,
      76,
-     71
+     71,
+     66
     ],
     "pk": 3
    },
@@ -254,7 +288,7 @@
    "name": "Same-Pose Lineup (anime product-reveal)",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.66,
+   "decay": 0.61,
    "fresh": "Hot right now",
    "def": {
     "normie": "A format where a group of friends each strike the same dramatic pose one after another, each holding an object that represents them — styled like an anime character lineup or a product reveal. The rapid-fire editing and matching poses are the whole joke.",
@@ -269,18 +303,18 @@
    },
    "tl": {
     "l": [
-     "Jun 22",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     74,
      81,
      76,
      71,
-     66
+     66,
+     61
     ],
     "pk": 3
    },
@@ -292,7 +326,7 @@
    "name": "Dustin Lucas Will Mike (Stranger Things rap recap)",
    "cat": "meme",
    "plat": "TikTok · X · YouTube",
-   "decay": 0.68,
+   "decay": 0.63,
    "fresh": "Brand new",
    "def": {
     "normie": "A meme based on a 2025 Jimmy Fallon segment where the Stranger Things cast performed a recap of the show in rap form. Creators have been remixing and exploiting the audio since early 2026, and by mid-June it fused with the 'Withered Flight' analog-horror FlightReacts edits for an uncanny mashup.",
@@ -307,18 +341,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     88,
      83,
      78,
      73,
-     68
+     68,
+     63
     ],
     "pk": 2
    },
@@ -330,7 +364,7 @@
    "name": "Withered Flight (analog horror FlightReacts edit)",
    "cat": "meme",
    "plat": "TikTok · YouTube",
-   "decay": 0.62,
+   "decay": 0.57,
    "fresh": "Brand new",
    "def": {
     "normie": "An analog-horror style image macro using a distorted, uncanny edit of YouTuber FlightReacts. The edit became popular as the visual half of the Dustin Lucas Will Mike meme cycle.",
@@ -345,18 +379,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     82,
      77,
      72,
      67,
-     62
+     62,
+     57
     ],
     "pk": 2
    },
@@ -368,7 +402,7 @@
    "name": "House of the Dragon S3 return discourse",
    "cat": "drama",
    "plat": "X · Reddit · TikTok",
-   "decay": 0.58,
+   "decay": 0.53,
    "fresh": "Brand new",
    "def": {
     "normie": "House of the Dragon Season 3 returned on June 21, 2026 after a long break. Fans are back to live-tweeting episodes, posting theories, and arguing about the show's pacing — driving a huge volume of edits and reaction content.",
@@ -383,18 +417,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     78,
      73,
      68,
      63,
-     58
+     58,
+     53
     ],
     "pk": 2
    },
@@ -406,7 +440,7 @@
    "name": "\"Du bist gut genug\" Cleveland Brown Jr. edits",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.6,
+   "decay": 0.55,
    "fresh": "Hot right now",
    "def": {
     "normie": "An audio clip in German meaning 'you are good enough' (sung in falsetto by Rayan Djima) became a viral sound on TikTok in early June. Creators pair it with cartoon-character mashups, most popularly clips of Cleveland Brown Jr. from The Cleveland Show, for unexpectedly emotional comedy.",
@@ -421,18 +455,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     80,
      75,
      70,
      65,
-     60
+     60,
+     55
     ],
     "pk": 1
    },
@@ -444,7 +478,7 @@
    "name": "\"PRESSURE!\" by Nyck Caution (WC audio)",
    "cat": "audio",
    "plat": "TikTok · Reels · Shorts",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Hot right now",
    "def": {
     "normie": "Brooklyn rapper Nyck Caution's track 'PRESSURE!' is still the dominant sound for World Cup highlight reels and clutch-moment edits — now also colonising House of the Dragon S3 fan-edits.",
@@ -459,18 +493,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     75,
      70,
      65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 1
    },
@@ -482,7 +516,7 @@
    "name": "Saxophone Gets Louder",
    "cat": "audio",
    "plat": "TikTok · Reels · Shorts",
-   "decay": 0.51,
+   "decay": 0.46,
    "fresh": "Fading from peak",
    "def": {
     "normie": "A format where dramatic saxophone music starts quietly and gets louder as a situation gets worse.",
@@ -497,22 +531,22 @@
    },
    "tl": {
     "l": [
-     "Jun 18",
      "Jun 19",
      "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     86,
      81,
      71,
      66,
      61,
      56,
-     51
+     51,
+     46
     ],
     "pk": 0
    },
@@ -524,7 +558,7 @@
    "name": "Red Card Confusion (World Cup MEX vs SA)",
    "cat": "meme",
    "plat": "X · TikTok · IG",
-   "decay": 0.53,
+   "decay": 0.48,
    "fresh": "Fading from peak",
    "def": {
     "normie": "During the FIFA World Cup 2026 opener at Mexico City's Azteca Stadium, referee Wilton Sampaio gave three red cards in the Mexico vs. South Africa match. The South African players' bewildered reactions became the tournament's first viral meme.",
@@ -539,18 +573,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     73,
      68,
      63,
      58,
-     53
+     53,
+     48
     ],
     "pk": 0
    },
@@ -562,7 +596,7 @@
    "name": "Olivia Rodrigo \"sad for a girl so in love\" lyric overlays",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.51,
+   "decay": 0.46,
    "fresh": "Fading from peak",
    "def": {
     "normie": "Olivia Rodrigo released an album called 'you seem pretty sad for a girl so in love' on June 12. Creators are pairing the lyrics with text overlays about relationships, friendships, and life moments.",
@@ -577,18 +611,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     71,
      66,
      61,
      56,
-     51
+     51,
+     46
     ],
     "pk": 0
    },
@@ -600,7 +634,7 @@
    "name": "\"no no no NO NO NO\"",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.5,
+   "decay": 0.45,
    "fresh": "Fading from peak",
    "def": {
     "normie": "A short audio clip where someone says 'no no no' quietly and then yells 'NO NO NO' as panic sets in.",
@@ -615,18 +649,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     70,
      65,
      60,
      55,
-     50
+     50,
+     45
     ],
     "pk": 0
    },
@@ -638,7 +672,7 @@
    "name": "Nihilistic Penguin",
    "cat": "meme",
    "plat": "X · IG · LinkedIn",
-   "decay": 0.49,
+   "decay": 0.44,
    "fresh": "Fading from peak",
    "def": {
     "normie": "Old footage of a penguin walking alone toward the mountains instead of the sea.",
@@ -653,22 +687,22 @@
    },
    "tl": {
     "l": [
-     "Jun 18",
      "Jun 19",
      "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     84,
      79,
      69,
      64,
      59,
      54,
-     49
+     49,
+     44
     ],
     "pk": 0
    },
@@ -680,7 +714,7 @@
    "name": "AI slop discourse",
    "cat": "drama",
    "plat": "X · Reddit · YouTube",
-   "decay": 0.48,
+   "decay": 0.43,
    "fresh": "Fading from peak",
    "def": {
     "normie": "'AI slop' is the term for cheap, mass-produced AI content clogging up feeds.",
@@ -695,20 +729,20 @@
    },
    "tl": {
     "l": [
-     "Jun 19",
      "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     78,
      68,
      63,
      58,
      53,
-     48
+     48,
+     43
     ],
     "pk": 0
    },
@@ -720,7 +754,7 @@
    "name": "\"Fairs\" sticker format (@yowheredidjogo)",
    "cat": "format",
    "plat": "TikTok",
-   "decay": 0.48,
+   "decay": 0.43,
    "fresh": "Hot right now",
    "def": {
     "normie": "On June 16, TikTok creator @yowheredidjogo posted a video posing for various 'fairs' stickers. Other creators copied the format — striking exaggerated poses meant to be screen-grabbed and used as reaction stickers.",
@@ -735,18 +769,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     68,
      63,
      58,
      53,
-     48
+     48,
+     43
     ],
     "pk": 1
    },
@@ -758,7 +792,7 @@
    "name": "\"Material Lover\" by Sienna Spiro",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.47,
+   "decay": 0.42,
    "fresh": "Fading",
    "def": {
     "normie": "A pop song by British singer-songwriter Sienna Spiro from The Devil Wears Prada 2 soundtrack. Creators are still using it on fashion hauls and outfit checks, but the brand-account flood has officially arrived.",
@@ -773,18 +807,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     67,
      62,
      57,
      52,
-     47
+     47,
+     42
     ],
     "pk": 0
    },
@@ -796,7 +830,7 @@
    "name": "KitKat Heist memes",
    "cat": "meme",
    "plat": "X · TikTok · IG",
-   "decay": 0.47,
+   "decay": 0.42,
    "fresh": "Fading",
    "def": {
     "normie": "Memes about the real-life European theft of around 400,000 KitKat bars.",
@@ -811,18 +845,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     67,
      62,
      57,
      52,
-     47
+     47,
+     42
     ],
     "pk": 0
    },
@@ -834,7 +868,7 @@
    "name": "I am my perimeter",
    "cat": "meme",
    "plat": "Twitch · TikTok · X",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Fading",
    "def": {
     "normie": "A streamer's deadpan 'I am my perimeter and my perimeter is me' became a catchphrase.",
@@ -849,18 +883,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     65,
      60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 0
    },
@@ -872,7 +906,7 @@
    "name": "\"I Have Therapy\" POV format",
    "cat": "format",
    "plat": "Reels · TikTok",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Fading",
    "def": {
     "normie": "A short video format that cuts from 'sorry I can't today, I have therapy' to whatever the creator actually does to feel better.",
@@ -887,18 +921,18 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     65,
      60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 0
    },
@@ -910,7 +944,7 @@
    "name": "\"Game Time\" / FIFA WC 2026 audio",
    "cat": "audio",
    "plat": "TikTok · Reels · Shorts",
-   "decay": 0.44,
+   "decay": 0.39,
    "fresh": "Fading",
    "def": {
     "normie": "Future and Tyla's song 'Game Time' from the official FIFA World Cup 2026 soundtrack.",
@@ -925,31 +959,33 @@
    },
    "tl": {
     "l": [
-     "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     64,
      59,
      54,
      49,
-     44
+     44,
+     39
     ],
     "pk": 0
    },
    "replaced": "PRESSURE!",
    "vid": "game time future tyla fifa world cup trend"
-  },
+  }
+ ],
+ "archive": [
   {
    "id": 6,
    "name": "Clanker",
    "cat": "slang",
    "plat": "X · TikTok · Reddit",
-   "decay": 0.44,
-   "fresh": "Evergreen",
+   "decay": 0.39,
+   "fresh": "Archived",
    "def": {
     "normie": "An insult for robots, AI, or people who rely on AI too much — borrowed from Star Wars.",
     "normal": "Now squarely mainstream and slightly cringe to use sincerely. Permanent vocab — but you're tipping yourself off as Online any time you say it.",
@@ -963,28 +999,26 @@
    },
    "tl": {
     "l": [
-     "Jun 19",
      "Jun 21",
      "Jun 23",
      "Jun 24",
      "Jun 26",
-     "Jun 27"
+     "Jun 27",
+     "Jun 28"
     ],
     "d": [
-     74,
      64,
      59,
      54,
      49,
-     44
+     44,
+     39
     ],
     "pk": 0
    },
    "replaced": "Still strong",
    "vid": "clanker slang meaning"
-  }
- ],
- "archive": [
+  },
   {
    "id": 5,
    "name": "Crash out",
