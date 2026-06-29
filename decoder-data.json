@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "June 28, 2026",
-  "termCount": 157
+  "updated": "June 29, 2026",
+  "termCount": 161
  },
  "dict": {
   "ngl": {
@@ -805,6 +805,30 @@
    "type": "meme",
    "def": "A viral trend where participants emulate Viking-style rowing, often used humorously in social media posts to depict teamwork or struggle.",
    "origin": "Originated from social media challenges during the 2026 FIFA World Cup, where fans creatively reenact Viking rowing scenes.",
+   "status": "ok"
+  },
+  "fifa fever": {
+   "type": "slang",
+   "def": "A heightened excitement or enthusiasm surrounding the FIFA World Cup, often seen in social media posts or conversations during the tournament.",
+   "origin": "Emerging during the lead-up to the 2026 FIFA World Cup as fans globally engage with the event.",
+   "status": "ok"
+  },
+  "meme-splosion": {
+   "type": "meme",
+   "def": "A sudden and overwhelming surge of memes related to a specific event or trending topic, often flooding social media platforms.",
+   "origin": "Coined as a reaction to the rapid spread of memes during significant events like the FIFA World Cup and popular films.",
+   "status": "ok"
+  },
+  "vibe check": {
+   "type": "phrase",
+   "def": "A casual inquiry into someone's feelings or the general mood of a situation, often used to assess compatibility or energy in social settings.",
+   "origin": "Gained popularity through social media, particularly TikTok, as a way to connect with friends and gauge atmospheres.",
+   "status": "ok"
+  },
+  "goalie goals": {
+   "type": "slang",
+   "def": "Referring to impressive actions or achievements by goalkeepers in soccer, often used humorously to highlight unexpected skills or plays.",
+   "origin": "Popularized by social media highlights during soccer matches, especially during the World Cup.",
    "status": "ok"
   },
   "💀": {
