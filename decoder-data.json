@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "June 29, 2026",
-  "termCount": 161
+  "updated": "June 30, 2026",
+  "termCount": 162
  },
  "dict": {
   "ngl": {
@@ -829,6 +829,12 @@
    "type": "slang",
    "def": "Referring to impressive actions or achievements by goalkeepers in soccer, often used humorously to highlight unexpected skills or plays.",
    "origin": "Popularized by social media highlights during soccer matches, especially during the World Cup.",
+   "status": "ok"
+  },
+  "citizen vigilante": {
+   "type": "phrase",
+   "def": "A person who takes the law into their own hands to protect their community, often acting outside of official law enforcement channels.",
+   "origin": "Gained popularity in discussions and memes surrounding justice and activism, particularly amidst rising concerns over crime and safety.",
    "status": "ok"
   },
   "💀": {
