@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "June 30, 2026",
-  "termCount": 162
+  "updated": "July 1, 2026",
+  "termCount": 164
  },
  "dict": {
   "ngl": {
@@ -835,6 +835,18 @@
    "type": "phrase",
    "def": "A person who takes the law into their own hands to protect their community, often acting outside of official law enforcement channels.",
    "origin": "Gained popularity in discussions and memes surrounding justice and activism, particularly amidst rising concerns over crime and safety.",
+   "status": "ok"
+  },
+  "reverse chatgpt": {
+   "type": "phrase",
+   "def": "A trend where users prompt ChatGPT or similar AI to generate outputs based on images or other inputs, effectively reversing the traditional use of AI for text generation.",
+   "origin": "Originated from the trend of using AI in creative ways, evolving from standard text prompts to more visual and interactive formats.",
+   "status": "ok"
+  },
+  "live-updating meme": {
+   "type": "meme",
+   "def": "A meme format that evolves in real-time, allowing users to adapt and remix content as events unfold or trends change.",
+   "origin": "Gained popularity as social media platforms encouraged more dynamic and engaging content sharing.",
    "status": "ok"
   },
   "💀": {
