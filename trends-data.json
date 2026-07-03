@@ -1,12 +1,14 @@
 {
  "meta": {
-  "tracking": 229,
-  "peak": 4,
+  "tracking": 231,
+  "peak": 3,
   "died": 12,
-  "archived": 100,
-  "updated": "July 2, 2026"
+  "archived": 102,
+  "updated": "July 3, 2026"
  },
  "graveyard": [
+  "AI slop discourse",
+  "Nihilistic Penguin",
   "Rizz (in any tense)",
   "Conformity Gate",
   "Choppelganger",
@@ -16,17 +18,75 @@
   "Demure filter",
   "Beez in the Trap × What's Up? (mashup era)",
   "Red vs. Blue Button (moral-dilemma era)",
-  "Hate That I Made You Love Me (Ariana mashup era)",
-  "Remember Who You Are (Freakin' Out era)",
-  "Great Meme Reset (mission-accomplished era)"
+  "Hate That I Made You Love Me (Ariana mashup era)"
  ],
  "trends": [
+  {
+   "id": 142,
+   "name": "Live-updating What a Week, Huh?",
+   "cat": "meme",
+   "plat": "HN · Reddit",
+   "decay": 0.8,
+   "fresh": "Hot right now",
+   "def": {
+    "normie": "There's a new meme format that updates weekly to reflect current events. It humorously captures the chaos of modern life.",
+    "normal": "This meme is a twist on the classic 'What a week, huh?' format, now evolving in real-time with news stories. It's perfect for those looking to stay relevant with memes that adapt.",
+    "zoomer": "The 'What a week, huh?' meme just got a glow-up — it's now live-updating to whatever nonsense is happening that week. It’s like a meme news ticker, and honestly, it’s both hilarious and exhausting."
+   },
+   "origin": "HN (2026)",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 3"
+    ],
+    "d": [
+     5
+    ],
+    "pk": 1
+   },
+   "replaced": "Still climbing",
+   "vid": "live-updating what a week, huh? meme"
+  },
+  {
+   "id": 143,
+   "name": "Reverse Location Search",
+   "cat": "viral trend",
+   "plat": "HN · TikTok",
+   "decay": 0.75,
+   "fresh": "Climbing",
+   "def": {
+    "normie": "A new trend involves using photos to find locations in reverse. It's a fun way to engage with travel and photography.",
+    "normal": "This viral trend lets users upload images to discover where they were taken, flipping the usual location search on its head. It’s a creative way to explore and share travel experiences.",
+    "zoomer": "Reverse Location Search is the new flex — upload your pics and let the internet help you track down where you’ve been. It’s like a travel detective game, and we’re all here for it."
+   },
+   "origin": "HN (2026)",
+   "age": {
+    "z": "Active",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 3"
+    ],
+    "d": [
+     5
+    ],
+    "pk": 1
+   },
+   "replaced": "Still climbing",
+   "vid": "reverse location search trend"
+  },
   {
    "id": 140,
    "name": "2026 FIFA World Cup Fever",
    "cat": "drama",
    "plat": "TikTok · Twitter",
-   "decay": 0.85,
+   "decay": 0.8,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are obsessively discussing the 2026 FIFA World Cup as it approaches, sharing predictions and favorite players. The excitement is palpable, with fans creating content around their teams and the event.",
@@ -41,18 +101,18 @@
    },
    "tl": {
     "l": [
-     "Jun 15",
      "Jun 22",
      "Jun 29",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     10,
      20,
      35,
      50,
-     70
+     70,
+     80
     ],
     "pk": 5
    },
@@ -64,7 +124,7 @@
    "name": "Gen Z Slang Revolution",
    "cat": "slang",
    "plat": "Reddit · TikTok",
-   "decay": 0.85,
+   "decay": 0.8,
    "fresh": "Climbing",
    "def": {
     "normie": "Young people are creating and popularizing new slang terms that are changing the way they communicate. This trend is all about keeping language fresh and relevant among youth.",
@@ -79,17 +139,17 @@
    },
    "tl": {
     "l": [
-     "Jun 10",
      "Jun 17",
      "Jun 24",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     15,
      25,
      40,
      60,
+     80,
      80
     ],
     "pk": 4
@@ -102,7 +162,7 @@
    "name": "Live-updating memes",
    "cat": "meme",
    "plat": "HN · Reddit",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating memes that update in real-time based on current events or trends. It's a creative way for people to react to the news as it happens.",
@@ -117,14 +177,14 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     15,
      30,
-     80
+     80,
+     75
     ],
     "pk": 3
    },
@@ -136,7 +196,7 @@
    "name": "Reverse ChatGPT prompts",
    "cat": "phrase",
    "plat": "TikTok · Reddit",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Climbing",
    "def": {
     "normie": "This trend involves people using ChatGPT in reverse to create prompts based on the responses it gives. It's a fun way to engage creatively with AI.",
@@ -151,14 +211,14 @@
    },
    "tl": {
     "l": [
-     "Jun 29",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     20,
      35,
-     80
+     80,
+     75
     ],
     "pk": 2
    },
@@ -170,7 +230,7 @@
    "name": "Reverse Location Search",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are using a new trend where they upload photos and ask others to identify their location based on the background. It’s a fun way to engage with friends and followers.",
@@ -185,14 +245,14 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     100,
      80,
-     75
+     75,
+     70
     ],
     "pk": 4
    },
@@ -204,7 +264,7 @@
    "name": "Citizen Vigilante",
    "cat": "drama",
    "plat": "Reddit · HN",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Climbing",
    "def": {
     "normie": "A new phenomenon is emerging where ordinary people are taking it upon themselves to expose wrongdoings in their communities. It involves social media campaigns and grassroots efforts.",
@@ -219,14 +279,14 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     100,
      80,
-     75
+     75,
+     70
     ],
     "pk": 3
    },
@@ -238,7 +298,7 @@
    "name": "Viking Row",
    "cat": "drama",
    "plat": "TikTok · Reddit",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new trend where people are gathering in public spaces to reenact Viking-style rowing, often with comedic flair. It's become a way for communities to bond and engage in playful competition.",
@@ -253,14 +313,14 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 3
    },
@@ -272,7 +332,7 @@
    "name": "Chimpfluencers Stick Grass in Their Ears",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new quirky trend where influencers are humorously sticking grass in their ears to create funny content. It’s gaining traction as a light-hearted meme that pokes fun at influencer culture.",
@@ -287,18 +347,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     75,
      70,
      65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 5
    },
@@ -310,7 +370,7 @@
    "name": "Hobby Dogging",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are pretending to walk their dogs in a humorous way that often involves creative costumes and settings. It’s all about the fun and joy of pet ownership with a comedic twist.",
@@ -325,18 +385,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     75,
      70,
      65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 3
    },
@@ -348,7 +408,7 @@
    "name": "Nirvana \"Smells Like Teen Spirit\" (nevermind edits)",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.53,
+   "decay": 0.48,
    "fresh": "Brand new",
    "def": {
     "normie": "Nirvana's 1991 grunge anthem 'Smells Like Teen Spirit' went newly viral in June 2026 on the 'oh well, whatever, nevermind' lyric. Creators set carefree, single-shot videos to it — shrugging off small failures and daily stresses.",
@@ -363,18 +423,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     73,
      68,
      63,
      58,
-     53
+     53,
+     48
     ],
     "pk": 4
    },
@@ -386,7 +446,7 @@
    "name": "\"My boyfriend's in tech\" honest-carousel (Desire)",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.48,
+   "decay": 0.43,
    "fresh": "Hot right now",
    "def": {
     "normie": "A photo-carousel format set to Meg Myers' song 'Desire.' It opens with a stereotypical status intro like 'my boyfriend's in tech,' then a third slide flips to a brutally honest reframe arguing the loved one works just as hard as any high-status professional.",
@@ -401,18 +461,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     68,
      63,
      58,
      53,
-     48
+     48,
+     43
     ],
     "pk": 4
    },
@@ -424,7 +484,7 @@
    "name": "Josh Fawaz \"Like a Prayer\" (2026 Summer Anthem)",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.52,
+   "decay": 0.47,
    "fresh": "Brand new",
    "def": {
     "normie": "Producer Josh Fawaz's remix of Madonna's 1989 hit 'Like a Prayer' became the unofficial '2026 Summer Anthem.' The format is dead simple: a 7-second lip-sync clip with on-screen text reading '2026 Summer Anthem.' The Madonna sample does the emotional heavy lifting, and small creators are reporting millions of views on a first try.",
@@ -439,18 +499,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     72,
      67,
      62,
      57,
-     52
+     52,
+     47
     ],
     "pk": 3
    },
@@ -462,7 +522,7 @@
    "name": "Saxboy Billy \"The Puerto Rico Song\"",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.46,
+   "decay": 0.41,
    "fresh": "Brand new",
    "def": {
     "normie": "A lip-sync and dance audio built on Saxboy Billy's 'The Puerto Rico Song.' Creators use it for outfit reveals, travel clips, and dance challenges through mid-June 2026.",
@@ -477,18 +537,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     66,
      61,
      56,
      51,
-     46
+     46,
+     41
     ],
     "pk": 3
    },
@@ -500,7 +560,7 @@
    "name": "Same-Pose Lineup (anime product-reveal)",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.41,
+   "decay": 0.36,
    "fresh": "Hot right now",
    "def": {
     "normie": "A format where a group of friends each strike the same dramatic pose one after another, each holding an object that represents them — styled like an anime character lineup or a product reveal. The rapid-fire editing and matching poses are the whole joke.",
@@ -515,18 +575,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     61,
      56,
      51,
      46,
-     41
+     41,
+     36
     ],
     "pk": 3
    },
@@ -538,7 +598,7 @@
    "name": "Dustin Lucas Will Mike (Stranger Things rap recap)",
    "cat": "meme",
    "plat": "TikTok · X · YouTube",
-   "decay": 0.43,
+   "decay": 0.38,
    "fresh": "Brand new",
    "def": {
     "normie": "A meme based on a 2025 Jimmy Fallon segment where the Stranger Things cast performed a recap of the show in rap form. Creators have been remixing and exploiting the audio since early 2026, and by mid-June it fused with the 'Withered Flight' analog-horror FlightReacts edits for an uncanny mashup.",
@@ -553,18 +613,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     63,
      58,
      53,
      48,
-     43
+     43,
+     38
     ],
     "pk": 2
    },
@@ -576,7 +636,7 @@
    "name": "Withered Flight (analog horror FlightReacts edit)",
    "cat": "meme",
    "plat": "TikTok · YouTube",
-   "decay": 0.37,
+   "decay": 0.32,
    "fresh": "Brand new",
    "def": {
     "normie": "An analog-horror style image macro using a distorted, uncanny edit of YouTuber FlightReacts. The edit became popular as the visual half of the Dustin Lucas Will Mike meme cycle.",
@@ -591,18 +651,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     57,
      52,
      47,
      42,
-     37
+     37,
+     32
     ],
     "pk": 2
    },
@@ -614,7 +674,7 @@
    "name": "House of the Dragon S3 return discourse",
    "cat": "drama",
    "plat": "X · Reddit · TikTok",
-   "decay": 0.33,
+   "decay": 0.28,
    "fresh": "Brand new",
    "def": {
     "normie": "House of the Dragon Season 3 returned on June 21, 2026 after a long break. Fans are back to live-tweeting episodes, posting theories, and arguing about the show's pacing — driving a huge volume of edits and reaction content.",
@@ -629,18 +689,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     53,
      48,
      43,
      38,
-     33
+     33,
+     28
     ],
     "pk": 2
    },
@@ -652,7 +712,7 @@
    "name": "\"Du bist gut genug\" Cleveland Brown Jr. edits",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Hot right now",
    "def": {
     "normie": "An audio clip in German meaning 'you are good enough' (sung in falsetto by Rayan Djima) became a viral sound on TikTok in early June. Creators pair it with cartoon-character mashups, most popularly clips of Cleveland Brown Jr. from The Cleveland Show, for unexpectedly emotional comedy.",
@@ -667,18 +727,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     55,
      50,
      45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 1
    },
@@ -690,7 +750,7 @@
    "name": "\"PRESSURE!\" by Nyck Caution (WC audio)",
    "cat": "audio",
    "plat": "TikTok · Reels · Shorts",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Hot right now",
    "def": {
     "normie": "Brooklyn rapper Nyck Caution's track 'PRESSURE!' is still the dominant sound for World Cup highlight reels and clutch-moment edits — now also colonising House of the Dragon S3 fan-edits.",
@@ -705,18 +765,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     50,
      45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 1
    },
@@ -728,7 +788,7 @@
    "name": "Saxophone Gets Louder",
    "cat": "audio",
    "plat": "TikTok · Reels · Shorts",
-   "decay": 0.26,
+   "decay": 0.21,
    "fresh": "Fading from peak",
    "def": {
     "normie": "A format where dramatic saxophone music starts quietly and gets louder as a situation gets worse.",
@@ -743,22 +803,22 @@
    },
    "tl": {
     "l": [
-     "Jun 26",
      "Jun 27",
      "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     56,
      51,
      46,
      41,
      36,
      31,
-     26
+     26,
+     21
     ],
     "pk": 0
    },
@@ -770,7 +830,7 @@
    "name": "Red Card Confusion (World Cup MEX vs SA)",
    "cat": "meme",
    "plat": "X · TikTok · IG",
-   "decay": 0.28,
+   "decay": 0.23,
    "fresh": "Fading from peak",
    "def": {
     "normie": "During the FIFA World Cup 2026 opener at Mexico City's Azteca Stadium, referee Wilton Sampaio gave three red cards in the Mexico vs. South Africa match. The South African players' bewildered reactions became the tournament's first viral meme.",
@@ -785,18 +845,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     48,
      43,
      38,
      33,
-     28
+     28,
+     23
     ],
     "pk": 0
    },
@@ -808,7 +868,7 @@
    "name": "Olivia Rodrigo \"sad for a girl so in love\" lyric overlays",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.26,
+   "decay": 0.21,
    "fresh": "Fading from peak",
    "def": {
     "normie": "Olivia Rodrigo released an album called 'you seem pretty sad for a girl so in love' on June 12. Creators are pairing the lyrics with text overlays about relationships, friendships, and life moments.",
@@ -823,18 +883,18 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     46,
      41,
      36,
      31,
-     26
+     26,
+     21
     ],
     "pk": 0
    },
@@ -846,7 +906,7 @@
    "name": "\"no no no NO NO NO\"",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Fading from peak",
    "def": {
     "normie": "A short audio clip where someone says 'no no no' quietly and then yells 'NO NO NO' as panic sets in.",
@@ -861,73 +921,33 @@
    },
    "tl": {
     "l": [
-     "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     45,
      40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 0
    },
    "replaced": "Still strong",
    "vid": "no no no tiktok trend"
-  },
-  {
-   "id": 12,
-   "name": "Nihilistic Penguin",
-   "cat": "meme",
-   "plat": "X · IG · LinkedIn",
-   "decay": 0.24,
-   "fresh": "Fading from peak",
-   "def": {
-    "normie": "Old footage of a penguin walking alone toward the mountains instead of the sea.",
-    "normal": "Werner Herzog's 2007 documentary penguin became 2026's mascot for opting out. Now in LinkedIn-influencer-overuse phase — but still has months of half-life left.",
-    "zoomer": "Penguin is now a LinkedIn motivational poster. The exact death we predicted. Still a banger and will outlive everything else on this board."
-   },
-   "origin": "'Encounters at the End of the World' (2007) → meme, 2026",
-   "age": {
-    "z": "Active",
-    "m": "Peak",
-    "main": "Peak"
-   },
-   "tl": {
-    "l": [
-     "Jun 26",
-     "Jun 27",
-     "Jun 28",
-     "Jun 29",
-     "Jun 30",
-     "Jul 1",
-     "Jul 2"
-    ],
-    "d": [
-     54,
-     49,
-     44,
-     39,
-     34,
-     29,
-     24
-    ],
-    "pk": 0
-   },
-   "replaced": "Slow fade",
-   "vid": "nihilistic penguin meme"
-  },
+  }
+ ],
+ "archive": [
   {
    "id": 9,
    "name": "AI slop discourse",
    "cat": "drama",
    "plat": "X · Reddit · YouTube",
-   "decay": 0.23,
-   "fresh": "Fading from peak",
+   "decay": 0.18,
+   "fresh": "Archived",
    "def": {
     "normie": "'AI slop' is the term for cheap, mass-produced AI content clogging up feeds.",
     "normal": "Backlash discourse is past peak but the term itself is now baseline vocabulary across every commentary feed.",
@@ -941,28 +961,68 @@
    },
    "tl": {
     "l": [
-     "Jun 27",
      "Jun 28",
      "Jun 29",
      "Jun 30",
      "Jul 1",
-     "Jul 2"
+     "Jul 2",
+     "Jul 3"
     ],
     "d": [
-     48,
      43,
      38,
      33,
      28,
-     23
+     23,
+     18
     ],
     "pk": 0
    },
    "replaced": "Ongoing",
    "vid": "ai slop explained"
-  }
- ],
- "archive": [
+  },
+  {
+   "id": 12,
+   "name": "Nihilistic Penguin",
+   "cat": "meme",
+   "plat": "X · IG · LinkedIn",
+   "decay": 0.19,
+   "fresh": "Archived",
+   "def": {
+    "normie": "Old footage of a penguin walking alone toward the mountains instead of the sea.",
+    "normal": "Werner Herzog's 2007 documentary penguin became 2026's mascot for opting out. Now in LinkedIn-influencer-overuse phase — but still has months of half-life left.",
+    "zoomer": "Penguin is now a LinkedIn motivational poster. The exact death we predicted. Still a banger and will outlive everything else on this board."
+   },
+   "origin": "'Encounters at the End of the World' (2007) → meme, 2026",
+   "age": {
+    "z": "Active",
+    "m": "Peak",
+    "main": "Peak"
+   },
+   "tl": {
+    "l": [
+     "Jun 27",
+     "Jun 28",
+     "Jun 29",
+     "Jun 30",
+     "Jul 1",
+     "Jul 2",
+     "Jul 3"
+    ],
+    "d": [
+     49,
+     44,
+     39,
+     34,
+     29,
+     24,
+     19
+    ],
+    "pk": 0
+   },
+   "replaced": "Slow fade",
+   "vid": "nihilistic penguin meme"
+  },
   {
    "id": 18,
    "name": "\"Material Lover\" by Sienna Spiro",

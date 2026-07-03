@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 2, 2026",
-  "termCount": 166
+  "updated": "July 3, 2026",
+  "termCount": 167
  },
  "dict": {
   "ngl": {
@@ -859,6 +859,12 @@
    "type": "phrase",
    "def": "The movement towards using and popularizing unique slang terms and phrases among Gen Z, often characterized by creativity and social media influence.",
    "origin": "Emerged as a reaction to traditional language norms and is fueled by platforms like TikTok and Twitter.",
+   "status": "ok"
+  },
+  "what a week, huh?": {
+   "type": "meme",
+   "def": "An expression used to summarize the chaotic events of a week, often accompanied by humorous or relatable images.",
+   "origin": "Evolved from social media reactions to weekly news cycles, gaining traction on platforms like TikTok.",
    "status": "ok"
   },
   "💀": {
