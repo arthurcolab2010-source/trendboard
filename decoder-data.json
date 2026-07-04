@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 3, 2026",
-  "termCount": 167
+  "updated": "July 4, 2026",
+  "termCount": 169
  },
  "dict": {
   "ngl": {
@@ -865,6 +865,18 @@
    "type": "meme",
    "def": "An expression used to summarize the chaotic events of a week, often accompanied by humorous or relatable images.",
    "origin": "Evolved from social media reactions to weekly news cycles, gaining traction on platforms like TikTok.",
+   "status": "ok"
+  },
+  "fifa world cup meme mashup": {
+   "type": "meme",
+   "def": "A viral trend combining FIFA World Cup highlights with humorous edits, often featuring unexpected pop culture references.",
+   "origin": "Emerged during the 2026 FIFA World Cup as fans creatively remixed game footage with popular memes.",
+   "status": "ok"
+  },
+  "hobby dogging 2.0": {
+   "type": "phrase",
+   "def": "A playful trend where participants pretend to engage in dog-walking activities in unusual or humorous settings.",
+   "origin": "A continuation of the original hobby dogging trend, gaining traction in online communities for its absurdity.",
    "status": "ok"
   },
   "💀": {
