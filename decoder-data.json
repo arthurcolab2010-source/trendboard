@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 4, 2026",
-  "termCount": 169
+  "updated": "July 5, 2026",
+  "termCount": 171
  },
  "dict": {
   "ngl": {
@@ -877,6 +877,18 @@
    "type": "phrase",
    "def": "A playful trend where participants pretend to engage in dog-walking activities in unusual or humorous settings.",
    "origin": "A continuation of the original hobby dogging trend, gaining traction in online communities for its absurdity.",
+   "status": "ok"
+  },
+  "cape verde culture surge": {
+   "type": "phrase",
+   "def": "A significant increase in global interest and appreciation for Cape Verdean culture, including music, art, and cuisine, often fueled by social media.",
+   "origin": "Emerging from the rising popularity of Cape Verdean artists and cultural events, particularly around the 2026 FIFA World Cup.",
+   "status": "ok"
+  },
+  "2026 fifa world cup parody challenges": {
+   "type": "meme",
+   "def": "Humorous challenges and skits that parody the events, players, or controversies surrounding the 2026 FIFA World Cup.",
+   "origin": "Spurred by the excitement and memes related to the World Cup, with users creating original content that satirizes the tournament.",
    "status": "ok"
   },
   "💀": {

@@ -1,12 +1,14 @@
 {
  "meta": {
-  "tracking": 233,
-  "peak": 2,
+  "tracking": 235,
+  "peak": 3,
   "died": 12,
-  "archived": 106,
-  "updated": "July 4, 2026"
+  "archived": 108,
+  "updated": "July 5, 2026"
  },
  "graveyard": [
+  "\"PRESSURE!\" by Nyck Caution (WC audio)",
+  "House of the Dragon S3 return discourse",
   "\"no no no NO NO NO\"",
   "Olivia Rodrigo \"sad for a girl so in love\" lyric overlays",
   "Red Card Confusion (World Cup MEX vs SA)",
@@ -16,17 +18,79 @@
   "Rizz (in any tense)",
   "Conformity Gate",
   "Choppelganger",
-  "404 coded",
-  "Brain rot (the term, not the condition)",
-  "Certified Banger Badge drama"
+  "404 coded"
  ],
  "trends": [
+  {
+   "id": 146,
+   "name": "Cape Verde Culture Surge",
+   "cat": "meme",
+   "plat": "TikTok · Reddit",
+   "decay": 0.8,
+   "fresh": "Hot right now",
+   "def": {
+    "normie": "Cape Verde has gained attention for its vibrant culture and music. People are sharing videos and memes celebrating its unique traditions and landscapes.",
+    "normal": "Cape Verdean culture is trending online, with creators showcasing its music, dance, and stunning scenery. Expect a surge of content featuring Cape Verdean artists and cultural symbols.",
+    "zoomer": "Cape Verde is suddenly the vibe, and everyone’s posting fire clips of the islands and their sick beats. Get ready for a wave of Cape Verde memes and cultural content flooding your feed!"
+   },
+   "origin": "TikTok trend starting in July 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 1",
+     "Jul 5"
+    ],
+    "d": [
+     5,
+     20
+    ],
+    "pk": 2
+   },
+   "replaced": "Still climbing",
+   "vid": "Cape Verde culture TikTok"
+  },
+  {
+   "id": 147,
+   "name": "2026 FIFA World Cup Parody Challenges",
+   "cat": "challenge",
+   "plat": "TikTok · Reels",
+   "decay": 0.75,
+   "fresh": "Climbing",
+   "def": {
+    "normie": "As the 2026 FIFA World Cup approaches, people are creating funny parody challenges related to the event. These challenges often involve humorous takes on football culture and player stereotypes.",
+    "normal": "Football fans are jumping on parody challenges that poke fun at World Cup culture and players. It's a mix of memes and challenges that everyone can join in on.",
+    "zoomer": "The World Cup is here, and the parody challenges are next level! Think funny skits about players and ridiculous takes on matchday rituals – it's a whole vibe!"
+   },
+   "origin": "Started in July 2026 with the World Cup hype",
+   "age": {
+    "z": "Active",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 1",
+     "Jul 5"
+    ],
+    "d": [
+     5,
+     10
+    ],
+    "pk": 2
+   },
+   "replaced": "Still climbing",
+   "vid": "2026 FIFA World Cup parody challenges"
+  },
   {
    "id": 144,
    "name": "FIFA World Cup Meme Mashup",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.85,
+   "decay": 0.8,
    "fresh": "Hot right now",
    "def": {
     "normie": "Fans are creating mashups of popular memes with FIFA World Cup highlights. It's a fun way to combine humor and sports excitement.",
@@ -41,16 +105,16 @@
    },
    "tl": {
     "l": [
-     "Jun 15",
      "Jun 22",
      "Jun 29",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     55,
      75,
      90,
-     85
+     85,
+     80
     ],
     "pk": 4
    },
@@ -62,7 +126,7 @@
    "name": "Hobby Dogging 2.0",
    "cat": "drama",
    "plat": "Reddit · TikTok",
-   "decay": 0.85,
+   "decay": 0.8,
    "fresh": "Climbing",
    "def": {
     "normie": "People are taking the trend of pretending to walk a dog to new extremes with elaborate setups and outfits. It's a quirky way to have fun and get attention online.",
@@ -77,14 +141,14 @@
    },
    "tl": {
     "l": [
-     "Jun 20",
      "Jun 27",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     60,
      70,
-     85
+     85,
+     80
     ],
     "pk": 3
    },
@@ -96,7 +160,7 @@
    "name": "Live-updating What a Week, Huh?",
    "cat": "meme",
    "plat": "HN · Reddit",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Hot right now",
    "def": {
     "normie": "There's a new meme format that updates weekly to reflect current events. It humorously captures the chaos of modern life.",
@@ -111,10 +175,10 @@
    },
    "tl": {
     "l": [
-     "Jul 4"
+     "Jul 5"
     ],
     "d": [
-     75
+     70
     ],
     "pk": 1
    },
@@ -126,7 +190,7 @@
    "name": "Reverse Location Search",
    "cat": "viral trend",
    "plat": "HN · TikTok",
-   "decay": 0.7,
+   "decay": 0.65,
    "fresh": "Climbing",
    "def": {
     "normie": "A new trend involves using photos to find locations in reverse. It's a fun way to engage with travel and photography.",
@@ -141,10 +205,10 @@
    },
    "tl": {
     "l": [
-     "Jul 4"
+     "Jul 5"
     ],
     "d": [
-     70
+     65
     ],
     "pk": 1
    },
@@ -156,7 +220,7 @@
    "name": "2026 FIFA World Cup Fever",
    "cat": "drama",
    "plat": "TikTok · Twitter",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are obsessively discussing the 2026 FIFA World Cup as it approaches, sharing predictions and favorite players. The excitement is palpable, with fans creating content around their teams and the event.",
@@ -171,18 +235,18 @@
    },
    "tl": {
     "l": [
-     "Jun 29",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     35,
      50,
      70,
      80,
-     75
+     75,
+     70
     ],
     "pk": 5
    },
@@ -194,7 +258,7 @@
    "name": "Gen Z Slang Revolution",
    "cat": "slang",
    "plat": "Reddit · TikTok",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Climbing",
    "def": {
     "normie": "Young people are creating and popularizing new slang terms that are changing the way they communicate. This trend is all about keeping language fresh and relevant among youth.",
@@ -209,18 +273,18 @@
    },
    "tl": {
     "l": [
-     "Jun 24",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     40,
      60,
      80,
      80,
-     75
+     75,
+     70
     ],
     "pk": 4
    },
@@ -232,7 +296,7 @@
    "name": "Live-updating memes",
    "cat": "meme",
    "plat": "HN · Reddit",
-   "decay": 0.7,
+   "decay": 0.65,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating memes that update in real-time based on current events or trends. It's a creative way for people to react to the news as it happens.",
@@ -247,14 +311,14 @@
    },
    "tl": {
     "l": [
-     "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     80,
      75,
-     70
+     70,
+     65
     ],
     "pk": 3
    },
@@ -266,7 +330,7 @@
    "name": "Reverse ChatGPT prompts",
    "cat": "phrase",
    "plat": "TikTok · Reddit",
-   "decay": 0.7,
+   "decay": 0.65,
    "fresh": "Climbing",
    "def": {
     "normie": "This trend involves people using ChatGPT in reverse to create prompts based on the responses it gives. It's a fun way to engage creatively with AI.",
@@ -281,14 +345,14 @@
    },
    "tl": {
     "l": [
-     "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     80,
      75,
-     70
+     70,
+     65
     ],
     "pk": 2
    },
@@ -300,7 +364,7 @@
    "name": "Reverse Location Search",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are using a new trend where they upload photos and ask others to identify their location based on the background. It’s a fun way to engage with friends and followers.",
@@ -315,14 +379,14 @@
    },
    "tl": {
     "l": [
-     "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 4
    },
@@ -334,7 +398,7 @@
    "name": "Citizen Vigilante",
    "cat": "drama",
    "plat": "Reddit · HN",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Climbing",
    "def": {
     "normie": "A new phenomenon is emerging where ordinary people are taking it upon themselves to expose wrongdoings in their communities. It involves social media campaigns and grassroots efforts.",
@@ -349,14 +413,14 @@
    },
    "tl": {
     "l": [
-     "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 3
    },
@@ -368,7 +432,7 @@
    "name": "Viking Row",
    "cat": "drama",
    "plat": "TikTok · Reddit",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new trend where people are gathering in public spaces to reenact Viking-style rowing, often with comedic flair. It's become a way for communities to bond and engage in playful competition.",
@@ -383,14 +447,14 @@
    },
    "tl": {
     "l": [
-     "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 3
    },
@@ -402,7 +466,7 @@
    "name": "Chimpfluencers Stick Grass in Their Ears",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new quirky trend where influencers are humorously sticking grass in their ears to create funny content. It’s gaining traction as a light-hearted meme that pokes fun at influencer culture.",
@@ -417,18 +481,18 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     65,
      60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 5
    },
@@ -440,7 +504,7 @@
    "name": "Hobby Dogging",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are pretending to walk their dogs in a humorous way that often involves creative costumes and settings. It’s all about the fun and joy of pet ownership with a comedic twist.",
@@ -455,18 +519,18 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     65,
      60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 3
    },
@@ -478,7 +542,7 @@
    "name": "Nirvana \"Smells Like Teen Spirit\" (nevermind edits)",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.43,
+   "decay": 0.38,
    "fresh": "Brand new",
    "def": {
     "normie": "Nirvana's 1991 grunge anthem 'Smells Like Teen Spirit' went newly viral in June 2026 on the 'oh well, whatever, nevermind' lyric. Creators set carefree, single-shot videos to it — shrugging off small failures and daily stresses.",
@@ -493,18 +557,18 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     63,
      58,
      53,
      48,
-     43
+     43,
+     38
     ],
     "pk": 4
    },
@@ -516,7 +580,7 @@
    "name": "\"My boyfriend's in tech\" honest-carousel (Desire)",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.38,
+   "decay": 0.33,
    "fresh": "Hot right now",
    "def": {
     "normie": "A photo-carousel format set to Meg Myers' song 'Desire.' It opens with a stereotypical status intro like 'my boyfriend's in tech,' then a third slide flips to a brutally honest reframe arguing the loved one works just as hard as any high-status professional.",
@@ -531,18 +595,18 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     58,
      53,
      48,
      43,
-     38
+     38,
+     33
     ],
     "pk": 4
    },
@@ -554,7 +618,7 @@
    "name": "Josh Fawaz \"Like a Prayer\" (2026 Summer Anthem)",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.42,
+   "decay": 0.37,
    "fresh": "Brand new",
    "def": {
     "normie": "Producer Josh Fawaz's remix of Madonna's 1989 hit 'Like a Prayer' became the unofficial '2026 Summer Anthem.' The format is dead simple: a 7-second lip-sync clip with on-screen text reading '2026 Summer Anthem.' The Madonna sample does the emotional heavy lifting, and small creators are reporting millions of views on a first try.",
@@ -569,18 +633,18 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     62,
      57,
      52,
      47,
-     42
+     42,
+     37
     ],
     "pk": 3
    },
@@ -592,7 +656,7 @@
    "name": "Saxboy Billy \"The Puerto Rico Song\"",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.36,
+   "decay": 0.31,
    "fresh": "Brand new",
    "def": {
     "normie": "A lip-sync and dance audio built on Saxboy Billy's 'The Puerto Rico Song.' Creators use it for outfit reveals, travel clips, and dance challenges through mid-June 2026.",
@@ -607,18 +671,18 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     56,
      51,
      46,
      41,
-     36
+     36,
+     31
     ],
     "pk": 3
    },
@@ -630,7 +694,7 @@
    "name": "Same-Pose Lineup (anime product-reveal)",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.31,
+   "decay": 0.26,
    "fresh": "Hot right now",
    "def": {
     "normie": "A format where a group of friends each strike the same dramatic pose one after another, each holding an object that represents them — styled like an anime character lineup or a product reveal. The rapid-fire editing and matching poses are the whole joke.",
@@ -645,18 +709,18 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     51,
      46,
      41,
      36,
-     31
+     31,
+     26
     ],
     "pk": 3
    },
@@ -668,7 +732,7 @@
    "name": "Dustin Lucas Will Mike (Stranger Things rap recap)",
    "cat": "meme",
    "plat": "TikTok · X · YouTube",
-   "decay": 0.33,
+   "decay": 0.28,
    "fresh": "Brand new",
    "def": {
     "normie": "A meme based on a 2025 Jimmy Fallon segment where the Stranger Things cast performed a recap of the show in rap form. Creators have been remixing and exploiting the audio since early 2026, and by mid-June it fused with the 'Withered Flight' analog-horror FlightReacts edits for an uncanny mashup.",
@@ -683,18 +747,18 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     53,
      48,
      43,
      38,
-     33
+     33,
+     28
     ],
     "pk": 2
    },
@@ -706,7 +770,7 @@
    "name": "Withered Flight (analog horror FlightReacts edit)",
    "cat": "meme",
    "plat": "TikTok · YouTube",
-   "decay": 0.27,
+   "decay": 0.22,
    "fresh": "Brand new",
    "def": {
     "normie": "An analog-horror style image macro using a distorted, uncanny edit of YouTuber FlightReacts. The edit became popular as the visual half of the Dustin Lucas Will Mike meme cycle.",
@@ -721,18 +785,18 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     47,
      42,
      37,
      32,
-     27
+     27,
+     22
     ],
     "pk": 2
    },
@@ -740,49 +804,11 @@
    "vid": "withered flight analog horror flightreacts"
   },
   {
-   "id": 28,
-   "name": "House of the Dragon S3 return discourse",
-   "cat": "drama",
-   "plat": "X · Reddit · TikTok",
-   "decay": 0.23,
-   "fresh": "Brand new",
-   "def": {
-    "normie": "House of the Dragon Season 3 returned on June 21, 2026 after a long break. Fans are back to live-tweeting episodes, posting theories, and arguing about the show's pacing — driving a huge volume of edits and reaction content.",
-    "normal": "Premiere-day discourse: live-tweet flurry, theory threads, hot takes about the season-opener cliffhanger. Edits set to PRESSURE and Game Time already flooding the FYP.",
-    "zoomer": "S3 dropped today and the timeline is unhinged. Cliffhanger discourse > actual cliffhanger. Cast getting edited to literally every audio on this board."
-   },
-   "origin": "HBO premiere, June 21, 2026",
-   "age": {
-    "z": "Active",
-    "m": "Active",
-    "main": "Active"
-   },
-   "tl": {
-    "l": [
-     "Jun 30",
-     "Jul 1",
-     "Jul 2",
-     "Jul 3",
-     "Jul 4"
-    ],
-    "d": [
-     43,
-     38,
-     33,
-     28,
-     23
-    ],
-    "pk": 2
-   },
-   "replaced": "Still climbing",
-   "vid": "house of the dragon season 3 premiere"
-  },
-  {
    "id": 27,
    "name": "\"Du bist gut genug\" Cleveland Brown Jr. edits",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "An audio clip in German meaning 'you are good enough' (sung in falsetto by Rayan Djima) became a viral sound on TikTok in early June. Creators pair it with cartoon-character mashups, most popularly clips of Cleveland Brown Jr. from The Cleveland Show, for unexpectedly emotional comedy.",
@@ -797,31 +823,33 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     45,
      40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 1
    },
    "replaced": "Dustin Lucas Will Mike",
    "vid": "du bist gut genug rayan djima cleveland brown"
-  },
+  }
+ ],
+ "archive": [
   {
    "id": 26,
    "name": "\"PRESSURE!\" by Nyck Caution (WC audio)",
    "cat": "audio",
    "plat": "TikTok · Reels · Shorts",
-   "decay": 0.2,
-   "fresh": "Hot right now",
+   "decay": 0.15,
+   "fresh": "Archived",
    "def": {
     "normie": "Brooklyn rapper Nyck Caution's track 'PRESSURE!' is still the dominant sound for World Cup highlight reels and clutch-moment edits — now also colonising House of the Dragon S3 fan-edits.",
     "normal": "Tournament-fuelled audio breakout, now expanding to HOTD S3 premiere reactions. Sports edits first, drama edits second, gym/exam-season tier-three.",
@@ -835,26 +863,62 @@
    },
    "tl": {
     "l": [
-     "Jun 30",
      "Jul 1",
      "Jul 2",
      "Jul 3",
-     "Jul 4"
+     "Jul 4",
+     "Jul 5"
     ],
     "d": [
-     40,
      35,
      30,
      25,
-     20
+     20,
+     15
     ],
     "pk": 1
    },
    "replaced": "Still strong",
    "vid": "pressure nyck caution world cup tiktok"
-  }
- ],
- "archive": [
+  },
+  {
+   "id": 28,
+   "name": "House of the Dragon S3 return discourse",
+   "cat": "drama",
+   "plat": "X · Reddit · TikTok",
+   "decay": 0.18,
+   "fresh": "Archived",
+   "def": {
+    "normie": "House of the Dragon Season 3 returned on June 21, 2026 after a long break. Fans are back to live-tweeting episodes, posting theories, and arguing about the show's pacing — driving a huge volume of edits and reaction content.",
+    "normal": "Premiere-day discourse: live-tweet flurry, theory threads, hot takes about the season-opener cliffhanger. Edits set to PRESSURE and Game Time already flooding the FYP.",
+    "zoomer": "S3 dropped today and the timeline is unhinged. Cliffhanger discourse > actual cliffhanger. Cast getting edited to literally every audio on this board."
+   },
+   "origin": "HBO premiere, June 21, 2026",
+   "age": {
+    "z": "Active",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 1",
+     "Jul 2",
+     "Jul 3",
+     "Jul 4",
+     "Jul 5"
+    ],
+    "d": [
+     38,
+     33,
+     28,
+     23,
+     18
+    ],
+    "pk": 2
+   },
+   "replaced": "Still climbing",
+   "vid": "house of the dragon season 3 premiere"
+  },
   {
    "id": 14,
    "name": "\"no no no NO NO NO\"",
