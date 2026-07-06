@@ -1,12 +1,14 @@
 {
  "meta": {
-  "tracking": 235,
-  "peak": 3,
+  "tracking": 237,
+  "peak": 2,
   "died": 12,
-  "archived": 108,
-  "updated": "July 5, 2026"
+  "archived": 110,
+  "updated": "July 6, 2026"
  },
  "graveyard": [
+  "\"Du bist gut genug\" Cleveland Brown Jr. edits",
+  "Withered Flight (analog horror FlightReacts edit)",
   "\"PRESSURE!\" by Nyck Caution (WC audio)",
   "House of the Dragon S3 return discourse",
   "\"no no no NO NO NO\"",
@@ -16,17 +18,85 @@
   "AI slop discourse",
   "Nihilistic Penguin",
   "Rizz (in any tense)",
-  "Conformity Gate",
-  "Choppelganger",
-  "404 coded"
+  "Conformity Gate"
  ],
  "trends": [
+  {
+   "id": 148,
+   "name": "Kylian Apology Challenge",
+   "cat": "challenge",
+   "plat": "TikTok · Reddit",
+   "decay": 0.85,
+   "fresh": "Hot right now",
+   "def": {
+    "normie": "Fans of Kylian Mbappé are participating in a viral challenge where they create apology videos for past criticisms of the soccer star. This trend has gained traction following a public petition from French fans seeking forgiveness.",
+    "normal": "The Kylian Apology Challenge sees users making humorous or heartfelt videos apologizing to Kylian Mbappé for any negative comments. It’s a lighthearted way for fans to show their support as he plays in the 2026 FIFA World Cup.",
+    "zoomer": "Bruh, the Kylian Apology Challenge is lowkey fire. Everyone's hopping on TikTok to beg for forgiveness like Mbappé's their ex or something, and it's honestly hilarious."
+   },
+   "origin": "GDELT news mentions (2026)",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 1",
+     "Jul 3",
+     "Jul 5",
+     "Jul 6"
+    ],
+    "d": [
+     10,
+     20,
+     30,
+     40
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "Kylian Apology Challenge"
+  },
+  {
+   "id": 149,
+   "name": "Alpha Film Meme Mashup",
+   "cat": "meme",
+   "plat": "TikTok · Reddit",
+   "decay": 0.85,
+   "fresh": "Climbing",
+   "def": {
+    "normie": "Users are creating meme mashups that blend scenes from the film 'Alpha' with various internet memes. This trend is gaining popularity as the film becomes a talking point among younger audiences.",
+    "normal": "The Alpha Film Meme Mashup involves taking clips from the movie and overlaying popular meme formats or audio, creating funny and relatable content. It’s a creative way to engage with new films.",
+    "zoomer": "The Alpha Film Meme Mashup is where creativity meets chaos. People are slapping meme overlays on the movie's scenes, and the results are absolute gold—like why are we not doing this with every film?"
+   },
+   "origin": "GDELT news mentions (2026)",
+   "age": {
+    "z": "Active",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 1",
+     "Jul 4",
+     "Jul 6"
+    ],
+    "d": [
+     5,
+     15,
+     25
+    ],
+    "pk": 3
+   },
+   "replaced": "Still climbing",
+   "vid": "Alpha Film Meme Mashup"
+  },
   {
    "id": 146,
    "name": "Cape Verde Culture Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Hot right now",
    "def": {
     "normie": "Cape Verde has gained attention for its vibrant culture and music. People are sharing videos and memes celebrating its unique traditions and landscapes.",
@@ -41,12 +111,12 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     5,
-     20
+     20,
+     75
     ],
     "pk": 2
    },
@@ -58,7 +128,7 @@
    "name": "2026 FIFA World Cup Parody Challenges",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Climbing",
    "def": {
     "normie": "As the 2026 FIFA World Cup approaches, people are creating funny parody challenges related to the event. These challenges often involve humorous takes on football culture and player stereotypes.",
@@ -73,12 +143,12 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     5,
-     10
+     10,
+     70
     ],
     "pk": 2
    },
@@ -90,7 +160,7 @@
    "name": "FIFA World Cup Meme Mashup",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Hot right now",
    "def": {
     "normie": "Fans are creating mashups of popular memes with FIFA World Cup highlights. It's a fun way to combine humor and sports excitement.",
@@ -105,16 +175,16 @@
    },
    "tl": {
     "l": [
-     "Jun 22",
      "Jun 29",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     75,
      90,
      85,
-     80
+     80,
+     75
     ],
     "pk": 4
    },
@@ -126,7 +196,7 @@
    "name": "Hobby Dogging 2.0",
    "cat": "drama",
    "plat": "Reddit · TikTok",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Climbing",
    "def": {
     "normie": "People are taking the trend of pretending to walk a dog to new extremes with elaborate setups and outfits. It's a quirky way to have fun and get attention online.",
@@ -141,14 +211,14 @@
    },
    "tl": {
     "l": [
-     "Jun 27",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     70,
      85,
-     80
+     80,
+     75
     ],
     "pk": 3
    },
@@ -160,7 +230,7 @@
    "name": "Live-updating What a Week, Huh?",
    "cat": "meme",
    "plat": "HN · Reddit",
-   "decay": 0.7,
+   "decay": 0.65,
    "fresh": "Hot right now",
    "def": {
     "normie": "There's a new meme format that updates weekly to reflect current events. It humorously captures the chaos of modern life.",
@@ -175,10 +245,10 @@
    },
    "tl": {
     "l": [
-     "Jul 5"
+     "Jul 6"
     ],
     "d": [
-     70
+     65
     ],
     "pk": 1
    },
@@ -190,7 +260,7 @@
    "name": "Reverse Location Search",
    "cat": "viral trend",
    "plat": "HN · TikTok",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Climbing",
    "def": {
     "normie": "A new trend involves using photos to find locations in reverse. It's a fun way to engage with travel and photography.",
@@ -205,10 +275,10 @@
    },
    "tl": {
     "l": [
-     "Jul 5"
+     "Jul 6"
     ],
     "d": [
-     65
+     60
     ],
     "pk": 1
    },
@@ -220,7 +290,7 @@
    "name": "2026 FIFA World Cup Fever",
    "cat": "drama",
    "plat": "TikTok · Twitter",
-   "decay": 0.7,
+   "decay": 0.65,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are obsessively discussing the 2026 FIFA World Cup as it approaches, sharing predictions and favorite players. The excitement is palpable, with fans creating content around their teams and the event.",
@@ -235,18 +305,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     50,
      70,
      80,
      75,
-     70
+     70,
+     65
     ],
     "pk": 5
    },
@@ -258,7 +328,7 @@
    "name": "Gen Z Slang Revolution",
    "cat": "slang",
    "plat": "Reddit · TikTok",
-   "decay": 0.7,
+   "decay": 0.65,
    "fresh": "Climbing",
    "def": {
     "normie": "Young people are creating and popularizing new slang terms that are changing the way they communicate. This trend is all about keeping language fresh and relevant among youth.",
@@ -273,18 +343,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     60,
      80,
      80,
      75,
-     70
+     70,
+     65
     ],
     "pk": 4
    },
@@ -296,7 +366,7 @@
    "name": "Live-updating memes",
    "cat": "meme",
    "plat": "HN · Reddit",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating memes that update in real-time based on current events or trends. It's a creative way for people to react to the news as it happens.",
@@ -311,14 +381,14 @@
    },
    "tl": {
     "l": [
-     "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 3
    },
@@ -330,7 +400,7 @@
    "name": "Reverse ChatGPT prompts",
    "cat": "phrase",
    "plat": "TikTok · Reddit",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Climbing",
    "def": {
     "normie": "This trend involves people using ChatGPT in reverse to create prompts based on the responses it gives. It's a fun way to engage creatively with AI.",
@@ -345,14 +415,14 @@
    },
    "tl": {
     "l": [
-     "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 2
    },
@@ -364,7 +434,7 @@
    "name": "Reverse Location Search",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.6,
+   "decay": 0.55,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are using a new trend where they upload photos and ask others to identify their location based on the background. It’s a fun way to engage with friends and followers.",
@@ -379,14 +449,14 @@
    },
    "tl": {
     "l": [
-     "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     70,
      65,
-     60
+     60,
+     55
     ],
     "pk": 4
    },
@@ -398,7 +468,7 @@
    "name": "Citizen Vigilante",
    "cat": "drama",
    "plat": "Reddit · HN",
-   "decay": 0.6,
+   "decay": 0.55,
    "fresh": "Climbing",
    "def": {
     "normie": "A new phenomenon is emerging where ordinary people are taking it upon themselves to expose wrongdoings in their communities. It involves social media campaigns and grassroots efforts.",
@@ -413,14 +483,14 @@
    },
    "tl": {
     "l": [
-     "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     70,
      65,
-     60
+     60,
+     55
     ],
     "pk": 3
    },
@@ -432,7 +502,7 @@
    "name": "Viking Row",
    "cat": "drama",
    "plat": "TikTok · Reddit",
-   "decay": 0.5,
+   "decay": 0.45,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new trend where people are gathering in public spaces to reenact Viking-style rowing, often with comedic flair. It's become a way for communities to bond and engage in playful competition.",
@@ -447,14 +517,14 @@
    },
    "tl": {
     "l": [
-     "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     60,
      55,
-     50
+     50,
+     45
     ],
     "pk": 3
    },
@@ -466,7 +536,7 @@
    "name": "Chimpfluencers Stick Grass in Their Ears",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.4,
+   "decay": 0.35,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new quirky trend where influencers are humorously sticking grass in their ears to create funny content. It’s gaining traction as a light-hearted meme that pokes fun at influencer culture.",
@@ -481,18 +551,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     60,
      55,
      50,
      45,
-     40
+     40,
+     35
     ],
     "pk": 5
    },
@@ -504,7 +574,7 @@
    "name": "Hobby Dogging",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.4,
+   "decay": 0.35,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are pretending to walk their dogs in a humorous way that often involves creative costumes and settings. It’s all about the fun and joy of pet ownership with a comedic twist.",
@@ -519,18 +589,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     60,
      55,
      50,
      45,
-     40
+     40,
+     35
     ],
     "pk": 3
    },
@@ -542,7 +612,7 @@
    "name": "Nirvana \"Smells Like Teen Spirit\" (nevermind edits)",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.38,
+   "decay": 0.33,
    "fresh": "Brand new",
    "def": {
     "normie": "Nirvana's 1991 grunge anthem 'Smells Like Teen Spirit' went newly viral in June 2026 on the 'oh well, whatever, nevermind' lyric. Creators set carefree, single-shot videos to it — shrugging off small failures and daily stresses.",
@@ -557,18 +627,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     58,
      53,
      48,
      43,
-     38
+     38,
+     33
     ],
     "pk": 4
    },
@@ -580,7 +650,7 @@
    "name": "\"My boyfriend's in tech\" honest-carousel (Desire)",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.33,
+   "decay": 0.28,
    "fresh": "Hot right now",
    "def": {
     "normie": "A photo-carousel format set to Meg Myers' song 'Desire.' It opens with a stereotypical status intro like 'my boyfriend's in tech,' then a third slide flips to a brutally honest reframe arguing the loved one works just as hard as any high-status professional.",
@@ -595,18 +665,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     53,
      48,
      43,
      38,
-     33
+     33,
+     28
     ],
     "pk": 4
    },
@@ -618,7 +688,7 @@
    "name": "Josh Fawaz \"Like a Prayer\" (2026 Summer Anthem)",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.37,
+   "decay": 0.32,
    "fresh": "Brand new",
    "def": {
     "normie": "Producer Josh Fawaz's remix of Madonna's 1989 hit 'Like a Prayer' became the unofficial '2026 Summer Anthem.' The format is dead simple: a 7-second lip-sync clip with on-screen text reading '2026 Summer Anthem.' The Madonna sample does the emotional heavy lifting, and small creators are reporting millions of views on a first try.",
@@ -633,18 +703,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     57,
      52,
      47,
      42,
-     37
+     37,
+     32
     ],
     "pk": 3
    },
@@ -656,7 +726,7 @@
    "name": "Saxboy Billy \"The Puerto Rico Song\"",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.31,
+   "decay": 0.26,
    "fresh": "Brand new",
    "def": {
     "normie": "A lip-sync and dance audio built on Saxboy Billy's 'The Puerto Rico Song.' Creators use it for outfit reveals, travel clips, and dance challenges through mid-June 2026.",
@@ -671,18 +741,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     51,
      46,
      41,
      36,
-     31
+     31,
+     26
     ],
     "pk": 3
    },
@@ -694,7 +764,7 @@
    "name": "Same-Pose Lineup (anime product-reveal)",
    "cat": "format",
    "plat": "TikTok · Reels",
-   "decay": 0.26,
+   "decay": 0.21,
    "fresh": "Hot right now",
    "def": {
     "normie": "A format where a group of friends each strike the same dramatic pose one after another, each holding an object that represents them — styled like an anime character lineup or a product reveal. The rapid-fire editing and matching poses are the whole joke.",
@@ -709,18 +779,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     46,
      41,
      36,
      31,
-     26
+     26,
+     21
     ],
     "pk": 3
    },
@@ -732,7 +802,7 @@
    "name": "Dustin Lucas Will Mike (Stranger Things rap recap)",
    "cat": "meme",
    "plat": "TikTok · X · YouTube",
-   "decay": 0.28,
+   "decay": 0.23,
    "fresh": "Brand new",
    "def": {
     "normie": "A meme based on a 2025 Jimmy Fallon segment where the Stranger Things cast performed a recap of the show in rap form. Creators have been remixing and exploiting the audio since early 2026, and by mid-June it fused with the 'Withered Flight' analog-horror FlightReacts edits for an uncanny mashup.",
@@ -747,69 +817,33 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     48,
      43,
      38,
      33,
-     28
+     28,
+     23
     ],
     "pk": 2
    },
    "replaced": "Still climbing",
    "vid": "dustin lucas will mike stranger things tonight show"
-  },
-  {
-   "id": 29,
-   "name": "Withered Flight (analog horror FlightReacts edit)",
-   "cat": "meme",
-   "plat": "TikTok · YouTube",
-   "decay": 0.22,
-   "fresh": "Brand new",
-   "def": {
-    "normie": "An analog-horror style image macro using a distorted, uncanny edit of YouTuber FlightReacts. The edit became popular as the visual half of the Dustin Lucas Will Mike meme cycle.",
-    "normal": "Mid-June analog-horror edit of FlightReacts that paired up with the Stranger Things rap recap. Either half works alone; together they're undefeated.",
-    "zoomer": "Withered Flight x Dustin Lucas Will Mike is the ungovernable mashup the timeline deserved. Pure 2026 brain chemistry."
-   },
-   "origin": "Analog-horror YouTube edit → TikTok, June 2026",
-   "age": {
-    "z": "Peak",
-    "m": "Active",
-    "main": "Confused"
-   },
-   "tl": {
-    "l": [
-     "Jul 1",
-     "Jul 2",
-     "Jul 3",
-     "Jul 4",
-     "Jul 5"
-    ],
-    "d": [
-     42,
-     37,
-     32,
-     27,
-     22
-    ],
-    "pk": 2
-   },
-   "replaced": "Still climbing",
-   "vid": "withered flight analog horror flightreacts"
-  },
+  }
+ ],
+ "archive": [
   {
    "id": 27,
    "name": "\"Du bist gut genug\" Cleveland Brown Jr. edits",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.2,
-   "fresh": "Hot right now",
+   "decay": 0.15,
+   "fresh": "Archived",
    "def": {
     "normie": "An audio clip in German meaning 'you are good enough' (sung in falsetto by Rayan Djima) became a viral sound on TikTok in early June. Creators pair it with cartoon-character mashups, most popularly clips of Cleveland Brown Jr. from The Cleveland Show, for unexpectedly emotional comedy.",
     "normal": "Rayan Djima's wholesome-affirmation falsetto + animated-character mashups (Cleveland Jr. is the breakout) collided into a format that's somehow earnest and surreal at once. Saturation alarm is now blinking.",
@@ -823,26 +857,62 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 2",
      "Jul 3",
      "Jul 4",
-     "Jul 5"
+     "Jul 5",
+     "Jul 6"
     ],
     "d": [
-     40,
      35,
      30,
      25,
-     20
+     20,
+     15
     ],
     "pk": 1
    },
    "replaced": "Dustin Lucas Will Mike",
    "vid": "du bist gut genug rayan djima cleveland brown"
-  }
- ],
- "archive": [
+  },
+  {
+   "id": 29,
+   "name": "Withered Flight (analog horror FlightReacts edit)",
+   "cat": "meme",
+   "plat": "TikTok · YouTube",
+   "decay": 0.17,
+   "fresh": "Archived",
+   "def": {
+    "normie": "An analog-horror style image macro using a distorted, uncanny edit of YouTuber FlightReacts. The edit became popular as the visual half of the Dustin Lucas Will Mike meme cycle.",
+    "normal": "Mid-June analog-horror edit of FlightReacts that paired up with the Stranger Things rap recap. Either half works alone; together they're undefeated.",
+    "zoomer": "Withered Flight x Dustin Lucas Will Mike is the ungovernable mashup the timeline deserved. Pure 2026 brain chemistry."
+   },
+   "origin": "Analog-horror YouTube edit → TikTok, June 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Confused"
+   },
+   "tl": {
+    "l": [
+     "Jul 2",
+     "Jul 3",
+     "Jul 4",
+     "Jul 5",
+     "Jul 6"
+    ],
+    "d": [
+     37,
+     32,
+     27,
+     22,
+     17
+    ],
+    "pk": 2
+   },
+   "replaced": "Still climbing",
+   "vid": "withered flight analog horror flightreacts"
+  },
   {
    "id": 26,
    "name": "\"PRESSURE!\" by Nyck Caution (WC audio)",

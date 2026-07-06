@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 5, 2026",
-  "termCount": 171
+  "updated": "July 6, 2026",
+  "termCount": 173
  },
  "dict": {
   "ngl": {
@@ -889,6 +889,18 @@
    "type": "meme",
    "def": "Humorous challenges and skits that parody the events, players, or controversies surrounding the 2026 FIFA World Cup.",
    "origin": "Spurred by the excitement and memes related to the World Cup, with users creating original content that satirizes the tournament.",
+   "status": "ok"
+  },
+  "kylian apology challenge": {
+   "type": "meme",
+   "def": "A viral trend where fans create humorous video apologies to Kylian Mbappé for perceived slights or criticisms, often using exaggerated expressions of remorse.",
+   "origin": "Emerging from a petition by French fans seeking forgiveness from Mbappé after a controversial match.",
+   "status": "ok"
+  },
+  "alpha film meme mashup": {
+   "type": "meme",
+   "def": "A creative trend where clips or images from the film 'Alpha' are humorously combined with popular memes to create relatable or absurd content.",
+   "origin": "Stemming from the popularity of the film 'Alpha' and its integration into the meme culture on platforms like TikTok.",
    "status": "ok"
   },
   "💀": {
