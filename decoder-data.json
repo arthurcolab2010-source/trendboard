@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 6, 2026",
-  "termCount": 173
+  "updated": "July 7, 2026",
+  "termCount": 174
  },
  "dict": {
   "ngl": {
@@ -901,6 +901,12 @@
    "type": "meme",
    "def": "A creative trend where clips or images from the film 'Alpha' are humorously combined with popular memes to create relatable or absurd content.",
    "origin": "Stemming from the popularity of the film 'Alpha' and its integration into the meme culture on platforms like TikTok.",
+   "status": "ok"
+  },
+  "soccer star aesthetic": {
+   "type": "phrase",
+   "def": "A style or vibe characterized by a blend of athleticism and fashion, often inspired by popular soccer players and their off-field looks.",
+   "origin": "Emerging from social media trends where Gen Z showcases fashion influenced by soccer culture and prominent players.",
    "status": "ok"
   },
   "💀": {
