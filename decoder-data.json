@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 7, 2026",
-  "termCount": 174
+  "updated": "July 8, 2026",
+  "termCount": 175
  },
  "dict": {
   "ngl": {
@@ -907,6 +907,12 @@
    "type": "phrase",
    "def": "A style or vibe characterized by a blend of athleticism and fashion, often inspired by popular soccer players and their off-field looks.",
    "origin": "Emerging from social media trends where Gen Z showcases fashion influenced by soccer culture and prominent players.",
+   "status": "ok"
+  },
+  "fifa world cup meme challenge": {
+   "type": "meme",
+   "def": "A viral social media challenge where participants create humorous memes related to the FIFA World Cup, often featuring famous players or memorable moments.",
+   "origin": "Emerging during the intense discussions and excitement surrounding the 2026 FIFA World Cup.",
    "status": "ok"
   },
   "💀": {
