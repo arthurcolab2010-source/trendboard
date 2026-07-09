@@ -1,12 +1,14 @@
 {
  "meta": {
-  "tracking": 239,
-  "peak": 1,
+  "tracking": 241,
+  "peak": 3,
   "died": 12,
-  "archived": 114,
-  "updated": "July 8, 2026"
+  "archived": 116,
+  "updated": "July 9, 2026"
  },
  "graveyard": [
+  "Josh Fawaz \"Like a Prayer\" (2026 Summer Anthem)",
+  "Nirvana \"Smells Like Teen Spirit\" (nevermind edits)",
   "Saxboy Billy \"The Puerto Rico Song\"",
   "\"My boyfriend's in tech\" honest-carousel (Desire)",
   "Dustin Lucas Will Mike (Stranger Things rap recap)",
@@ -16,17 +18,85 @@
   "\"PRESSURE!\" by Nyck Caution (WC audio)",
   "House of the Dragon S3 return discourse",
   "\"no no no NO NO NO\"",
-  "Olivia Rodrigo \"sad for a girl so in love\" lyric overlays",
-  "Red Card Confusion (World Cup MEX vs SA)",
-  "Saxophone Gets Louder"
+  "Olivia Rodrigo \"sad for a girl so in love\" lyric overlays"
  ],
  "trends": [
+  {
+   "id": 152,
+   "name": "Erling Haaland Rap Challenge",
+   "cat": "challenge",
+   "plat": "TikTok · Reels",
+   "decay": 0.85,
+   "fresh": "Hot right now",
+   "def": {
+    "normie": "People are creating rap videos inspired by World Cup star Erling Haaland's latest viral song. This challenge involves showcasing unique dance moves or lip-syncing to the track.",
+    "normal": "TikTok users are jumping on the Erling Haaland rap song, creating videos that feature original choreography or funny skits. The challenge is gaining traction as fans of soccer and music join in.",
+    "zoomer": "The Erling Haaland Rap Challenge is lit! Everyone's throwing down their best dance moves or wild skits to his viral track, and honestly, it’s a whole vibe right now."
+   },
+   "origin": "TikTok trend sparked by a viral rap song in July 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Peak",
+    "main": "Hot"
+   },
+   "tl": {
+    "l": [
+     "Jul 1",
+     "Jul 5",
+     "Jul 7",
+     "Jul 9"
+    ],
+    "d": [
+     10,
+     20,
+     30,
+     40
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "Erling Haaland rap challenge"
+  },
+  {
+   "id": 153,
+   "name": "NeeDohs Trend",
+   "cat": "drama",
+   "plat": "Reddit · TikTok",
+   "decay": 0.85,
+   "fresh": "Climbing",
+   "def": {
+    "normie": "There's a new viral trend where kids are warned against using a stress-relief toy called NeeDohs. It's sparked debates about the influence of fads on youth behavior.",
+    "normal": "The NeeDohs trend has gone viral, with warnings being issued to kids to stay away from these stress-relief toys. This has led to discussions about the impact of such trends on children's safety.",
+    "zoomer": "The NeeDohs trend is wild! Everyone’s either obsessed or being told to steer clear of these squishy toys, and it’s causing a whole drama about what’s safe for the kiddos."
+   },
+   "origin": "Originated from safety warnings issued in July 2026",
+   "age": {
+    "z": "Active",
+    "m": "Active",
+    "main": "Climbing"
+   },
+   "tl": {
+    "l": [
+     "Jul 3",
+     "Jul 6",
+     "Jul 9"
+    ],
+    "d": [
+     10,
+     20,
+     30
+    ],
+    "pk": 3
+   },
+   "replaced": "Still climbing",
+   "vid": "NeeDohs trend warning"
+  },
   {
    "id": 151,
    "name": "FIFA World Cup Meme Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.85,
+   "decay": 0.8,
    "fresh": "Hot right now",
    "def": {
     "normie": "This challenge invites fans to create funny, meme-inspired videos related to the FIFA World Cup. It's a way for soccer enthusiasts to express their love for the sport through humor and creativity.",
@@ -41,18 +111,18 @@
    },
    "tl": {
     "l": [
-     "Jun 15",
      "Jun 22",
      "Jun 29",
      "Jul 6",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     10,
      20,
      40,
      60,
-     75
+     75,
+     80
     ],
     "pk": 3
    },
@@ -64,7 +134,7 @@
    "name": "Soccer Star Aesthetic",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating aesthetic videos featuring popular soccer stars, often set to trending music. It showcases their skills and fashion in a visually appealing way.",
@@ -79,18 +149,18 @@
    },
    "tl": {
     "l": [
-     "Jun 15",
      "Jun 22",
      "Jul 1",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     40,
      60,
      80,
      80,
-     75
+     75,
+     70
     ],
     "pk": 5
    },
@@ -102,7 +172,7 @@
    "name": "Kylian Apology Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reddit",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Hot right now",
    "def": {
     "normie": "Fans of Kylian Mbappé are participating in a viral challenge where they create apology videos for past criticisms of the soccer star. This trend has gained traction following a public petition from French fans seeking forgiveness.",
@@ -117,16 +187,16 @@
    },
    "tl": {
     "l": [
-     "Jul 5",
      "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     30,
      40,
      80,
-     75
+     75,
+     70
     ],
     "pk": 4
    },
@@ -138,7 +208,7 @@
    "name": "Alpha Film Meme Mashup",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Climbing",
    "def": {
     "normie": "Users are creating meme mashups that blend scenes from the film 'Alpha' with various internet memes. This trend is gaining popularity as the film becomes a talking point among younger audiences.",
@@ -153,14 +223,14 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     25,
      80,
-     75
+     75,
+     70
     ],
     "pk": 3
    },
@@ -172,7 +242,7 @@
    "name": "Cape Verde Culture Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Hot right now",
    "def": {
     "normie": "Cape Verde has gained attention for its vibrant culture and music. People are sharing videos and memes celebrating its unique traditions and landscapes.",
@@ -187,12 +257,12 @@
    },
    "tl": {
     "l": [
-     "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     70,
-     65
+     65,
+     60
     ],
     "pk": 2
    },
@@ -204,7 +274,7 @@
    "name": "2026 FIFA World Cup Parody Challenges",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.6,
+   "decay": 0.55,
    "fresh": "Climbing",
    "def": {
     "normie": "As the 2026 FIFA World Cup approaches, people are creating funny parody challenges related to the event. These challenges often involve humorous takes on football culture and player stereotypes.",
@@ -219,12 +289,12 @@
    },
    "tl": {
     "l": [
-     "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     65,
-     60
+     60,
+     55
     ],
     "pk": 2
    },
@@ -236,7 +306,7 @@
    "name": "FIFA World Cup Meme Mashup",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Hot right now",
    "def": {
     "normie": "Fans are creating mashups of popular memes with FIFA World Cup highlights. It's a fun way to combine humor and sports excitement.",
@@ -251,16 +321,16 @@
    },
    "tl": {
     "l": [
-     "Jul 5",
      "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     80,
      75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 4
    },
@@ -272,7 +342,7 @@
    "name": "Hobby Dogging 2.0",
    "cat": "drama",
    "plat": "Reddit · TikTok",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Climbing",
    "def": {
     "normie": "People are taking the trend of pretending to walk a dog to new extremes with elaborate setups and outfits. It's a quirky way to have fun and get attention online.",
@@ -287,14 +357,14 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 3
    },
@@ -306,7 +376,7 @@
    "name": "Live-updating What a Week, Huh?",
    "cat": "meme",
    "plat": "HN · Reddit",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Hot right now",
    "def": {
     "normie": "There's a new meme format that updates weekly to reflect current events. It humorously captures the chaos of modern life.",
@@ -321,10 +391,10 @@
    },
    "tl": {
     "l": [
-     "Jul 8"
+     "Jul 9"
     ],
     "d": [
-     55
+     50
     ],
     "pk": 1
    },
@@ -336,7 +406,7 @@
    "name": "Reverse Location Search",
    "cat": "viral trend",
    "plat": "HN · TikTok",
-   "decay": 0.5,
+   "decay": 0.45,
    "fresh": "Climbing",
    "def": {
     "normie": "A new trend involves using photos to find locations in reverse. It's a fun way to engage with travel and photography.",
@@ -351,10 +421,10 @@
    },
    "tl": {
     "l": [
-     "Jul 8"
+     "Jul 9"
     ],
     "d": [
-     50
+     45
     ],
     "pk": 1
    },
@@ -366,7 +436,7 @@
    "name": "2026 FIFA World Cup Fever",
    "cat": "drama",
    "plat": "TikTok · Twitter",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are obsessively discussing the 2026 FIFA World Cup as it approaches, sharing predictions and favorite players. The excitement is palpable, with fans creating content around their teams and the event.",
@@ -381,18 +451,18 @@
    },
    "tl": {
     "l": [
-     "Jul 4",
      "Jul 5",
      "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     75,
      70,
      65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 5
    },
@@ -404,7 +474,7 @@
    "name": "Gen Z Slang Revolution",
    "cat": "slang",
    "plat": "Reddit · TikTok",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Climbing",
    "def": {
     "normie": "Young people are creating and popularizing new slang terms that are changing the way they communicate. This trend is all about keeping language fresh and relevant among youth.",
@@ -419,18 +489,18 @@
    },
    "tl": {
     "l": [
-     "Jul 4",
      "Jul 5",
      "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     75,
      70,
      65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 4
    },
@@ -442,7 +512,7 @@
    "name": "Live-updating memes",
    "cat": "meme",
    "plat": "HN · Reddit",
-   "decay": 0.5,
+   "decay": 0.45,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating memes that update in real-time based on current events or trends. It's a creative way for people to react to the news as it happens.",
@@ -457,14 +527,14 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     60,
      55,
-     50
+     50,
+     45
     ],
     "pk": 3
    },
@@ -476,7 +546,7 @@
    "name": "Reverse ChatGPT prompts",
    "cat": "phrase",
    "plat": "TikTok · Reddit",
-   "decay": 0.5,
+   "decay": 0.45,
    "fresh": "Climbing",
    "def": {
     "normie": "This trend involves people using ChatGPT in reverse to create prompts based on the responses it gives. It's a fun way to engage creatively with AI.",
@@ -491,14 +561,14 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     60,
      55,
-     50
+     50,
+     45
     ],
     "pk": 2
    },
@@ -510,7 +580,7 @@
    "name": "Reverse Location Search",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are using a new trend where they upload photos and ask others to identify their location based on the background. It’s a fun way to engage with friends and followers.",
@@ -525,14 +595,14 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 4
    },
@@ -544,7 +614,7 @@
    "name": "Citizen Vigilante",
    "cat": "drama",
    "plat": "Reddit · HN",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Climbing",
    "def": {
     "normie": "A new phenomenon is emerging where ordinary people are taking it upon themselves to expose wrongdoings in their communities. It involves social media campaigns and grassroots efforts.",
@@ -559,14 +629,14 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 3
    },
@@ -578,7 +648,7 @@
    "name": "Viking Row",
    "cat": "drama",
    "plat": "TikTok · Reddit",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new trend where people are gathering in public spaces to reenact Viking-style rowing, often with comedic flair. It's become a way for communities to bond and engage in playful competition.",
@@ -593,14 +663,14 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 3
    },
@@ -612,7 +682,7 @@
    "name": "Chimpfluencers Stick Grass in Their Ears",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new quirky trend where influencers are humorously sticking grass in their ears to create funny content. It’s gaining traction as a light-hearted meme that pokes fun at influencer culture.",
@@ -627,18 +697,18 @@
    },
    "tl": {
     "l": [
-     "Jul 4",
      "Jul 5",
      "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     45,
      40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 5
    },
@@ -650,7 +720,7 @@
    "name": "Hobby Dogging",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are pretending to walk their dogs in a humorous way that often involves creative costumes and settings. It’s all about the fun and joy of pet ownership with a comedic twist.",
@@ -665,69 +735,33 @@
    },
    "tl": {
     "l": [
-     "Jul 4",
      "Jul 5",
      "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     45,
      40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 3
    },
    "replaced": "Still climbing",
    "vid": "Hobby dogging trend"
-  },
-  {
-   "id": 131,
-   "name": "Nirvana \"Smells Like Teen Spirit\" (nevermind edits)",
-   "cat": "audio",
-   "plat": "TikTok · Reels",
-   "decay": 0.23,
-   "fresh": "Brand new",
-   "def": {
-    "normie": "Nirvana's 1991 grunge anthem 'Smells Like Teen Spirit' went newly viral in June 2026 on the 'oh well, whatever, nevermind' lyric. Creators set carefree, single-shot videos to it — shrugging off small failures and daily stresses.",
-    "normal": "The 'oh well, whatever, nevermind' lyric became the audio of choice for carefree single-take clips. Gen Z rediscovering Nirvana for the meme is its own subplot.",
-    "zoomer": "Smells Like Teen Spirit soundtracking 'nevermind' shrug edits is peak summer nonchalance. Kurt would have feelings."
-   },
-   "origin": "Nirvana, 1991 → TikTok 'nevermind' audio, June 2026",
-   "age": {
-    "z": "Peak",
-    "m": "Active",
-    "main": "Active"
-   },
-   "tl": {
-    "l": [
-     "Jul 4",
-     "Jul 5",
-     "Jul 6",
-     "Jul 7",
-     "Jul 8"
-    ],
-    "d": [
-     43,
-     38,
-     33,
-     28,
-     23
-    ],
-    "pk": 4
-   },
-   "replaced": "Still climbing",
-   "vid": "smells like teen spirit nevermind tiktok trend"
-  },
+  }
+ ],
+ "archive": [
   {
    "id": 31,
    "name": "Josh Fawaz \"Like a Prayer\" (2026 Summer Anthem)",
    "cat": "audio",
    "plat": "TikTok · Reels",
-   "decay": 0.22,
-   "fresh": "Brand new",
+   "decay": 0.17,
+   "fresh": "Archived",
    "def": {
     "normie": "Producer Josh Fawaz's remix of Madonna's 1989 hit 'Like a Prayer' became the unofficial '2026 Summer Anthem.' The format is dead simple: a 7-second lip-sync clip with on-screen text reading '2026 Summer Anthem.' The Madonna sample does the emotional heavy lifting, and small creators are reporting millions of views on a first try.",
     "normal": "The summer-anthem audio of 2026. Lowest-lift trend of the season — lip-sync seven seconds, slap '2026 Summer Anthem' on top, post. The nostalgia sample carries the whole thing.",
@@ -741,26 +775,62 @@
    },
    "tl": {
     "l": [
-     "Jul 4",
      "Jul 5",
      "Jul 6",
      "Jul 7",
-     "Jul 8"
+     "Jul 8",
+     "Jul 9"
     ],
     "d": [
-     42,
      37,
      32,
      27,
-     22
+     22,
+     17
     ],
     "pk": 3
    },
    "replaced": "Still climbing",
    "vid": "josh fawaz like a prayer 2026 summer anthem"
-  }
- ],
- "archive": [
+  },
+  {
+   "id": 131,
+   "name": "Nirvana \"Smells Like Teen Spirit\" (nevermind edits)",
+   "cat": "audio",
+   "plat": "TikTok · Reels",
+   "decay": 0.18,
+   "fresh": "Archived",
+   "def": {
+    "normie": "Nirvana's 1991 grunge anthem 'Smells Like Teen Spirit' went newly viral in June 2026 on the 'oh well, whatever, nevermind' lyric. Creators set carefree, single-shot videos to it — shrugging off small failures and daily stresses.",
+    "normal": "The 'oh well, whatever, nevermind' lyric became the audio of choice for carefree single-take clips. Gen Z rediscovering Nirvana for the meme is its own subplot.",
+    "zoomer": "Smells Like Teen Spirit soundtracking 'nevermind' shrug edits is peak summer nonchalance. Kurt would have feelings."
+   },
+   "origin": "Nirvana, 1991 → TikTok 'nevermind' audio, June 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 5",
+     "Jul 6",
+     "Jul 7",
+     "Jul 8",
+     "Jul 9"
+    ],
+    "d": [
+     38,
+     33,
+     28,
+     23,
+     18
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "smells like teen spirit nevermind tiktok trend"
+  },
   {
    "id": 32,
    "name": "Saxboy Billy \"The Puerto Rico Song\"",

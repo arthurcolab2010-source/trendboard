@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 8, 2026",
-  "termCount": 175
+  "updated": "July 9, 2026",
+  "termCount": 177
  },
  "dict": {
   "ngl": {
@@ -913,6 +913,18 @@
    "type": "meme",
    "def": "A viral social media challenge where participants create humorous memes related to the FIFA World Cup, often featuring famous players or memorable moments.",
    "origin": "Emerging during the intense discussions and excitement surrounding the 2026 FIFA World Cup.",
+   "status": "ok"
+  },
+  "erling haaland rap challenge": {
+   "type": "meme",
+   "def": "A viral trend where fans create rap songs or challenge others to rap about Erling Haaland, often highlighting his achievements in football.",
+   "origin": "Originated from social media platforms as a playful way to celebrate the football star's rising fame during the 2026 FIFA World Cup.",
+   "status": "ok"
+  },
+  "needohs trend": {
+   "type": "slang",
+   "def": "Refers to the popular activity of using NeeDoh stress balls as a fidget toy during stressful situations, often shared in videos and memes.",
+   "origin": "Gained traction on TikTok as users showcased the satisfying experience of squishing and playing with NeeDohs.",
    "status": "ok"
   },
   "💀": {
