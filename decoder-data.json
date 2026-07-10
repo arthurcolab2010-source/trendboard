@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 9, 2026",
-  "termCount": 177
+  "updated": "July 10, 2026",
+  "termCount": 179
  },
  "dict": {
   "ngl": {
@@ -925,6 +925,18 @@
    "type": "slang",
    "def": "Refers to the popular activity of using NeeDoh stress balls as a fidget toy during stressful situations, often shared in videos and memes.",
    "origin": "Gained traction on TikTok as users showcased the satisfying experience of squishing and playing with NeeDohs.",
+   "status": "ok"
+  },
+  "world cup wonderwall": {
+   "type": "meme",
+   "def": "A viral trend celebrating iconic moments and players from the FIFA World Cup, often accompanied by humorous or nostalgic commentary.",
+   "origin": "The term emerged during the 2026 FIFA World Cup, referencing the popular song 'Wonderwall' and its cultural significance.",
+   "status": "ok"
+  },
+  "erling haaland sexy pics trend": {
+   "type": "phrase",
+   "def": "A trend where fans share and discuss attractive photos of footballer Erling Haaland, often highlighting his appeal both on and off the field.",
+   "origin": "The trend gained traction during the 2026 FIFA World Cup, fueled by social media and fan engagement.",
    "status": "ok"
   },
   "💀": {
