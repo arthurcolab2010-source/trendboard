@@ -1,10 +1,10 @@
 {
  "meta": {
-  "tracking": 243,
-  "peak": 3,
+  "tracking": 245,
+  "peak": 2,
   "died": 12,
   "archived": 118,
-  "updated": "July 10, 2026"
+  "updated": "July 11, 2026"
  },
  "graveyard": [
   "Hobby Dogging",
@@ -22,11 +22,87 @@
  ],
  "trends": [
   {
+   "id": 156,
+   "name": "Evil Dead Burn Challenge",
+   "cat": "challenge",
+   "plat": "TikTok · Reels",
+   "decay": 0.85,
+   "fresh": "Hot right now",
+   "def": {
+    "normie": "A new social media challenge where people creatively recreate scenes from the Evil Dead franchise while incorporating humor. Participants share their videos, trying to outdo each other's creativity.",
+    "normal": "This challenge is all about combining horror and comedy by reenacting iconic Evil Dead scenes with a funny twist. TikTok users are jumping in, making it a viral sensation.",
+    "zoomer": "The Evil Dead Burn Challenge is the perfect blend of horror and LOLs, where users are flexing their creativity by spoofing those classic scenes. If you’re not reenacting Ash’s shenanigans, are you even trying?"
+   },
+   "origin": "TikTok, 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 1",
+     "Jul 5",
+     "Jul 8",
+     "Jul 10",
+     "Jul 11"
+    ],
+    "d": [
+     15,
+     25,
+     40,
+     60,
+     75
+    ],
+    "pk": 3
+   },
+   "replaced": "Still climbing",
+   "vid": "Evil Dead Burn Challenge"
+  },
+  {
+   "id": 157,
+   "name": "Bonnie Tyler Nostalgia Wave",
+   "cat": "audio",
+   "plat": "TikTok · X",
+   "decay": 0.85,
+   "fresh": "Climbing",
+   "def": {
+    "normie": "Users are sharing nostalgic memories while playing Bonnie Tyler's classic hits, often pairing them with old photos and videos. This trend evokes a sense of nostalgia and connection to the past.",
+    "normal": "The Bonnie Tyler Nostalgia Wave is all about sharing throwback content set to her iconic tracks, creating a heartfelt connection among users. It's like a digital time capsule of memories.",
+    "zoomer": "It’s a whole mood! The Bonnie Tyler Nostalgia Wave has everyone flexing their old school vibes with her bangers, making it the ultimate ‘remember when’ moment on your feed. If you’re not vibing to ‘Total Eclipse of the Heart’, are you even alive?"
+   },
+   "origin": "TikTok, 2026",
+   "age": {
+    "z": "Active",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 1",
+     "Jul 6",
+     "Jul 9",
+     "Jul 10",
+     "Jul 11"
+    ],
+    "d": [
+     20,
+     30,
+     50,
+     70,
+     80
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "Bonnie Tyler Nostalgia Wave"
+  },
+  {
    "id": 154,
    "name": "World Cup Wonderwall",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new meme trend where users create parodies of the song 'Wonderwall' with World Cup-themed lyrics. It's gaining popularity as fans express their support for their favorite teams.",
@@ -41,16 +117,16 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 5",
      "Jul 8",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     5,
      15,
      20,
-     40
+     40,
+     75
     ],
     "pk": 4
    },
@@ -62,7 +138,7 @@
    "name": "Erling Haaland Sexy Pics Trend",
    "cat": "drama",
    "plat": "X · TikTok",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Climbing",
    "def": {
     "normie": "A social media trend showcasing attractive pictures of soccer star Erling Haaland. Fans are sharing and commenting on these images as part of a playful admiration.",
@@ -77,14 +153,14 @@
    },
    "tl": {
     "l": [
-     "Jul 5",
      "Jul 8",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     3,
      10,
-     20
+     20,
+     70
     ],
     "pk": 4
    },
@@ -96,7 +172,7 @@
    "name": "Erling Haaland Rap Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are creating rap videos inspired by World Cup star Erling Haaland's latest viral song. This challenge involves showcasing unique dance moves or lip-syncing to the track.",
@@ -111,16 +187,16 @@
    },
    "tl": {
     "l": [
-     "Jul 5",
      "Jul 7",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     20,
      30,
      40,
-     80
+     80,
+     75
     ],
     "pk": 4
    },
@@ -132,7 +208,7 @@
    "name": "NeeDohs Trend",
    "cat": "drama",
    "plat": "Reddit · TikTok",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Climbing",
    "def": {
     "normie": "There's a new viral trend where kids are warned against using a stress-relief toy called NeeDohs. It's sparked debates about the influence of fads on youth behavior.",
@@ -147,14 +223,14 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     20,
      30,
-     80
+     80,
+     75
     ],
     "pk": 3
    },
@@ -166,7 +242,7 @@
    "name": "FIFA World Cup Meme Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Hot right now",
    "def": {
     "normie": "This challenge invites fans to create funny, meme-inspired videos related to the FIFA World Cup. It's a way for soccer enthusiasts to express their love for the sport through humor and creativity.",
@@ -181,18 +257,18 @@
    },
    "tl": {
     "l": [
-     "Jun 29",
      "Jul 6",
      "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     40,
      60,
      75,
      80,
-     75
+     75,
+     70
     ],
     "pk": 3
    },
@@ -204,7 +280,7 @@
    "name": "Soccer Star Aesthetic",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating aesthetic videos featuring popular soccer stars, often set to trending music. It showcases their skills and fashion in a visually appealing way.",
@@ -219,18 +295,18 @@
    },
    "tl": {
     "l": [
-     "Jul 1",
      "Jul 7",
      "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
      80,
-     80,
      75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 5
    },
@@ -242,7 +318,7 @@
    "name": "Kylian Apology Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reddit",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Hot right now",
    "def": {
     "normie": "Fans of Kylian Mbappé are participating in a viral challenge where they create apology videos for past criticisms of the soccer star. This trend has gained traction following a public petition from French fans seeking forgiveness.",
@@ -257,16 +333,16 @@
    },
    "tl": {
     "l": [
-     "Jul 7",
      "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     80,
      75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 4
    },
@@ -278,7 +354,7 @@
    "name": "Alpha Film Meme Mashup",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Climbing",
    "def": {
     "normie": "Users are creating meme mashups that blend scenes from the film 'Alpha' with various internet memes. This trend is gaining popularity as the film becomes a talking point among younger audiences.",
@@ -293,14 +369,14 @@
    },
    "tl": {
     "l": [
-     "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 3
    },
@@ -312,7 +388,7 @@
    "name": "Cape Verde Culture Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Hot right now",
    "def": {
     "normie": "Cape Verde has gained attention for its vibrant culture and music. People are sharing videos and memes celebrating its unique traditions and landscapes.",
@@ -327,12 +403,12 @@
    },
    "tl": {
     "l": [
-     "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     60,
-     55
+     55,
+     50
     ],
     "pk": 2
    },
@@ -344,7 +420,7 @@
    "name": "2026 FIFA World Cup Parody Challenges",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.5,
+   "decay": 0.45,
    "fresh": "Climbing",
    "def": {
     "normie": "As the 2026 FIFA World Cup approaches, people are creating funny parody challenges related to the event. These challenges often involve humorous takes on football culture and player stereotypes.",
@@ -359,12 +435,12 @@
    },
    "tl": {
     "l": [
-     "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     55,
-     50
+     50,
+     45
     ],
     "pk": 2
    },
@@ -376,7 +452,7 @@
    "name": "FIFA World Cup Meme Mashup",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Hot right now",
    "def": {
     "normie": "Fans are creating mashups of popular memes with FIFA World Cup highlights. It's a fun way to combine humor and sports excitement.",
@@ -391,16 +467,16 @@
    },
    "tl": {
     "l": [
-     "Jul 7",
      "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     70,
      65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 4
    },
@@ -412,7 +488,7 @@
    "name": "Hobby Dogging 2.0",
    "cat": "drama",
    "plat": "Reddit · TikTok",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Climbing",
    "def": {
     "normie": "People are taking the trend of pretending to walk a dog to new extremes with elaborate setups and outfits. It's a quirky way to have fun and get attention online.",
@@ -427,14 +503,14 @@
    },
    "tl": {
     "l": [
-     "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 3
    },
@@ -446,7 +522,7 @@
    "name": "Live-updating What a Week, Huh?",
    "cat": "meme",
    "plat": "HN · Reddit",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Hot right now",
    "def": {
     "normie": "There's a new meme format that updates weekly to reflect current events. It humorously captures the chaos of modern life.",
@@ -461,10 +537,10 @@
    },
    "tl": {
     "l": [
-     "Jul 10"
+     "Jul 11"
     ],
     "d": [
-     45
+     40
     ],
     "pk": 1
    },
@@ -476,7 +552,7 @@
    "name": "Reverse Location Search",
    "cat": "viral trend",
    "plat": "HN · TikTok",
-   "decay": 0.4,
+   "decay": 0.35,
    "fresh": "Climbing",
    "def": {
     "normie": "A new trend involves using photos to find locations in reverse. It's a fun way to engage with travel and photography.",
@@ -491,10 +567,10 @@
    },
    "tl": {
     "l": [
-     "Jul 10"
+     "Jul 11"
     ],
     "d": [
-     40
+     35
     ],
     "pk": 1
    },
@@ -506,7 +582,7 @@
    "name": "2026 FIFA World Cup Fever",
    "cat": "drama",
    "plat": "TikTok · Twitter",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are obsessively discussing the 2026 FIFA World Cup as it approaches, sharing predictions and favorite players. The excitement is palpable, with fans creating content around their teams and the event.",
@@ -521,18 +597,18 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 7",
      "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     65,
      60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 5
    },
@@ -544,7 +620,7 @@
    "name": "Gen Z Slang Revolution",
    "cat": "slang",
    "plat": "Reddit · TikTok",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Climbing",
    "def": {
     "normie": "Young people are creating and popularizing new slang terms that are changing the way they communicate. This trend is all about keeping language fresh and relevant among youth.",
@@ -559,18 +635,18 @@
    },
    "tl": {
     "l": [
-     "Jul 6",
      "Jul 7",
      "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     65,
      60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 4
    },
@@ -582,7 +658,7 @@
    "name": "Live-updating memes",
    "cat": "meme",
    "plat": "HN · Reddit",
-   "decay": 0.4,
+   "decay": 0.35,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating memes that update in real-time based on current events or trends. It's a creative way for people to react to the news as it happens.",
@@ -597,14 +673,14 @@
    },
    "tl": {
     "l": [
-     "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     50,
      45,
-     40
+     40,
+     35
     ],
     "pk": 3
    },
@@ -616,7 +692,7 @@
    "name": "Reverse ChatGPT prompts",
    "cat": "phrase",
    "plat": "TikTok · Reddit",
-   "decay": 0.4,
+   "decay": 0.35,
    "fresh": "Climbing",
    "def": {
     "normie": "This trend involves people using ChatGPT in reverse to create prompts based on the responses it gives. It's a fun way to engage creatively with AI.",
@@ -631,14 +707,14 @@
    },
    "tl": {
     "l": [
-     "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     50,
      45,
-     40
+     40,
+     35
     ],
     "pk": 2
    },
@@ -650,7 +726,7 @@
    "name": "Reverse Location Search",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are using a new trend where they upload photos and ask others to identify their location based on the background. It’s a fun way to engage with friends and followers.",
@@ -665,14 +741,14 @@
    },
    "tl": {
     "l": [
-     "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 4
    },
@@ -684,7 +760,7 @@
    "name": "Citizen Vigilante",
    "cat": "drama",
    "plat": "Reddit · HN",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Climbing",
    "def": {
     "normie": "A new phenomenon is emerging where ordinary people are taking it upon themselves to expose wrongdoings in their communities. It involves social media campaigns and grassroots efforts.",
@@ -699,14 +775,14 @@
    },
    "tl": {
     "l": [
-     "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 3
    },
@@ -718,7 +794,7 @@
    "name": "Viking Row",
    "cat": "drama",
    "plat": "TikTok · Reddit",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new trend where people are gathering in public spaces to reenact Viking-style rowing, often with comedic flair. It's become a way for communities to bond and engage in playful competition.",
@@ -733,14 +809,14 @@
    },
    "tl": {
     "l": [
-     "Jul 8",
      "Jul 9",
-     "Jul 10"
+     "Jul 10",
+     "Jul 11"
     ],
     "d": [
-     35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 3
    },

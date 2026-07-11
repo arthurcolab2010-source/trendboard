@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 10, 2026",
-  "termCount": 179
+  "updated": "July 11, 2026",
+  "termCount": 181
  },
  "dict": {
   "ngl": {
@@ -937,6 +937,18 @@
    "type": "phrase",
    "def": "A trend where fans share and discuss attractive photos of footballer Erling Haaland, often highlighting his appeal both on and off the field.",
    "origin": "The trend gained traction during the 2026 FIFA World Cup, fueled by social media and fan engagement.",
+   "status": "ok"
+  },
+  "evil dead burn challenge": {
+   "type": "meme",
+   "def": "A viral challenge where participants film themselves creating humorous and exaggerated versions of horror scenes, inspired by the 'Evil Dead' franchise.",
+   "origin": "The trend emerged following the release of the latest 'Evil Dead' film, encouraging fans to creatively engage with the franchise.",
+   "status": "ok"
+  },
+  "bonnie tyler nostalgia wave": {
+   "type": "phrase",
+   "def": "A cultural moment characterized by a resurgence of interest in the music and themes from Bonnie Tyler’s hits, particularly in nostalgic media and social platforms.",
+   "origin": "This wave gained traction as her songs were featured in various memes and nostalgic retrospectives on platforms like TikTok.",
    "status": "ok"
   },
   "💀": {
