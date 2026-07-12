@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 11, 2026",
-  "termCount": 181
+  "updated": "July 12, 2026",
+  "termCount": 183
  },
  "dict": {
   "ngl": {
@@ -949,6 +949,18 @@
    "type": "phrase",
    "def": "A cultural moment characterized by a resurgence of interest in the music and themes from Bonnie Tyler’s hits, particularly in nostalgic media and social platforms.",
    "origin": "This wave gained traction as her songs were featured in various memes and nostalgic retrospectives on platforms like TikTok.",
+   "status": "ok"
+  },
+  "fifa parody challenge": {
+   "type": "meme",
+   "def": "A viral trend where participants create humorous or satirical content related to the 2026 FIFA World Cup, often mimicking famous moments or players in a comedic light.",
+   "origin": "Emerging from the excitement surrounding the FIFA World Cup 2026, these parodies capitalize on the global passion for soccer.",
+   "status": "ok"
+  },
+  "reverse chatgpt prompt": {
+   "type": "phrase",
+   "def": "A trend where users ask ChatGPT to generate content based on specific outcomes or responses they desire, flipping the traditional prompting model.",
+   "origin": "Gained popularity as users sought to explore more creative and personalized interactions with AI tools.",
    "status": "ok"
   },
   "💀": {
