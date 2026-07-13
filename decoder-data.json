@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 12, 2026",
-  "termCount": 183
+  "updated": "July 13, 2026",
+  "termCount": 184
  },
  "dict": {
   "ngl": {
@@ -961,6 +961,12 @@
    "type": "phrase",
    "def": "A trend where users ask ChatGPT to generate content based on specific outcomes or responses they desire, flipping the traditional prompting model.",
    "origin": "Gained popularity as users sought to explore more creative and personalized interactions with AI tools.",
+   "status": "ok"
+  },
+  "haaland's highlight reel challenge": {
+   "type": "meme",
+   "def": "A viral trend where users create and share compilations of impressive moments or achievements inspired by soccer player Erling Haaland's performance highlights.",
+   "origin": "This trend emerged in July 2026, coinciding with Haaland's rising popularity during the FIFA World Cup.",
    "status": "ok"
   },
   "💀": {
