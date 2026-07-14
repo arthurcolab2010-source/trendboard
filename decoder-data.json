@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 13, 2026",
-  "termCount": 184
+  "updated": "July 14, 2026",
+  "termCount": 186
  },
  "dict": {
   "ngl": {
@@ -967,6 +967,18 @@
    "type": "meme",
    "def": "A viral trend where users create and share compilations of impressive moments or achievements inspired by soccer player Erling Haaland's performance highlights.",
    "origin": "This trend emerged in July 2026, coinciding with Haaland's rising popularity during the FIFA World Cup.",
+   "status": "ok"
+  },
+  "barbie peptide": {
+   "type": "slang",
+   "def": "A trendy new supplement that claims to enhance beauty and wellness, inspired by the cultural phenomenon of Barbie aesthetics.",
+   "origin": "Emerging from viral discussions on social media about beauty trends and wellness products.",
+   "status": "ok"
+  },
+  "digger transformation challenge": {
+   "type": "meme",
+   "def": "A viral social media challenge where participants showcase dramatic physical transformations, inspired by the film 'Digger' and its promotional content.",
+   "origin": "Originated from the release of the film 'Digger' in 2026, gaining traction through platforms like TikTok.",
    "status": "ok"
   },
   "💀": {
