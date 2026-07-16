@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 15, 2026",
-  "termCount": 186
+  "updated": "July 16, 2026",
+  "termCount": 187
  },
  "dict": {
   "ngl": {
@@ -979,6 +979,12 @@
    "type": "meme",
    "def": "A viral social media challenge where participants showcase dramatic physical transformations, inspired by the film 'Digger' and its promotional content.",
    "origin": "Originated from the release of the film 'Digger' in 2026, gaining traction through platforms like TikTok.",
+   "status": "ok"
+  },
+  "lamine yamal challenge": {
+   "type": "meme",
+   "def": "A viral challenge inspired by Lamine Yamal, encouraging participants to showcase their unique skills or talents in a short video format, often accompanied by a specific soundtrack.",
+   "origin": "Emerging from the popularity of young footballer Lamine Yamal, the challenge gained traction on social media platforms like TikTok.",
    "status": "ok"
   },
   "💀": {
