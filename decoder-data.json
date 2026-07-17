@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 16, 2026",
-  "termCount": 187
+  "updated": "July 17, 2026",
+  "termCount": 189
  },
  "dict": {
   "ngl": {
@@ -985,6 +985,18 @@
    "type": "meme",
    "def": "A viral challenge inspired by Lamine Yamal, encouraging participants to showcase their unique skills or talents in a short video format, often accompanied by a specific soundtrack.",
    "origin": "Emerging from the popularity of young footballer Lamine Yamal, the challenge gained traction on social media platforms like TikTok.",
+   "status": "ok"
+  },
+  "falkland islands meme revival": {
+   "type": "meme",
+   "def": "A resurgence of humor and content related to the Falkland Islands, often used to comment on current events or nostalgia.",
+   "origin": "Gained popularity through social media platforms as users began to reference the Falkland Islands in comedic or ironic contexts.",
+   "status": "ok"
+  },
+  "soccer star aesthetic revamp": {
+   "type": "slang",
+   "def": "A style or trend focused on emulating the fashion and persona of popular soccer players, often incorporating high-end athletic wear and casual chic.",
+   "origin": "Emerged alongside the rise of social media influencers and the visibility of soccer stars' personal styles.",
    "status": "ok"
   },
   "💀": {
