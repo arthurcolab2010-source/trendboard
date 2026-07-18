@@ -1,12 +1,15 @@
 {
  "meta": {
-  "tracking": 255,
-  "peak": 3,
+  "tracking": 256,
+  "peak": 1,
   "died": 12,
-  "archived": 128,
-  "updated": "July 17, 2026"
+  "archived": 131,
+  "updated": "July 18, 2026"
  },
  "graveyard": [
+  "Hobby Dogging 2.0",
+  "FIFA World Cup Meme Mashup",
+  "Cape Verde Culture Surge",
   "2026 FIFA World Cup Parody Challenges",
   "Gen Z Slang Revolution",
   "2026 FIFA World Cup Fever",
@@ -15,18 +18,53 @@
   "Live-updating memes",
   "Reverse Location Search",
   "Citizen Vigilante",
-  "Reverse Location Search",
-  "Viking Row",
-  "Hobby Dogging",
-  "Chimpfluencers Stick Grass in Their Ears"
+  "Reverse Location Search"
  ],
  "trends": [
+  {
+   "id": 168,
+   "name": "Hobby Dogging 2.0",
+   "cat": "challenge",
+   "plat": "TikTok · Reels",
+   "decay": 0.85,
+   "fresh": "Hot right now",
+   "def": {
+    "normie": "People are pretending to walk dogs, but with a twist. It's a playful take on everyday dog walking that has become a trend.",
+    "normal": "The 'Hobby Dogging 2.0' trend has people acting out exaggerated dog-walking scenarios for comedic effect. It's all about creativity and humor in pet ownership.",
+    "zoomer": "Hobby Dogging 2.0 is lit! People are out here flexing their dog-walking skills but with a comedic flair that’s pure gold. Can't even walk my dog now without laughing!"
+   },
+   "origin": "TikTok, 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jun 1",
+     "Jun 8",
+     "Jun 15",
+     "Jul 1",
+     "Jul 18"
+    ],
+    "d": [
+     30,
+     55,
+     75,
+     90,
+     72
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "Hobby Dogging 2.0 TikTok"
+  },
   {
    "id": 166,
    "name": "Falkland Islands Meme Revival",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Hot right now",
    "def": {
     "normie": "A resurgence of memes related to the Falkland Islands, often using historical references and modern humor. These memes play on current events and nostalgia surrounding the islands.",
@@ -41,18 +79,18 @@
    },
    "tl": {
     "l": [
-     "May 24",
      "Jun 1",
      "Jun 8",
      "Jun 15",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     10,
      30,
      55,
      75,
-     80
+     80,
+     75
     ],
     "pk": 4
    },
@@ -64,7 +102,7 @@
    "name": "Soccer Star Aesthetic Revamp",
    "cat": "aesthetic",
    "plat": "Instagram · TikTok",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Climbing",
    "def": {
     "normie": "A new aesthetic trend where fans create visually appealing content inspired by their favorite soccer stars. This includes fashion, photography, and art that captures the essence of the players.",
@@ -79,18 +117,18 @@
    },
    "tl": {
     "l": [
-     "May 24",
      "Jun 1",
      "Jun 8",
      "Jun 15",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     10,
      30,
      50,
      70,
-     75
+     75,
+     70
     ],
     "pk": 3
    },
@@ -102,7 +140,7 @@
    "name": "Lamine Yamal Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Hot right now",
    "def": {
     "normie": "The Lamine Yamal Challenge is a trendy social media challenge where users attempt to recreate the impressive dribbling skills of young football prodigy Lamine Yamal. Participants showcase their skills through short videos, often adding creative edits and music.",
@@ -117,16 +155,16 @@
    },
    "tl": {
     "l": [
-     "Jul 8",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     30,
      55,
      75,
-     80
+     80,
+     75
     ],
     "pk": 4
    },
@@ -138,7 +176,7 @@
    "name": "FIFA World Cup Meme Mashup",
    "cat": "meme",
    "plat": "X · Reddit",
-   "decay": 0.8,
+   "decay": 0.75,
    "fresh": "Climbing",
    "def": {
     "normie": "The FIFA World Cup Meme Mashup combines popular football memes with ongoing events from the 2026 World Cup, creating humorous and relatable content for fans. These mashups often blend iconic moments with trending memes.",
@@ -153,16 +191,16 @@
    },
    "tl": {
     "l": [
-     "Jul 12",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     30,
      55,
      75,
-     80
+     80,
+     75
     ],
     "pk": 4
    },
@@ -174,7 +212,7 @@
    "name": "Hobby Dogging 2.0",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.75,
+   "decay": 0.7,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are playfully pretending to walk imaginary dogs in public, capturing humorous reactions. It's all about creativity and making mundane moments entertaining.",
@@ -189,18 +227,18 @@
    },
    "tl": {
     "l": [
-     "Jun 8",
      "Jun 15",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     55,
      75,
      85,
      80,
-     75
+     75,
+     70
     ],
     "pk": 4
    },
@@ -212,7 +250,7 @@
    "name": "Barbie Peptide Craze",
    "cat": "drama",
    "plat": "TikTok · Reddit",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are discussing a new peptide associated with the Barbie trend that's taking social media by storm. It's being touted for various health benefits and is raising eyebrows for its rapid popularity.",
@@ -227,10 +265,10 @@
    },
    "tl": {
     "l": [
-     "Jul 17"
+     "Jul 18"
     ],
     "d": [
-     65
+     60
     ],
     "pk": 1
    },
@@ -242,7 +280,7 @@
    "name": "Digger Film Transformation Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.6,
+   "decay": 0.55,
    "fresh": "Climbing",
    "def": {
     "normie": "This challenge involves users transforming their looks in line with the characters from the upcoming film 'Digger'. It's a fun way for fans to engage with the movie's themes.",
@@ -257,10 +295,10 @@
    },
    "tl": {
     "l": [
-     "Jul 17"
+     "Jul 18"
     ],
     "d": [
-     60
+     55
     ],
     "pk": 1
    },
@@ -272,7 +310,7 @@
    "name": "Haaland's Highlight Reel Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.65,
+   "decay": 0.6,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves fans creating their own highlight reels using clips of Erling Haaland's best moments in soccer. People are sharing their edits and competing for the most creative takes.",
@@ -287,14 +325,14 @@
    },
    "tl": {
     "l": [
-     "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     75,
      70,
-     65
+     65,
+     60
     ],
     "pk": 3
    },
@@ -306,7 +344,7 @@
    "name": "2026 FIFA World Cup Parody Challenges 2.0",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.6,
+   "decay": 0.55,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are creating humorous parodies related to the 2026 FIFA World Cup events and moments. These parodies often involve exaggerated scenarios and comedic twists on the tournament's highlights.",
@@ -321,18 +359,18 @@
    },
    "tl": {
     "l": [
-     "Jul 13",
      "Jul 14",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     80,
      75,
      70,
      65,
-     60
+     60,
+     55
     ],
     "pk": 4
    },
@@ -344,7 +382,7 @@
    "name": "Reverse ChatGPT Prompts 2.0",
    "cat": "phrase",
    "plat": "X · HN",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Climbing",
    "def": {
     "normie": "Users are now creating prompts designed to get ChatGPT to generate content that is the opposite of what it usually creates. This trend is about flipping expectations and seeing how AI responds.",
@@ -359,18 +397,18 @@
    },
    "tl": {
     "l": [
-     "Jul 13",
      "Jul 14",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     75,
      70,
      65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 4
    },
@@ -382,7 +420,7 @@
    "name": "Evil Dead Burn Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new social media challenge where people creatively recreate scenes from the Evil Dead franchise while incorporating humor. Participants share their videos, trying to outdo each other's creativity.",
@@ -397,18 +435,18 @@
    },
    "tl": {
     "l": [
-     "Jul 13",
      "Jul 14",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     75,
      70,
      65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 3
    },
@@ -420,7 +458,7 @@
    "name": "Bonnie Tyler Nostalgia Wave",
    "cat": "audio",
    "plat": "TikTok · X",
-   "decay": 0.55,
+   "decay": 0.5,
    "fresh": "Climbing",
    "def": {
     "normie": "Users are sharing nostalgic memories while playing Bonnie Tyler's classic hits, often pairing them with old photos and videos. This trend evokes a sense of nostalgia and connection to the past.",
@@ -435,18 +473,18 @@
    },
    "tl": {
     "l": [
-     "Jul 13",
      "Jul 14",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     75,
      70,
      65,
      60,
-     55
+     55,
+     50
     ],
     "pk": 4
    },
@@ -458,7 +496,7 @@
    "name": "World Cup Wonderwall",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Hot right now",
    "def": {
     "normie": "A new meme trend where users create parodies of the song 'Wonderwall' with World Cup-themed lyrics. It's gaining popularity as fans express their support for their favorite teams.",
@@ -473,16 +511,16 @@
    },
    "tl": {
     "l": [
-     "Jul 14",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 4
    },
@@ -494,7 +532,7 @@
    "name": "Erling Haaland Sexy Pics Trend",
    "cat": "drama",
    "plat": "X · TikTok",
-   "decay": 0.4,
+   "decay": 0.35,
    "fresh": "Climbing",
    "def": {
     "normie": "A social media trend showcasing attractive pictures of soccer star Erling Haaland. Fans are sharing and commenting on these images as part of a playful admiration.",
@@ -509,14 +547,14 @@
    },
    "tl": {
     "l": [
-     "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     50,
      45,
-     40
+     40,
+     35
     ],
     "pk": 4
    },
@@ -528,7 +566,7 @@
    "name": "Erling Haaland Rap Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are creating rap videos inspired by World Cup star Erling Haaland's latest viral song. This challenge involves showcasing unique dance moves or lip-syncing to the track.",
@@ -543,16 +581,16 @@
    },
    "tl": {
     "l": [
-     "Jul 14",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 4
    },
@@ -564,7 +602,7 @@
    "name": "NeeDohs Trend",
    "cat": "drama",
    "plat": "Reddit · TikTok",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Climbing",
    "def": {
     "normie": "There's a new viral trend where kids are warned against using a stress-relief toy called NeeDohs. It's sparked debates about the influence of fads on youth behavior.",
@@ -579,14 +617,14 @@
    },
    "tl": {
     "l": [
-     "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 3
    },
@@ -598,7 +636,7 @@
    "name": "FIFA World Cup Meme Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.4,
+   "decay": 0.35,
    "fresh": "Hot right now",
    "def": {
     "normie": "This challenge invites fans to create funny, meme-inspired videos related to the FIFA World Cup. It's a way for soccer enthusiasts to express their love for the sport through humor and creativity.",
@@ -613,18 +651,18 @@
    },
    "tl": {
     "l": [
-     "Jul 13",
      "Jul 14",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     60,
      55,
      50,
      45,
-     40
+     40,
+     35
     ],
     "pk": 3
    },
@@ -636,7 +674,7 @@
    "name": "Soccer Star Aesthetic",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating aesthetic videos featuring popular soccer stars, often set to trending music. It showcases their skills and fashion in a visually appealing way.",
@@ -651,18 +689,18 @@
    },
    "tl": {
     "l": [
-     "Jul 13",
      "Jul 14",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     50,
      45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 5
    },
@@ -674,7 +712,7 @@
    "name": "Kylian Apology Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reddit",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Hot right now",
    "def": {
     "normie": "Fans of Kylian Mbappé are participating in a viral challenge where they create apology videos for past criticisms of the soccer star. This trend has gained traction following a public petition from French fans seeking forgiveness.",
@@ -689,16 +727,16 @@
    },
    "tl": {
     "l": [
-     "Jul 14",
      "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 4
    },
@@ -710,7 +748,7 @@
    "name": "Alpha Film Meme Mashup",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Climbing",
    "def": {
     "normie": "Users are creating meme mashups that blend scenes from the film 'Alpha' with various internet memes. This trend is gaining popularity as the film becomes a talking point among younger audiences.",
@@ -725,95 +763,29 @@
    },
    "tl": {
     "l": [
-     "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 3
    },
    "replaced": "Still climbing",
    "vid": "Alpha Film Meme Mashup"
-  },
-  {
-   "id": 146,
-   "name": "Cape Verde Culture Surge",
-   "cat": "meme",
-   "plat": "TikTok · Reddit",
-   "decay": 0.2,
-   "fresh": "Hot right now",
-   "def": {
-    "normie": "Cape Verde has gained attention for its vibrant culture and music. People are sharing videos and memes celebrating its unique traditions and landscapes.",
-    "normal": "Cape Verdean culture is trending online, with creators showcasing its music, dance, and stunning scenery. Expect a surge of content featuring Cape Verdean artists and cultural symbols.",
-    "zoomer": "Cape Verde is suddenly the vibe, and everyone’s posting fire clips of the islands and their sick beats. Get ready for a wave of Cape Verde memes and cultural content flooding your feed!"
-   },
-   "origin": "TikTok trend starting in July 2026",
-   "age": {
-    "z": "Peak",
-    "m": "Active",
-    "main": "Active"
-   },
-   "tl": {
-    "l": [
-     "Jul 16",
-     "Jul 17"
-    ],
-    "d": [
-     25,
-     20
-    ],
-    "pk": 2
-   },
-   "replaced": "Still climbing",
-   "vid": "Cape Verde culture TikTok"
-  },
-  {
-   "id": 144,
-   "name": "FIFA World Cup Meme Mashup",
-   "cat": "meme",
-   "plat": "TikTok · Reels",
-   "decay": 0.2,
-   "fresh": "Hot right now",
-   "def": {
-    "normie": "Fans are creating mashups of popular memes with FIFA World Cup highlights. It's a fun way to combine humor and sports excitement.",
-    "normal": "The FIFA World Cup Meme Mashup trend is all about remixing iconic memes with memorable moments from the tournament. Expect lots of creative edits and funny overlays!",
-    "zoomer": "This FIFA World Cup Meme Mashup is straight fire! It's like the ultimate meme stew, blending the best of internet humor with soccer chaos. Get ready for some laugh-out-loud edits!"
-   },
-   "origin": "TikTok, 2026",
-   "age": {
-    "z": "Peak",
-    "m": "Active",
-    "main": "Active"
-   },
-   "tl": {
-    "l": [
-     "Jul 14",
-     "Jul 15",
-     "Jul 16",
-     "Jul 17"
-    ],
-    "d": [
-     35,
-     30,
-     25,
-     20
-    ],
-    "pk": 4
-   },
-   "replaced": "Still climbing",
-   "vid": "FIFA World Cup Meme Mashup"
-  },
+  }
+ ],
+ "archive": [
   {
    "id": 145,
    "name": "Hobby Dogging 2.0",
    "cat": "drama",
    "plat": "Reddit · TikTok",
-   "decay": 0.2,
-   "fresh": "Climbing",
+   "decay": 0.15,
+   "fresh": "Archived",
    "def": {
     "normie": "People are taking the trend of pretending to walk a dog to new extremes with elaborate setups and outfits. It's a quirky way to have fun and get attention online.",
     "normal": "Hobby Dogging 2.0 is an evolution of the original trend, where participants go all out with costumes and props while pretending to walk their dogs. It's a mix of absurdity and humor that's gaining traction.",
@@ -827,22 +799,88 @@
    },
    "tl": {
     "l": [
-     "Jul 15",
      "Jul 16",
-     "Jul 17"
+     "Jul 17",
+     "Jul 18"
     ],
     "d": [
-     30,
      25,
-     20
+     20,
+     15
     ],
     "pk": 3
    },
    "replaced": "Still climbing",
    "vid": "Hobby Dogging 2.0"
-  }
- ],
- "archive": [
+  },
+  {
+   "id": 144,
+   "name": "FIFA World Cup Meme Mashup",
+   "cat": "meme",
+   "plat": "TikTok · Reels",
+   "decay": 0.15,
+   "fresh": "Archived",
+   "def": {
+    "normie": "Fans are creating mashups of popular memes with FIFA World Cup highlights. It's a fun way to combine humor and sports excitement.",
+    "normal": "The FIFA World Cup Meme Mashup trend is all about remixing iconic memes with memorable moments from the tournament. Expect lots of creative edits and funny overlays!",
+    "zoomer": "This FIFA World Cup Meme Mashup is straight fire! It's like the ultimate meme stew, blending the best of internet humor with soccer chaos. Get ready for some laugh-out-loud edits!"
+   },
+   "origin": "TikTok, 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 15",
+     "Jul 16",
+     "Jul 17",
+     "Jul 18"
+    ],
+    "d": [
+     30,
+     25,
+     20,
+     15
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "FIFA World Cup Meme Mashup"
+  },
+  {
+   "id": 146,
+   "name": "Cape Verde Culture Surge",
+   "cat": "meme",
+   "plat": "TikTok · Reddit",
+   "decay": 0.15,
+   "fresh": "Archived",
+   "def": {
+    "normie": "Cape Verde has gained attention for its vibrant culture and music. People are sharing videos and memes celebrating its unique traditions and landscapes.",
+    "normal": "Cape Verdean culture is trending online, with creators showcasing its music, dance, and stunning scenery. Expect a surge of content featuring Cape Verdean artists and cultural symbols.",
+    "zoomer": "Cape Verde is suddenly the vibe, and everyone’s posting fire clips of the islands and their sick beats. Get ready for a wave of Cape Verde memes and cultural content flooding your feed!"
+   },
+   "origin": "TikTok trend starting in July 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Jul 17",
+     "Jul 18"
+    ],
+    "d": [
+     20,
+     15
+    ],
+    "pk": 2
+   },
+   "replaced": "Still climbing",
+   "vid": "Cape Verde culture TikTok"
+  },
   {
    "id": 147,
    "name": "2026 FIFA World Cup Parody Challenges",

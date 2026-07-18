@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 17, 2026",
-  "termCount": 189
+  "updated": "July 18, 2026",
+  "termCount": 190
  },
  "dict": {
   "ngl": {
@@ -997,6 +997,12 @@
    "type": "slang",
    "def": "A style or trend focused on emulating the fashion and persona of popular soccer players, often incorporating high-end athletic wear and casual chic.",
    "origin": "Emerged alongside the rise of social media influencers and the visibility of soccer stars' personal styles.",
+   "status": "ok"
+  },
+  "meme search engine": {
+   "type": "phrase",
+   "def": "A platform or tool designed to help users find, categorize, and share memes across the internet.",
+   "origin": "Emerging from the increasing demand for meme culture and the need to navigate its vast landscape.",
    "status": "ok"
   },
   "💀": {
