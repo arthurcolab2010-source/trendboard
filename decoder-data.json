@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 18, 2026",
-  "termCount": 190
+  "updated": "July 19, 2026",
+  "termCount": 192
  },
  "dict": {
   "ngl": {
@@ -1003,6 +1003,18 @@
    "type": "phrase",
    "def": "A platform or tool designed to help users find, categorize, and share memes across the internet.",
    "origin": "Emerging from the increasing demand for meme culture and the need to navigate its vast landscape.",
+   "status": "ok"
+  },
+  "odyssey film challenge": {
+   "type": "phrase",
+   "def": "A viral trend where participants create short films inspired by the themes and characters of 'The Odyssey', often using modern twists.",
+   "origin": "This trend emerged alongside the release of the 2026 film 'The Odyssey', encouraging creative interpretations.",
+   "status": "ok"
+  },
+  "kylian mbappé meme surge": {
+   "type": "meme",
+   "def": "A wave of humorous content and memes centered around soccer star Kylian Mbappé, often depicting exaggerated reactions to his performances.",
+   "origin": "This trend gained traction during the 2026 FIFA World Cup, where Mbappé's skills captivated fans globally.",
    "status": "ok"
   },
   "💀": {
