@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 19, 2026",
-  "termCount": 192
+  "updated": "July 20, 2026",
+  "termCount": 194
  },
  "dict": {
   "ngl": {
@@ -1015,6 +1015,18 @@
    "type": "meme",
    "def": "A wave of humorous content and memes centered around soccer star Kylian Mbappé, often depicting exaggerated reactions to his performances.",
    "origin": "This trend gained traction during the 2026 FIFA World Cup, where Mbappé's skills captivated fans globally.",
+   "status": "ok"
+  },
+  "fifa meme showdown": {
+   "type": "meme",
+   "def": "A humorous competition where fans create and share memes related to the FIFA World Cup, often poking fun at players, teams, and match outcomes.",
+   "origin": "Emerging during the 2026 FIFA World Cup discussions and social media trends.",
+   "status": "ok"
+  },
+  "soccer star aesthetic revamp 2.0": {
+   "type": "phrase",
+   "def": "A trend where soccer players and fans adopt and showcase stylish, often nostalgic fashion inspired by iconic football moments and players.",
+   "origin": "Gained popularity alongside the rise of soccer culture on platforms like TikTok and Instagram.",
    "status": "ok"
   },
   "💀": {
