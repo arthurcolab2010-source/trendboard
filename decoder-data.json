@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 20, 2026",
-  "termCount": 194
+  "updated": "July 21, 2026",
+  "termCount": 196
  },
  "dict": {
   "ngl": {
@@ -1027,6 +1027,18 @@
    "type": "phrase",
    "def": "A trend where soccer players and fans adopt and showcase stylish, often nostalgic fashion inspired by iconic football moments and players.",
    "origin": "Gained popularity alongside the rise of soccer culture on platforms like TikTok and Instagram.",
+   "status": "ok"
+  },
+  "fifa meme awards": {
+   "type": "meme",
+   "def": "A humorous celebration of the best and worst memes related to the FIFA World Cup, often shared online during the tournament.",
+   "origin": "Emerging from the viral trends surrounding the FIFA World Cup, this term highlights the cultural impact of memes during global sporting events.",
+   "status": "ok"
+  },
+  "reverse chatgpt challenge": {
+   "type": "phrase",
+   "def": "A popular online challenge where participants use AI to generate unexpected or humorous responses based on reverse prompts from ChatGPT.",
+   "origin": "This term arose from a trend of experimenting with AI's capabilities on social media platforms, engaging users in creative ways.",
    "status": "ok"
   },
   "💀": {
