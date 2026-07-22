@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 21, 2026",
-  "termCount": 196
+  "updated": "July 22, 2026",
+  "termCount": 197
  },
  "dict": {
   "ngl": {
@@ -1039,6 +1039,12 @@
    "type": "phrase",
    "def": "A popular online challenge where participants use AI to generate unexpected or humorous responses based on reverse prompts from ChatGPT.",
    "origin": "This term arose from a trend of experimenting with AI's capabilities on social media platforms, engaging users in creative ways.",
+   "status": "ok"
+  },
+  "chimpfluencer": {
+   "type": "slang",
+   "def": "A person who gains popularity on social media by sharing absurd or humorous content, often involving animals or nature, like sticking grass in their ears.",
+   "origin": "Coined from the trend of social media influencers who create silly and viral content, combining 'chimp' and 'influencer'.",
    "status": "ok"
   },
   "💀": {
