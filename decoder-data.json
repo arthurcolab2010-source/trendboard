@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 23, 2026",
-  "termCount": 197
+  "updated": "July 24, 2026",
+  "termCount": 199
  },
  "dict": {
   "ngl": {
@@ -1045,6 +1045,18 @@
    "type": "slang",
    "def": "A person who gains popularity on social media by sharing absurd or humorous content, often involving animals or nature, like sticking grass in their ears.",
    "origin": "Coined from the trend of social media influencers who create silly and viral content, combining 'chimp' and 'influencer'.",
+   "status": "ok"
+  },
+  "odyssey challenge": {
+   "type": "phrase",
+   "def": "A viral trend where participants recreate or reinterpret scenes from the recent 'The Odyssey' film, often with a comedic twist.",
+   "origin": "Originated from the popularity of the 2026 film adaptation of 'The Odyssey,' sparking a social media challenge.",
+   "status": "ok"
+  },
+  "chatgpt meme surge": {
+   "type": "meme",
+   "def": "A wave of memes created using ChatGPT, often highlighting humorous or absurd interactions with the AI.",
+   "origin": "Emerged as users began creatively generating memes through interactions with ChatGPT, reflecting cultural moments in 2026.",
    "status": "ok"
   },
   "💀": {
