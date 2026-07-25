@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 24, 2026",
-  "termCount": 199
+  "updated": "July 25, 2026",
+  "termCount": 201
  },
  "dict": {
   "ngl": {
@@ -1057,6 +1057,18 @@
    "type": "meme",
    "def": "A wave of memes created using ChatGPT, often highlighting humorous or absurd interactions with the AI.",
    "origin": "Emerged as users began creatively generating memes through interactions with ChatGPT, reflecting cultural moments in 2026.",
+   "status": "ok"
+  },
+  "jana nayagan": {
+   "type": "slang",
+   "def": "A term used to describe someone who is enthusiastic or obsessed with the film 'Jana Nayagan', often used in discussions about its plot or characters.",
+   "origin": "Derived from the title of the trending 2026 film 'Jana Nayagan', reflecting its cultural impact.",
+   "status": "ok"
+  },
+  "masters of the universe meme remix": {
+   "type": "meme",
+   "def": "A viral trend involving the remixing of content from the 'Masters of the Universe' franchise, often to create humorous or satirical commentary.",
+   "origin": "Emerging from the popularity of the 'Masters of the Universe' film in 2026, this meme format allows fans to creatively engage with the franchise.",
    "status": "ok"
   },
   "💀": {
