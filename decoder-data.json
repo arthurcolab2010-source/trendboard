@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 25, 2026",
-  "termCount": 201
+  "updated": "July 26, 2026",
+  "termCount": 203
  },
  "dict": {
   "ngl": {
@@ -1069,6 +1069,18 @@
    "type": "meme",
    "def": "A viral trend involving the remixing of content from the 'Masters of the Universe' franchise, often to create humorous or satirical commentary.",
    "origin": "Emerging from the popularity of the 'Masters of the Universe' film in 2026, this meme format allows fans to creatively engage with the franchise.",
+   "status": "ok"
+  },
+  "grass sticking challenge": {
+   "type": "meme",
+   "def": "A viral trend where participants stick grass in unusual places or on their bodies, often to showcase creativity or humor in a lighthearted way.",
+   "origin": "Emerging from social media platforms, particularly TikTok, where users share videos of their attempts at the challenge.",
+   "status": "ok"
+  },
+  "reverse meme surge": {
+   "type": "phrase",
+   "def": "A phenomenon where previously popular memes are revived and reinterpreted in new contexts, often leading to unexpected viral moments.",
+   "origin": "Coined in online discussions about the cyclical nature of meme culture and its revival trends.",
    "status": "ok"
   },
   "💀": {
