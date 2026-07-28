@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 27, 2026",
-  "termCount": 203
+  "updated": "July 28, 2026",
+  "termCount": 205
  },
  "dict": {
   "ngl": {
@@ -1081,6 +1081,18 @@
    "type": "phrase",
    "def": "A phenomenon where previously popular memes are revived and reinterpreted in new contexts, often leading to unexpected viral moments.",
    "origin": "Coined in online discussions about the cyclical nature of meme culture and its revival trends.",
+   "status": "ok"
+  },
+  "odyssey film meme remix": {
+   "type": "meme",
+   "def": "A viral trend where users create humorous remixes of scenes or quotes from the 2026 film 'The Odyssey', incorporating modern contexts or relatable situations.",
+   "origin": "Gained popularity following the film's release and its meme potential on platforms like TikTok and Instagram.",
+   "status": "ok"
+  },
+  "grass sticking challenge 2.0": {
+   "type": "phrase",
+   "def": "A social media challenge where participants film themselves sticking grass in unconventional places, inspired by the viral trend of 'Chimpfluencers'.",
+   "origin": "Emerged as a humorous trend on TikTok, gaining traction among Gen Z users.",
    "status": "ok"
   },
   "💀": {
