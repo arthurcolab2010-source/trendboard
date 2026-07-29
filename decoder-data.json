@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 28, 2026",
-  "termCount": 205
+  "updated": "July 29, 2026",
+  "termCount": 207
  },
  "dict": {
   "ngl": {
@@ -1093,6 +1093,18 @@
    "type": "phrase",
    "def": "A social media challenge where participants film themselves sticking grass in unconventional places, inspired by the viral trend of 'Chimpfluencers'.",
    "origin": "Emerged as a humorous trend on TikTok, gaining traction among Gen Z users.",
+   "status": "ok"
+  },
+  "odyssey film meme explosion": {
+   "type": "meme",
+   "def": "A viral trend where users create humorous or satirical content referencing the themes and characters from the 2026 film 'The Odyssey', often using clips or stills from the movie.",
+   "origin": "Emerging alongside the popularity of the film, this meme format gained traction on social media platforms in mid-2026.",
+   "status": "ok"
+  },
+  "chimpfluencers 2.0": {
+   "type": "slang",
+   "def": "Refers to social media influencers who use quirky or absurd content involving animals, particularly chimpanzees, to gain viral attention and engagement.",
+   "origin": "This term evolved from the original 'chimpfluencers' trend, which gained momentum in 2026 as a form of comedic social media presence.",
    "status": "ok"
   },
   "💀": {
