@@ -1,7 +1,7 @@
 {
  "meta": {
-  "updated": "July 29, 2026",
-  "termCount": 207
+  "updated": "July 30, 2026",
+  "termCount": 209
  },
  "dict": {
   "ngl": {
@@ -1105,6 +1105,18 @@
    "type": "slang",
    "def": "Refers to social media influencers who use quirky or absurd content involving animals, particularly chimpanzees, to gain viral attention and engagement.",
    "origin": "This term evolved from the original 'chimpfluencers' trend, which gained momentum in 2026 as a form of comedic social media presence.",
+   "status": "ok"
+  },
+  "jared leto meme surge": {
+   "type": "meme",
+   "def": "A viral trend involving humorous or exaggerated memes featuring Jared Leto, often highlighting his unique roles or public persona.",
+   "origin": "Emerging from a resurgence of interest in Jared Leto's acting and public appearances, particularly in connection with recent films.",
+   "status": "ok"
+  },
+  "chatgpt meme remix challenge": {
+   "type": "phrase",
+   "def": "A challenge where users create and share remixed memes using ChatGPT to generate humorous captions or scenarios based on popular meme formats.",
+   "origin": "Originated from the popularity of meme remixing on social media platforms, enhanced by AI tools like ChatGPT.",
    "status": "ok"
   },
   "💀": {
