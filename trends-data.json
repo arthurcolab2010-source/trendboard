@@ -3,10 +3,12 @@
   "tracking": 279,
   "peak": 0,
   "died": 12,
-  "archived": 160,
-  "updated": "August 5, 2026"
+  "archived": 162,
+  "updated": "August 6, 2026"
  },
  "graveyard": [
+  "Hobby Dogging 2.0",
+  "Live-updating version of 'What a week, huh?'",
   "Reverse Location Search",
   "Chimpfluencers Stick Grass in Their Ears and Butts",
   "FIFA World Cup Meme Awards",
@@ -16,9 +18,7 @@
   "Reverse ChatGPT Meme Challenge",
   "Hobby Dogging 2.0",
   "Soccer Star Aesthetic Revamp 2.0",
-  "FIFA World Cup Meme Mashup",
-  "Lamine Yamal Challenge",
-  "Falkland Islands Meme Revival"
+  "FIFA World Cup Meme Mashup"
  ],
  "trends": [
   {
@@ -26,7 +26,7 @@
    "name": "Jared Leto Meme Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.6,
+   "decay": 0.55,
    "fresh": "Hot right now",
    "def": {
     "normie": "Jared Leto is becoming a popular meme figure, with edits and jokes circulating widely on social media. His unique roles and public persona are being humorously exaggerated in various formats.",
@@ -41,18 +41,18 @@
    },
    "tl": {
     "l": [
-     "Aug 1",
      "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     80,
      75,
      70,
      65,
-     60
+     60,
+     55
     ],
     "pk": 4
    },
@@ -64,7 +64,7 @@
    "name": "ChatGPT Meme Remix Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.5,
+   "decay": 0.45,
    "fresh": "Climbing",
    "def": {
     "normie": "Users are creating funny remixes of memes using ChatGPT to generate unique text and ideas. It's a creative way to combine AI with popular meme formats.",
@@ -79,18 +79,18 @@
    },
    "tl": {
     "l": [
-     "Aug 1",
      "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     70,
      65,
      60,
      55,
-     50
+     50,
+     45
     ],
     "pk": 4
    },
@@ -102,7 +102,7 @@
    "name": "Odyssey Film Meme Explosion",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.5,
+   "decay": 0.45,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating humorous edits and remixes of scenes from the recent 'The Odyssey' film. People are using snippets to create relatable memes that resonate with current events.",
@@ -117,16 +117,16 @@
    },
    "tl": {
     "l": [
-     "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     65,
      60,
      55,
-     50
+     50,
+     45
     ],
     "pk": 4
    },
@@ -138,7 +138,7 @@
    "name": "Chimpfluencers 2.0",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.5,
+   "decay": 0.45,
    "fresh": "Climbing",
    "def": {
     "normie": "This trend features people dressing up as chimps and mimicking their behaviors in a humorous way. It's a playful take on the influencer culture, blending animal antics with modern social media.",
@@ -153,16 +153,16 @@
    },
    "tl": {
     "l": [
-     "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     65,
      60,
      55,
-     50
+     50,
+     45
     ],
     "pk": 4
    },
@@ -174,7 +174,7 @@
    "name": "Odyssey Film Meme Remix",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are remixing scenes from the new Odyssey film with humorous captions or edits. It's a way to express thoughts and feelings about the film in a funny manner.",
@@ -189,18 +189,18 @@
    },
    "tl": {
     "l": [
-     "Aug 1",
      "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     65,
      60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 4
    },
@@ -212,7 +212,7 @@
    "name": "Grass Sticking Challenge 2.0",
    "cat": "challenge",
    "plat": "TikTok · Reddit",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Climbing",
    "def": {
     "normie": "Participants are now creating videos of themselves attempting to stick grass to various parts of their bodies. It’s a playful and silly challenge that’s going viral.",
@@ -227,16 +227,16 @@
    },
    "tl": {
     "l": [
-     "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 3
    },
@@ -248,7 +248,7 @@
    "name": "Odyssey Film Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.4,
+   "decay": 0.35,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves users creating their own interpretations of scenes from the new film 'The Odyssey'. Participants are sharing these creative takes on social media platforms.",
@@ -263,18 +263,18 @@
    },
    "tl": {
     "l": [
-     "Aug 1",
      "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     60,
      55,
      50,
      45,
-     40
+     40,
+     35
     ],
     "pk": 4
    },
@@ -286,7 +286,7 @@
    "name": "Grass Sticking Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are creatively sticking grass in unusual places as a fun challenge. It's become a quirky way to showcase humor and creativity.",
@@ -301,18 +301,18 @@
    },
    "tl": {
     "l": [
-     "Aug 1",
      "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     55,
      50,
      45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 5
    },
@@ -324,7 +324,7 @@
    "name": "Reverse Meme Surge",
    "cat": "meme",
    "plat": "X · Reddit",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Climbing",
    "def": {
     "normie": "A new meme format is gaining traction where users create humorous content by reversing popular memes. It’s a playful twist that adds an extra layer of comedy.",
@@ -339,18 +339,18 @@
    },
    "tl": {
     "l": [
-     "Aug 1",
      "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     55,
      50,
      45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 3
    },
@@ -362,7 +362,7 @@
    "name": "Jana Nayagan Film Buzz",
    "cat": "drama",
    "plat": "TikTok · X",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are excited about the new film 'Jana Nayagan', which has gained a lot of attention online. Fans are sharing their thoughts and reactions across social media platforms.",
@@ -377,16 +377,16 @@
    },
    "tl": {
     "l": [
-     "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 4
    },
@@ -398,7 +398,7 @@
    "name": "Masters of the Universe Meme Remix",
    "cat": "meme",
    "plat": "Reddit · TikTok",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Climbing",
    "def": {
     "normie": "Fans are creating funny remixes and edits of scenes from the new 'Masters of the Universe' film. These memes are spreading quickly across various platforms.",
@@ -413,16 +413,16 @@
    },
    "tl": {
     "l": [
-     "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 4
    },
@@ -434,7 +434,7 @@
    "name": "Odyssey Film Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are creating and sharing short films inspired by the themes of 'The Odyssey'. It’s a fun way to engage with classic literature in a modern format.",
@@ -449,14 +449,14 @@
    },
    "tl": {
     "l": [
-     "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 3
    },
@@ -468,7 +468,7 @@
    "name": "ChatGPT Meme Surge",
    "cat": "meme",
    "plat": "Reddit · X",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Climbing",
    "def": {
     "normie": "There's a wave of memes being created using ChatGPT to generate funny or absurd content. People are sharing these memes across social media platforms.",
@@ -483,65 +483,29 @@
    },
    "tl": {
     "l": [
-     "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 2
    },
    "replaced": "Still climbing",
    "vid": "ChatGPT Meme Surge"
-  },
-  {
-   "id": 177,
-   "name": "Live-updating version of 'What a week, huh?'",
-   "cat": "meme",
-   "plat": "X · HN",
-   "decay": 0.2,
-   "fresh": "Hot right now",
-   "def": {
-    "normie": "This trend involves continuously updating a humorous take on the events of the week. It's become a popular way for people to express their thoughts and emotions about current events.",
-    "normal": "The 'What a week, huh?' meme is evolving into a live-updating format where users can add new content as the week unfolds. It’s a clever and engaging way to comment on the chaos of current events.",
-    "zoomer": "This is the ultimate meme flex, constantly remixing the chaos of the week into a hilarious stream of consciousness. If you’re not on board, you’re missing out on the meme game of the year!"
-   },
-   "origin": "HN discussion, 2026",
-   "age": {
-    "z": "Peak",
-    "m": "Active",
-    "main": "Active"
-   },
-   "tl": {
-    "l": [
-     "Aug 1",
-     "Aug 2",
-     "Aug 3",
-     "Aug 4",
-     "Aug 5"
-    ],
-    "d": [
-     40,
-     35,
-     30,
-     25,
-     20
-    ],
-    "pk": 4
-   },
-   "replaced": "Still climbing",
-   "vid": "live-updating what a week meme"
-  },
+  }
+ ],
+ "archive": [
   {
    "id": 178,
    "name": "Hobby Dogging 2.0",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.2,
-   "fresh": "Climbing",
+   "decay": 0.15,
+   "fresh": "Archived",
    "def": {
     "normie": "This challenge involves pretending to walk a dog in humorous or absurd scenarios. It's a light-hearted way to engage with pet culture online.",
     "normal": "Hobby Dogging 2.0 is a playful trend where users stage funny or ridiculous situations while pretending to walk their dogs. The creativity and humor have caught on with audiences looking for laughs.",
@@ -555,26 +519,62 @@
    },
    "tl": {
     "l": [
-     "Aug 1",
      "Aug 2",
      "Aug 3",
      "Aug 4",
-     "Aug 5"
+     "Aug 5",
+     "Aug 6"
     ],
     "d": [
-     40,
      35,
      30,
      25,
-     20
+     20,
+     15
     ],
     "pk": 3
    },
    "replaced": "Still climbing",
    "vid": "hobby dogging challenge"
-  }
- ],
- "archive": [
+  },
+  {
+   "id": 177,
+   "name": "Live-updating version of 'What a week, huh?'",
+   "cat": "meme",
+   "plat": "X · HN",
+   "decay": 0.15,
+   "fresh": "Archived",
+   "def": {
+    "normie": "This trend involves continuously updating a humorous take on the events of the week. It's become a popular way for people to express their thoughts and emotions about current events.",
+    "normal": "The 'What a week, huh?' meme is evolving into a live-updating format where users can add new content as the week unfolds. It’s a clever and engaging way to comment on the chaos of current events.",
+    "zoomer": "This is the ultimate meme flex, constantly remixing the chaos of the week into a hilarious stream of consciousness. If you’re not on board, you’re missing out on the meme game of the year!"
+   },
+   "origin": "HN discussion, 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Aug 2",
+     "Aug 3",
+     "Aug 4",
+     "Aug 5",
+     "Aug 6"
+    ],
+    "d": [
+     35,
+     30,
+     25,
+     20,
+     15
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "live-updating what a week meme"
+  },
   {
    "id": 176,
    "name": "Reverse Location Search",
