@@ -3,10 +3,12 @@
   "tracking": 279,
   "peak": 0,
   "died": 12,
-  "archived": 166,
-  "updated": "August 8, 2026"
+  "archived": 168,
+  "updated": "August 9, 2026"
  },
  "graveyard": [
+  "Reverse Meme Surge",
+  "Grass Sticking Challenge",
   "Masters of the Universe Meme Remix",
   "ChatGPT Meme Surge",
   "Odyssey Film Challenge",
@@ -16,9 +18,7 @@
   "Reverse Location Search",
   "Chimpfluencers Stick Grass in Their Ears and Butts",
   "FIFA World Cup Meme Awards",
-  "Kylian Mbappé Meme Surge",
-  "Odyssey Film Challenge",
-  "FIFA Meme Showdown"
+  "Kylian Mbappé Meme Surge"
  ],
  "trends": [
   {
@@ -26,7 +26,7 @@
    "name": "Jared Leto Meme Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.45,
+   "decay": 0.4,
    "fresh": "Hot right now",
    "def": {
     "normie": "Jared Leto is becoming a popular meme figure, with edits and jokes circulating widely on social media. His unique roles and public persona are being humorously exaggerated in various formats.",
@@ -41,18 +41,18 @@
    },
    "tl": {
     "l": [
-     "Aug 4",
      "Aug 5",
      "Aug 6",
      "Aug 7",
-     "Aug 8"
+     "Aug 8",
+     "Aug 9"
     ],
     "d": [
-     65,
      60,
      55,
      50,
-     45
+     45,
+     40
     ],
     "pk": 4
    },
@@ -64,7 +64,7 @@
    "name": "ChatGPT Meme Remix Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Climbing",
    "def": {
     "normie": "Users are creating funny remixes of memes using ChatGPT to generate unique text and ideas. It's a creative way to combine AI with popular meme formats.",
@@ -79,18 +79,18 @@
    },
    "tl": {
     "l": [
-     "Aug 4",
      "Aug 5",
      "Aug 6",
      "Aug 7",
-     "Aug 8"
+     "Aug 8",
+     "Aug 9"
     ],
     "d": [
-     55,
      50,
      45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 4
    },
@@ -102,7 +102,7 @@
    "name": "Odyssey Film Meme Explosion",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating humorous edits and remixes of scenes from the recent 'The Odyssey' film. People are using snippets to create relatable memes that resonate with current events.",
@@ -117,16 +117,16 @@
    },
    "tl": {
     "l": [
-     "Aug 5",
      "Aug 6",
      "Aug 7",
-     "Aug 8"
+     "Aug 8",
+     "Aug 9"
     ],
     "d": [
-     50,
      45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 4
    },
@@ -138,7 +138,7 @@
    "name": "Chimpfluencers 2.0",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Climbing",
    "def": {
     "normie": "This trend features people dressing up as chimps and mimicking their behaviors in a humorous way. It's a playful take on the influencer culture, blending animal antics with modern social media.",
@@ -153,16 +153,16 @@
    },
    "tl": {
     "l": [
-     "Aug 5",
      "Aug 6",
      "Aug 7",
-     "Aug 8"
+     "Aug 8",
+     "Aug 9"
     ],
     "d": [
-     50,
      45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 4
    },
@@ -174,7 +174,7 @@
    "name": "Odyssey Film Meme Remix",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are remixing scenes from the new Odyssey film with humorous captions or edits. It's a way to express thoughts and feelings about the film in a funny manner.",
@@ -189,18 +189,18 @@
    },
    "tl": {
     "l": [
-     "Aug 4",
      "Aug 5",
      "Aug 6",
      "Aug 7",
-     "Aug 8"
+     "Aug 8",
+     "Aug 9"
     ],
     "d": [
-     50,
      45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 4
    },
@@ -212,7 +212,7 @@
    "name": "Grass Sticking Challenge 2.0",
    "cat": "challenge",
    "plat": "TikTok · Reddit",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Climbing",
    "def": {
     "normie": "Participants are now creating videos of themselves attempting to stick grass to various parts of their bodies. It’s a playful and silly challenge that’s going viral.",
@@ -227,16 +227,16 @@
    },
    "tl": {
     "l": [
-     "Aug 5",
      "Aug 6",
      "Aug 7",
-     "Aug 8"
+     "Aug 8",
+     "Aug 9"
     ],
     "d": [
-     45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 3
    },
@@ -248,7 +248,7 @@
    "name": "Odyssey Film Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves users creating their own interpretations of scenes from the new film 'The Odyssey'. Participants are sharing these creative takes on social media platforms.",
@@ -263,49 +263,11 @@
    },
    "tl": {
     "l": [
-     "Aug 4",
      "Aug 5",
      "Aug 6",
      "Aug 7",
-     "Aug 8"
-    ],
-    "d": [
-     45,
-     40,
-     35,
-     30,
-     25
-    ],
-    "pk": 4
-   },
-   "replaced": "Still climbing",
-   "vid": "Odyssey Film Challenge TikTok"
-  },
-  {
-   "id": 183,
-   "name": "Grass Sticking Challenge",
-   "cat": "challenge",
-   "plat": "TikTok · Reels",
-   "decay": 0.2,
-   "fresh": "Hot right now",
-   "def": {
-    "normie": "People are creatively sticking grass in unusual places as a fun challenge. It's become a quirky way to showcase humor and creativity.",
-    "normal": "The Grass Sticking Challenge is trending on social media, where users film themselves placing grass in funny or unexpected locations. It's all about the weird and wacky placements.",
-    "zoomer": "The Grass Sticking Challenge is the latest bizarre trend where you stick grass in random spots and film the chaos. Get ready for some hilarious fails and epic placements!"
-   },
-   "origin": "TikTok, 2026",
-   "age": {
-    "z": "Peak",
-    "m": "Peak",
-    "main": "Active"
-   },
-   "tl": {
-    "l": [
-     "Aug 4",
-     "Aug 5",
-     "Aug 6",
-     "Aug 7",
-     "Aug 8"
+     "Aug 8",
+     "Aug 9"
     ],
     "d": [
      40,
@@ -314,18 +276,20 @@
      25,
      20
     ],
-    "pk": 5
+    "pk": 4
    },
    "replaced": "Still climbing",
-   "vid": "Grass Sticking Challenge"
-  },
+   "vid": "Odyssey Film Challenge TikTok"
+  }
+ ],
+ "archive": [
   {
    "id": 184,
    "name": "Reverse Meme Surge",
    "cat": "meme",
    "plat": "X · Reddit",
-   "decay": 0.2,
-   "fresh": "Climbing",
+   "decay": 0.15,
+   "fresh": "Archived",
    "def": {
     "normie": "A new meme format is gaining traction where users create humorous content by reversing popular memes. It’s a playful twist that adds an extra layer of comedy.",
     "normal": "The Reverse Meme Surge is where people are taking classic meme formats and flipping them on their head for a good laugh. It's a fun way to remix popular culture.",
@@ -339,26 +303,62 @@
    },
    "tl": {
     "l": [
-     "Aug 4",
      "Aug 5",
      "Aug 6",
      "Aug 7",
-     "Aug 8"
+     "Aug 8",
+     "Aug 9"
     ],
     "d": [
-     40,
      35,
      30,
      25,
-     20
+     20,
+     15
     ],
     "pk": 3
    },
    "replaced": "Still climbing",
    "vid": "Reverse Meme Surge"
-  }
- ],
- "archive": [
+  },
+  {
+   "id": 183,
+   "name": "Grass Sticking Challenge",
+   "cat": "challenge",
+   "plat": "TikTok · Reels",
+   "decay": 0.15,
+   "fresh": "Archived",
+   "def": {
+    "normie": "People are creatively sticking grass in unusual places as a fun challenge. It's become a quirky way to showcase humor and creativity.",
+    "normal": "The Grass Sticking Challenge is trending on social media, where users film themselves placing grass in funny or unexpected locations. It's all about the weird and wacky placements.",
+    "zoomer": "The Grass Sticking Challenge is the latest bizarre trend where you stick grass in random spots and film the chaos. Get ready for some hilarious fails and epic placements!"
+   },
+   "origin": "TikTok, 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Peak",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Aug 5",
+     "Aug 6",
+     "Aug 7",
+     "Aug 8",
+     "Aug 9"
+    ],
+    "d": [
+     35,
+     30,
+     25,
+     20,
+     15
+    ],
+    "pk": 5
+   },
+   "replaced": "Still climbing",
+   "vid": "Grass Sticking Challenge"
+  },
   {
    "id": 182,
    "name": "Masters of the Universe Meme Remix",
