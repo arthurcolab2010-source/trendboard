@@ -3,10 +3,11 @@
   "tracking": 279,
   "peak": 0,
   "died": 12,
-  "archived": 168,
-  "updated": "August 9, 2026"
+  "archived": 169,
+  "updated": "August 10, 2026"
  },
  "graveyard": [
+  "Odyssey Film Challenge",
   "Reverse Meme Surge",
   "Grass Sticking Challenge",
   "Masters of the Universe Meme Remix",
@@ -17,8 +18,7 @@
   "Live-updating version of 'What a week, huh?'",
   "Reverse Location Search",
   "Chimpfluencers Stick Grass in Their Ears and Butts",
-  "FIFA World Cup Meme Awards",
-  "Kylian Mbappé Meme Surge"
+  "FIFA World Cup Meme Awards"
  ],
  "trends": [
   {
@@ -26,7 +26,7 @@
    "name": "Jared Leto Meme Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.4,
+   "decay": 0.35,
    "fresh": "Hot right now",
    "def": {
     "normie": "Jared Leto is becoming a popular meme figure, with edits and jokes circulating widely on social media. His unique roles and public persona are being humorously exaggerated in various formats.",
@@ -41,18 +41,18 @@
    },
    "tl": {
     "l": [
-     "Aug 5",
      "Aug 6",
      "Aug 7",
      "Aug 8",
-     "Aug 9"
+     "Aug 9",
+     "Aug 10"
     ],
     "d": [
-     60,
      55,
      50,
      45,
-     40
+     40,
+     35
     ],
     "pk": 4
    },
@@ -64,7 +64,7 @@
    "name": "ChatGPT Meme Remix Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Climbing",
    "def": {
     "normie": "Users are creating funny remixes of memes using ChatGPT to generate unique text and ideas. It's a creative way to combine AI with popular meme formats.",
@@ -79,18 +79,18 @@
    },
    "tl": {
     "l": [
-     "Aug 5",
      "Aug 6",
      "Aug 7",
      "Aug 8",
-     "Aug 9"
+     "Aug 9",
+     "Aug 10"
     ],
     "d": [
-     50,
      45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 4
    },
@@ -102,7 +102,7 @@
    "name": "Odyssey Film Meme Explosion",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating humorous edits and remixes of scenes from the recent 'The Odyssey' film. People are using snippets to create relatable memes that resonate with current events.",
@@ -117,16 +117,16 @@
    },
    "tl": {
     "l": [
-     "Aug 6",
      "Aug 7",
      "Aug 8",
-     "Aug 9"
+     "Aug 9",
+     "Aug 10"
     ],
     "d": [
-     45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 4
    },
@@ -138,7 +138,7 @@
    "name": "Chimpfluencers 2.0",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Climbing",
    "def": {
     "normie": "This trend features people dressing up as chimps and mimicking their behaviors in a humorous way. It's a playful take on the influencer culture, blending animal antics with modern social media.",
@@ -153,16 +153,16 @@
    },
    "tl": {
     "l": [
-     "Aug 6",
      "Aug 7",
      "Aug 8",
-     "Aug 9"
+     "Aug 9",
+     "Aug 10"
     ],
     "d": [
-     45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 4
    },
@@ -174,7 +174,7 @@
    "name": "Odyssey Film Meme Remix",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "People are remixing scenes from the new Odyssey film with humorous captions or edits. It's a way to express thoughts and feelings about the film in a funny manner.",
@@ -189,18 +189,18 @@
    },
    "tl": {
     "l": [
-     "Aug 5",
      "Aug 6",
      "Aug 7",
      "Aug 8",
-     "Aug 9"
+     "Aug 9",
+     "Aug 10"
     ],
     "d": [
-     45,
      40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 4
    },
@@ -212,7 +212,7 @@
    "name": "Grass Sticking Challenge 2.0",
    "cat": "challenge",
    "plat": "TikTok · Reddit",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Climbing",
    "def": {
     "normie": "Participants are now creating videos of themselves attempting to stick grass to various parts of their bodies. It’s a playful and silly challenge that’s going viral.",
@@ -227,29 +227,31 @@
    },
    "tl": {
     "l": [
-     "Aug 6",
      "Aug 7",
      "Aug 8",
-     "Aug 9"
+     "Aug 9",
+     "Aug 10"
     ],
     "d": [
-     40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 3
    },
    "replaced": "Still climbing",
    "vid": "Grass Sticking Challenge 2.0"
-  },
+  }
+ ],
+ "archive": [
   {
    "id": 185,
    "name": "Odyssey Film Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.2,
-   "fresh": "Hot right now",
+   "decay": 0.15,
+   "fresh": "Archived",
    "def": {
     "normie": "This trend involves users creating their own interpretations of scenes from the new film 'The Odyssey'. Participants are sharing these creative takes on social media platforms.",
     "normal": "The Odyssey Film Challenge is where TikTok users recreate moments from the 2026 film, adding their unique spin to iconic scenes. It's gaining traction as fans celebrate the film's release.",
@@ -263,26 +265,24 @@
    },
    "tl": {
     "l": [
-     "Aug 5",
      "Aug 6",
      "Aug 7",
      "Aug 8",
-     "Aug 9"
+     "Aug 9",
+     "Aug 10"
     ],
     "d": [
-     40,
      35,
      30,
      25,
-     20
+     20,
+     15
     ],
     "pk": 4
    },
    "replaced": "Still climbing",
    "vid": "Odyssey Film Challenge TikTok"
-  }
- ],
- "archive": [
+  },
   {
    "id": 184,
    "name": "Reverse Meme Surge",
