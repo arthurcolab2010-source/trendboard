@@ -3,10 +3,12 @@
   "tracking": 279,
   "peak": 0,
   "died": 12,
-  "archived": 169,
-  "updated": "August 10, 2026"
+  "archived": 171,
+  "updated": "August 11, 2026"
  },
  "graveyard": [
+  "Grass Sticking Challenge 2.0",
+  "Odyssey Film Meme Remix",
   "Odyssey Film Challenge",
   "Reverse Meme Surge",
   "Grass Sticking Challenge",
@@ -16,9 +18,7 @@
   "Jana Nayagan Film Buzz",
   "Hobby Dogging 2.0",
   "Live-updating version of 'What a week, huh?'",
-  "Reverse Location Search",
-  "Chimpfluencers Stick Grass in Their Ears and Butts",
-  "FIFA World Cup Meme Awards"
+  "Reverse Location Search"
  ],
  "trends": [
   {
@@ -26,7 +26,7 @@
    "name": "Jared Leto Meme Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.35,
+   "decay": 0.3,
    "fresh": "Hot right now",
    "def": {
     "normie": "Jared Leto is becoming a popular meme figure, with edits and jokes circulating widely on social media. His unique roles and public persona are being humorously exaggerated in various formats.",
@@ -41,18 +41,18 @@
    },
    "tl": {
     "l": [
-     "Aug 6",
      "Aug 7",
      "Aug 8",
      "Aug 9",
-     "Aug 10"
+     "Aug 10",
+     "Aug 11"
     ],
     "d": [
-     55,
      50,
      45,
      40,
-     35
+     35,
+     30
     ],
     "pk": 4
    },
@@ -64,7 +64,7 @@
    "name": "ChatGPT Meme Remix Challenge",
    "cat": "challenge",
    "plat": "TikTok · Reels",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Climbing",
    "def": {
     "normie": "Users are creating funny remixes of memes using ChatGPT to generate unique text and ideas. It's a creative way to combine AI with popular meme formats.",
@@ -79,18 +79,18 @@
    },
    "tl": {
     "l": [
-     "Aug 6",
      "Aug 7",
      "Aug 8",
      "Aug 9",
-     "Aug 10"
+     "Aug 10",
+     "Aug 11"
     ],
     "d": [
-     45,
      40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 4
    },
@@ -102,7 +102,7 @@
    "name": "Odyssey Film Meme Explosion",
    "cat": "meme",
    "plat": "TikTok · Reels",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "This trend involves creating humorous edits and remixes of scenes from the recent 'The Odyssey' film. People are using snippets to create relatable memes that resonate with current events.",
@@ -117,16 +117,16 @@
    },
    "tl": {
     "l": [
-     "Aug 7",
      "Aug 8",
      "Aug 9",
-     "Aug 10"
+     "Aug 10",
+     "Aug 11"
     ],
     "d": [
-     40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 4
    },
@@ -138,7 +138,7 @@
    "name": "Chimpfluencers 2.0",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Climbing",
    "def": {
     "normie": "This trend features people dressing up as chimps and mimicking their behaviors in a humorous way. It's a playful take on the influencer culture, blending animal antics with modern social media.",
@@ -153,50 +153,12 @@
    },
    "tl": {
     "l": [
-     "Aug 7",
      "Aug 8",
      "Aug 9",
-     "Aug 10"
+     "Aug 10",
+     "Aug 11"
     ],
     "d": [
-     40,
-     35,
-     30,
-     25
-    ],
-    "pk": 4
-   },
-   "replaced": "Still climbing",
-   "vid": "Chimpfluencers TikTok"
-  },
-  {
-   "id": 186,
-   "name": "Odyssey Film Meme Remix",
-   "cat": "meme",
-   "plat": "TikTok · Reels",
-   "decay": 0.2,
-   "fresh": "Hot right now",
-   "def": {
-    "normie": "People are remixing scenes from the new Odyssey film with humorous captions or edits. It's a way to express thoughts and feelings about the film in a funny manner.",
-    "normal": "The Odyssey Film Meme Remix features clips from the new movie paired with funny audio or text overlays. It’s gaining traction as fans share their favorite moments in a comedic light.",
-    "zoomer": "The Odyssey Film Meme Remix is lit! Everyone's slapping funny captions on epic scenes and making it a whole vibe. Get ready to scroll through endless bangers!"
-   },
-   "origin": "TikTok, 2026",
-   "age": {
-    "z": "Active",
-    "m": "Active",
-    "main": "Active"
-   },
-   "tl": {
-    "l": [
-     "Aug 6",
-     "Aug 7",
-     "Aug 8",
-     "Aug 9",
-     "Aug 10"
-    ],
-    "d": [
-     40,
      35,
      30,
      25,
@@ -205,15 +167,17 @@
     "pk": 4
    },
    "replaced": "Still climbing",
-   "vid": "Odyssey Film Meme Remix"
-  },
+   "vid": "Chimpfluencers TikTok"
+  }
+ ],
+ "archive": [
   {
    "id": 187,
    "name": "Grass Sticking Challenge 2.0",
    "cat": "challenge",
    "plat": "TikTok · Reddit",
-   "decay": 0.2,
-   "fresh": "Climbing",
+   "decay": 0.15,
+   "fresh": "Archived",
    "def": {
     "normie": "Participants are now creating videos of themselves attempting to stick grass to various parts of their bodies. It’s a playful and silly challenge that’s going viral.",
     "normal": "The Grass Sticking Challenge 2.0 is where people try to stick grass onto their skin without it falling off. It's a quirky trend that's becoming quite popular on social media.",
@@ -227,24 +191,60 @@
    },
    "tl": {
     "l": [
-     "Aug 7",
      "Aug 8",
      "Aug 9",
-     "Aug 10"
+     "Aug 10",
+     "Aug 11"
     ],
     "d": [
-     35,
      30,
      25,
-     20
+     20,
+     15
     ],
     "pk": 3
    },
    "replaced": "Still climbing",
    "vid": "Grass Sticking Challenge 2.0"
-  }
- ],
- "archive": [
+  },
+  {
+   "id": 186,
+   "name": "Odyssey Film Meme Remix",
+   "cat": "meme",
+   "plat": "TikTok · Reels",
+   "decay": 0.15,
+   "fresh": "Archived",
+   "def": {
+    "normie": "People are remixing scenes from the new Odyssey film with humorous captions or edits. It's a way to express thoughts and feelings about the film in a funny manner.",
+    "normal": "The Odyssey Film Meme Remix features clips from the new movie paired with funny audio or text overlays. It’s gaining traction as fans share their favorite moments in a comedic light.",
+    "zoomer": "The Odyssey Film Meme Remix is lit! Everyone's slapping funny captions on epic scenes and making it a whole vibe. Get ready to scroll through endless bangers!"
+   },
+   "origin": "TikTok, 2026",
+   "age": {
+    "z": "Active",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Aug 7",
+     "Aug 8",
+     "Aug 9",
+     "Aug 10",
+     "Aug 11"
+    ],
+    "d": [
+     35,
+     30,
+     25,
+     20,
+     15
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "Odyssey Film Meme Remix"
+  },
   {
    "id": 185,
    "name": "Odyssey Film Challenge",
