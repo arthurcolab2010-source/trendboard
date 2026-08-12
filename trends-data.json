@@ -3,10 +3,13 @@
   "tracking": 279,
   "peak": 0,
   "died": 12,
-  "archived": 171,
-  "updated": "August 11, 2026"
+  "archived": 174,
+  "updated": "August 12, 2026"
  },
  "graveyard": [
+  "Chimpfluencers 2.0",
+  "Odyssey Film Meme Explosion",
+  "ChatGPT Meme Remix Challenge",
   "Grass Sticking Challenge 2.0",
   "Odyssey Film Meme Remix",
   "Odyssey Film Challenge",
@@ -15,10 +18,7 @@
   "Masters of the Universe Meme Remix",
   "ChatGPT Meme Surge",
   "Odyssey Film Challenge",
-  "Jana Nayagan Film Buzz",
-  "Hobby Dogging 2.0",
-  "Live-updating version of 'What a week, huh?'",
-  "Reverse Location Search"
+  "Jana Nayagan Film Buzz"
  ],
  "trends": [
   {
@@ -26,7 +26,7 @@
    "name": "Jared Leto Meme Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.3,
+   "decay": 0.25,
    "fresh": "Hot right now",
    "def": {
     "normie": "Jared Leto is becoming a popular meme figure, with edits and jokes circulating widely on social media. His unique roles and public persona are being humorously exaggerated in various formats.",
@@ -41,105 +41,33 @@
    },
    "tl": {
     "l": [
-     "Aug 7",
      "Aug 8",
      "Aug 9",
      "Aug 10",
-     "Aug 11"
+     "Aug 11",
+     "Aug 12"
     ],
     "d": [
-     50,
      45,
      40,
      35,
-     30
+     30,
+     25
     ],
     "pk": 4
    },
    "replaced": "Still climbing",
    "vid": "Jared Leto meme compilation"
-  },
-  {
-   "id": 191,
-   "name": "ChatGPT Meme Remix Challenge",
-   "cat": "challenge",
-   "plat": "TikTok · Reels",
-   "decay": 0.2,
-   "fresh": "Climbing",
-   "def": {
-    "normie": "Users are creating funny remixes of memes using ChatGPT to generate unique text and ideas. It's a creative way to combine AI with popular meme formats.",
-    "normal": "The ChatGPT Meme Remix Challenge is getting traction as users leverage AI to transform classic memes with new twists and humorous captions. Creators are showcasing their remixes on TikTok and Reels.",
-    "zoomer": "This ChatGPT remix challenge is lit! Everyone's feeding memes into the AI and spitting out wild new takes. It's like meme inception, and the chaos is unmatched!"
-   },
-   "origin": "Started in 2026 as AI tools became more accessible for content creation.",
-   "age": {
-    "z": "Active",
-    "m": "Active",
-    "main": "Active"
-   },
-   "tl": {
-    "l": [
-     "Aug 7",
-     "Aug 8",
-     "Aug 9",
-     "Aug 10",
-     "Aug 11"
-    ],
-    "d": [
-     40,
-     35,
-     30,
-     25,
-     20
-    ],
-    "pk": 4
-   },
-   "replaced": "Still climbing",
-   "vid": "ChatGPT meme remix"
-  },
-  {
-   "id": 188,
-   "name": "Odyssey Film Meme Explosion",
-   "cat": "meme",
-   "plat": "TikTok · Reels",
-   "decay": 0.2,
-   "fresh": "Hot right now",
-   "def": {
-    "normie": "This trend involves creating humorous edits and remixes of scenes from the recent 'The Odyssey' film. People are using snippets to create relatable memes that resonate with current events.",
-    "normal": "Users are taking clips from 'The Odyssey' film and remixing them into funny memes that comment on everyday struggles and pop culture. This trend has sparked a wave of creativity and humor online.",
-    "zoomer": "The 'Odyssey Film Meme Explosion' is taking over TikTok with epic edits of the new film that slap harder than your ex’s texts. If you ain't making memes about Odysseus' wild adventures, are you even trying to vibe right now?"
-   },
-   "origin": "TikTok, 2026",
-   "age": {
-    "z": "Peak",
-    "m": "Active",
-    "main": "Active"
-   },
-   "tl": {
-    "l": [
-     "Aug 8",
-     "Aug 9",
-     "Aug 10",
-     "Aug 11"
-    ],
-    "d": [
-     35,
-     30,
-     25,
-     20
-    ],
-    "pk": 4
-   },
-   "replaced": "Still climbing",
-   "vid": "Odyssey Film Meme"
-  },
+  }
+ ],
+ "archive": [
   {
    "id": 189,
    "name": "Chimpfluencers 2.0",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.2,
-   "fresh": "Climbing",
+   "decay": 0.15,
+   "fresh": "Archived",
    "def": {
     "normie": "This trend features people dressing up as chimps and mimicking their behaviors in a humorous way. It's a playful take on the influencer culture, blending animal antics with modern social media.",
     "normal": "Users are dressing like chimps and creating funny skits that parody influencer lifestyles. The trend is gaining traction for its absurd humor and relatable content.",
@@ -153,24 +81,96 @@
    },
    "tl": {
     "l": [
-     "Aug 8",
      "Aug 9",
      "Aug 10",
-     "Aug 11"
+     "Aug 11",
+     "Aug 12"
     ],
     "d": [
-     35,
      30,
      25,
-     20
+     20,
+     15
     ],
     "pk": 4
    },
    "replaced": "Still climbing",
    "vid": "Chimpfluencers TikTok"
-  }
- ],
- "archive": [
+  },
+  {
+   "id": 188,
+   "name": "Odyssey Film Meme Explosion",
+   "cat": "meme",
+   "plat": "TikTok · Reels",
+   "decay": 0.15,
+   "fresh": "Archived",
+   "def": {
+    "normie": "This trend involves creating humorous edits and remixes of scenes from the recent 'The Odyssey' film. People are using snippets to create relatable memes that resonate with current events.",
+    "normal": "Users are taking clips from 'The Odyssey' film and remixing them into funny memes that comment on everyday struggles and pop culture. This trend has sparked a wave of creativity and humor online.",
+    "zoomer": "The 'Odyssey Film Meme Explosion' is taking over TikTok with epic edits of the new film that slap harder than your ex’s texts. If you ain't making memes about Odysseus' wild adventures, are you even trying to vibe right now?"
+   },
+   "origin": "TikTok, 2026",
+   "age": {
+    "z": "Peak",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Aug 9",
+     "Aug 10",
+     "Aug 11",
+     "Aug 12"
+    ],
+    "d": [
+     30,
+     25,
+     20,
+     15
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "Odyssey Film Meme"
+  },
+  {
+   "id": 191,
+   "name": "ChatGPT Meme Remix Challenge",
+   "cat": "challenge",
+   "plat": "TikTok · Reels",
+   "decay": 0.15,
+   "fresh": "Archived",
+   "def": {
+    "normie": "Users are creating funny remixes of memes using ChatGPT to generate unique text and ideas. It's a creative way to combine AI with popular meme formats.",
+    "normal": "The ChatGPT Meme Remix Challenge is getting traction as users leverage AI to transform classic memes with new twists and humorous captions. Creators are showcasing their remixes on TikTok and Reels.",
+    "zoomer": "This ChatGPT remix challenge is lit! Everyone's feeding memes into the AI and spitting out wild new takes. It's like meme inception, and the chaos is unmatched!"
+   },
+   "origin": "Started in 2026 as AI tools became more accessible for content creation.",
+   "age": {
+    "z": "Active",
+    "m": "Active",
+    "main": "Active"
+   },
+   "tl": {
+    "l": [
+     "Aug 8",
+     "Aug 9",
+     "Aug 10",
+     "Aug 11",
+     "Aug 12"
+    ],
+    "d": [
+     35,
+     30,
+     25,
+     20,
+     15
+    ],
+    "pk": 4
+   },
+   "replaced": "Still climbing",
+   "vid": "ChatGPT meme remix"
+  },
   {
    "id": 187,
    "name": "Grass Sticking Challenge 2.0",
