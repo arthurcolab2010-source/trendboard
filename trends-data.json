@@ -4,7 +4,7 @@
   "peak": 0,
   "died": 12,
   "archived": 174,
-  "updated": "August 12, 2026"
+  "updated": "August 13, 2026"
  },
  "graveyard": [
   "Chimpfluencers 2.0",
@@ -26,7 +26,7 @@
    "name": "Jared Leto Meme Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.25,
+   "decay": 0.2,
    "fresh": "Hot right now",
    "def": {
     "normie": "Jared Leto is becoming a popular meme figure, with edits and jokes circulating widely on social media. His unique roles and public persona are being humorously exaggerated in various formats.",
@@ -41,18 +41,18 @@
    },
    "tl": {
     "l": [
-     "Aug 8",
      "Aug 9",
      "Aug 10",
      "Aug 11",
-     "Aug 12"
+     "Aug 12",
+     "Aug 13"
     ],
     "d": [
-     45,
      40,
      35,
      30,
-     25
+     25,
+     20
     ],
     "pk": 4
    },
