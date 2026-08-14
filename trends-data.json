@@ -3,10 +3,11 @@
   "tracking": 279,
   "peak": 0,
   "died": 12,
-  "archived": 174,
-  "updated": "August 13, 2026"
+  "archived": 175,
+  "updated": "August 14, 2026"
  },
  "graveyard": [
+  "Jared Leto Meme Surge",
   "Chimpfluencers 2.0",
   "Odyssey Film Meme Explosion",
   "ChatGPT Meme Remix Challenge",
@@ -17,17 +18,17 @@
   "Grass Sticking Challenge",
   "Masters of the Universe Meme Remix",
   "ChatGPT Meme Surge",
-  "Odyssey Film Challenge",
-  "Jana Nayagan Film Buzz"
+  "Odyssey Film Challenge"
  ],
- "trends": [
+ "trends": [],
+ "archive": [
   {
    "id": 190,
    "name": "Jared Leto Meme Surge",
    "cat": "meme",
    "plat": "TikTok · Reddit",
-   "decay": 0.2,
-   "fresh": "Hot right now",
+   "decay": 0.15,
+   "fresh": "Archived",
    "def": {
     "normie": "Jared Leto is becoming a popular meme figure, with edits and jokes circulating widely on social media. His unique roles and public persona are being humorously exaggerated in various formats.",
     "normal": "Jared Leto's eccentricity has sparked a wave of memes that play on his diverse acting roles and public appearances. TikTok and Reddit users are creating funny edits and commentary around his image.",
@@ -41,26 +42,24 @@
    },
    "tl": {
     "l": [
-     "Aug 9",
      "Aug 10",
      "Aug 11",
      "Aug 12",
-     "Aug 13"
+     "Aug 13",
+     "Aug 14"
     ],
     "d": [
-     40,
      35,
      30,
      25,
-     20
+     20,
+     15
     ],
     "pk": 4
    },
    "replaced": "Still climbing",
    "vid": "Jared Leto meme compilation"
-  }
- ],
- "archive": [
+  },
   {
    "id": 189,
    "name": "Chimpfluencers 2.0",
